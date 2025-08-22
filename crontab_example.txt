@@ -1,0 +1,18 @@
+# 经济学人PDF自动下载 - crontab配置示例
+# 使用方法: crontab -e 然后添加以下行
+
+# 每周六上午9点执行下载
+0 9 * * 6 cd /Users/leozhu/Documents/workspace/economist && python download_economist_pdf.py
+
+# 或者每周六下午2点执行
+# 0 14 * * 6 cd /Users/leozhu/Documents/workspace/economist && python download_economist_pdf.py
+
+# 如果需要每天检查（不推荐，因为经济学人每周才发布一次）
+# 0 9 * * * cd /Users/leozhu/Documents/workspace/economist && python download_economist_pdf.py
+
+# 注意事项:
+# 1. 请将路径替换为你的实际脚本路径
+# 2. 确保Python环境正确配置
+# 3. 建议先手动测试脚本是否正常工作
+# 4. 可以通过 crontab -l 查看当前的定时任务
+# 5. 日志文件会记录所有执行情况

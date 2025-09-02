@@ -138,39 +138,27 @@ def _insert_images_after_date(md_text: str, image_refs: List[str], img_dir_name:
     for i, line in enumerate(lines):
         out.append(line)
         if not inserted and DATE_PAT.match(line.strip()):
-            out.append("  ")
-            for name in image_refs:
+            # 保证在第一张图片前添加且只添加一个空行
+            out.append("")
+            for idx, name in enumerate(image_refs):
                 rel = Path("..") / "images" / img_dir_name / name
-                out.append(f"\n![]({rel.as_posix()})")
+                # 图片行
+                out.append(f"![]({rel.as_posix()})")
+                # 每张图片后添加一个空行（作为该图后空行，同时作为下一图前空行）
+                out.append("")
             inserted = True
     if not inserted:
         # fallback: append to end
-        for name in image_refs:
+        # 保证在第一张图片前添加且只添加一个空行
+        out.append("")
+        for idx, name in enumerate(image_refs):
             rel = Path("..") / "images" / img_dir_name / name
-            out.append(f"\n![]({rel.as_posix()})")
+            out.append(f"![]({rel.as_posix()})")
+            out.append("")
     return "\n".join(out)
 
 
-def _style_titles_if_present(md_text: str, candidates: List[Tuple[str, float, str]]) -> str:
-    # candidates: list of (text, font_size_pt, color_hex) in visual order before date
-    lines = md_text.splitlines()
-    if not lines or not candidates:
-        return md_text
-    # 仅处理前两个候选（标题与副标题）
-    replace_map: Dict[str, str] = {}
-    for text, size_pt, color_hex in candidates[:2]:
-        styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold;">{text}</span>'
-        replace_map[text] = styled
 
-    out_lines: List[str] = []
-    for line in lines:
-        t = line.strip()
-        if t in replace_map:
-            leading = line[:line.find(t)] if t in line else ""
-            out_lines.append(leading + replace_map[t])
-        else:
-            out_lines.append(line)
-    return "\n".join(out_lines)
 
 
 def _insert_paragraph_breaks(md_text: str, section_title: str) -> str:
@@ -205,12 +193,18 @@ def _hex(rgb: Tuple[int, int, int]) -> str:
 
 def _detect_header_candidates(page) -> List[Tuple[str, float, str]]:
     # 返回在日期行之前出现的非空文本行，携带平均字号与主色
+    # 对于相同字号和颜色的连续行，合并为一个标题
+    # 对于混合颜色的行，分别处理每个颜色部分
     out: List[Tuple[str, float, str]] = []
     try:
         td = page.get_text("dict")
     except Exception:
         return out
     seen_date = False
+    current_title = ""
+    current_size = 0.0
+    current_color = "#000000"
+    
     for block in td.get("blocks", []):
         if block.get("type", 0) != 0:
             continue
@@ -227,16 +221,65 @@ def _detect_header_candidates(page) -> List[Tuple[str, float, str]]:
                 spans = line.get("spans", [])
                 if not spans:
                     continue
-                avg_size = sum(float(s.get("size", 0.0)) for s in spans) / max(1, len(spans))
-                # 统计颜色
-                color_counts: Dict[str, int] = {}
-                for s in spans:
-                    rgb = _rgb_from_color_val(s.get("color", 0))
-                    color_counts[_hex(rgb)] = color_counts.get(_hex(rgb), 0) + 1
-                dominant_hex = max(color_counts.items(), key=lambda kv: kv[1])[0] if color_counts else "#000000"
-                out.append((text, avg_size, dominant_hex))
+                
+                # 检查是否有多个颜色（混合颜色行）
+                color_groups = {}
+                for span in spans:
+                    span_text = span.get("text", "").strip()
+                    if not span_text:
+                        continue
+                    size = float(span.get("size", 0.0))
+                    rgb = _rgb_from_color_val(span.get("color", 0))
+                    color_hex = _hex(rgb)
+                    
+                    if color_hex not in color_groups:
+                        color_groups[color_hex] = {"text": "", "size": size}
+                    color_groups[color_hex]["text"] += span_text
+                
+                # 如果有多个颜色，分别处理每个颜色组
+                if len(color_groups) > 1:
+                    # 保存之前的标题（如果有）
+                    if current_title:
+                        out.append((current_title, current_size, current_color))
+                        current_title = ""
+                    
+                    # 为每个颜色组创建单独的标题
+                    for color_hex, group in color_groups.items():
+                        if group["text"].strip():
+                            out.append((group["text"].strip(), group["size"], color_hex))
+                else:
+                    # 单一颜色，使用原有逻辑
+                    avg_size = sum(float(s.get("size", 0.0)) for s in spans) / max(1, len(spans))
+                    # 统计颜色
+                    color_counts: Dict[str, int] = {}
+                    for s in spans:
+                        rgb = _rgb_from_color_val(s.get("color", 0))
+                        color_counts[_hex(rgb)] = color_counts.get(_hex(rgb), 0) + 1
+                    dominant_hex = max(color_counts.items(), key=lambda kv: kv[1])[0] if color_counts else "#000000"
+                    
+                    # 检查是否与当前标题有相同的字号和颜色
+                    if (current_title and 
+                        abs(avg_size - current_size) < 0.1 and 
+                        dominant_hex == current_color):
+                        # 合并到当前标题
+                        current_title += " " + text
+                    else:
+                        # 保存之前的标题（如果有）
+                        if current_title:
+                            out.append((current_title, current_size, current_color))
+                        # 开始新的标题
+                        current_title = text
+                        current_size = avg_size
+                        current_color = dominant_hex
         if seen_date:
             break
+    
+    # 保存最后一个标题
+    if current_title:
+        out.append((current_title, current_size, current_color))
+    
+    # 调试输出已移除
+    
     return out
 
 
@@ -277,26 +320,49 @@ def _style_date_line(md_text: str, page) -> str:
 
 
 def _preserve_intra_paragraph_linebreaks(md_text: str) -> str:
-    # 将段内的单换行转为 Markdown 强制换行（行尾两个空格）
+    # 合并段内的软换行，只保留真正的段落分隔
     lines = md_text.splitlines()
-    out: List[str] = []
+    if not lines:
+        return md_text
+    
+    # 调试输出已移除
+    
+    result_lines = []
+    current_paragraph = []
+    
     for i, line in enumerate(lines):
         stripped = line.strip()
-        # 跳过特殊行：HTML 注释、标题、图片、列表、HTML 标签行
+        
+        # 处理特殊行：HTML 注释、标题、图片、列表、HTML 标签行
         if (not stripped) or stripped.startswith("<!--") or stripped.startswith("#") \
            or stripped.startswith("!") or stripped.startswith("-") or stripped.startswith("<") \
            or stripped.startswith("**Images**"):
-            out.append(line)
+            # 如果当前段落有内容，先输出当前段落
+            if current_paragraph:
+                result_lines.append(" ".join(current_paragraph))
+                current_paragraph = []
+            # 输出特殊行
+            result_lines.append(line)
             continue
-        # 如果下一行存在且也不是空行，则为当前行添加两个空格以强制换行
-        if i + 1 < len(lines) and lines[i + 1].strip():
-            if not line.endswith("  "):
-                out.append(line + "  ")
-            else:
-                out.append(line)
-        else:
-            out.append(line)
-    return "\n".join(out)
+        
+        # 如果是空行，表示段落结束
+        if not stripped:
+            if current_paragraph:
+                result_lines.append(" ".join(current_paragraph))
+                current_paragraph = []
+            result_lines.append("")  # 保留空行
+            continue
+        
+        # 标题的合并现在由 _detect_header_candidates 函数处理，这里不再处理
+        
+        # 将当前行添加到当前段落（只处理正文）
+        current_paragraph.append(stripped)
+    
+    # 处理最后一个段落
+    if current_paragraph:
+        result_lines.append(" ".join(current_paragraph))
+    
+    return "\n".join(result_lines)
 
 
 def _get_page_lines_with_geometry(page) -> List[Tuple[str, float, float]]:
@@ -369,14 +435,14 @@ def _apply_blank_lines_by_geometry(page, md_text: str) -> str:
                     # 只有当下一 md 行也为正文时才插入空行
                     if i + 1 < len(md_lines) and md_lines[i + 1].strip():
                         result_lines.append("")
-                else:
-                    # 若非空行情况，且下一行是正文，则当前行末尾添加强制换行
-                    if i + 1 < len(md_lines) and md_lines[i + 1].strip() and not line.endswith("  "):
-                        result_lines[-1] = line + "  "
+                # 不添加强制换行，让段落内的行自然合并
                 j += 1
                 break
             else:
                 j += 1
+    
+    # 直接返回结果，不再调用 _preserve_intra_paragraph_linebreaks
+    # 因为标题的合并已经由 _detect_header_candidates 函数处理了
     return "\n".join(result_lines)
 
 def _style_footer_or_source_lines(md_text: str) -> str:
@@ -433,26 +499,70 @@ def export_section_markdown(doc, start_page_1based: int, end_page_1based: int, m
             # 再样式化日期行（灰色小字号）
             md_text = _style_date_line(md_text, page)
             md_text = _insert_paragraph_breaks(md_text, section_title)
-            # 依据几何间距插入空行，其余位置使用强制换行
-            md_text = _apply_blank_lines_by_geometry(page, md_text)
+            # 合并正文段落内的软换行（标题已经由 _detect_header_candidates 处理）
+            md_text = _preserve_intra_paragraph_linebreaks(md_text)
             md_text = _style_footer_or_source_lines(md_text)
             # 直接追加内容，不加页面注释，跨页不强制空行
             blocks.append(md_text)
         else:
-            # 直接追加内容，不加页面注释，跨页默认连续（先补一个换行，防止词黏连）
-            blocks.append("\n")
-            blocks.append(_style_footer_or_source_lines(_apply_blank_lines_by_geometry(page, md_text)))
+            # 直接追加内容，不加页面注释，跨页默认连续（先补两个换行，确保有一个空行分段）
+            blocks.append("\n\n")
+            processed_text = _apply_blank_lines_by_geometry(page, md_text)
+            processed_text = _preserve_intra_paragraph_linebreaks(processed_text)
+            processed_text = _style_footer_or_source_lines(processed_text)
+            blocks.append(processed_text)
             if refs:
-                blocks.append("\n\n")
+                # 每个图片块前后各保证且仅有一个空行
+                blocks.append("\n")
                 for name in refs:
                     rel = Path("..") / "images" / img_dir.name / name
-                    blocks.append(f"\n![]({rel.as_posix()})")
-                # 图片块后补一个换行，避免与下一段落黏连
-                blocks.append("\n")
+                    blocks.append(f"![]({rel.as_posix()})\n\n")
 
     # 合并并规范多余空行（最多两连换行）
     content = "".join(blocks)
     content = re.sub(r"\n{3,}", "\n\n", content)
+
+    # 进一步规范：
+    # 1) 将仅包含空白的行归一为空行
+    content = re.sub(r"^[ \t]+$", "", content, flags=re.M)
+
+    # 2) 规范图片前后空行：每张图片前后各且仅有一空行
+    def _normalize_image_spacing(text: str) -> str:
+        lines = text.splitlines()
+        result: List[str] = []
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            stripped = line.strip()
+            is_image = stripped.startswith("![](") and stripped.endswith(")")
+            if is_image:
+                # 确保前面有且仅有一个空行
+                if result and result[-1].strip() != "":
+                    result.append("")
+                elif result:
+                    # 已有一个空行，但可能存在多个空行，去重
+                    while len(result) >= 2 and result[-1].strip() == "" and result[-2].strip() == "":
+                        result.pop()
+                else:
+                    # 位于文首时，前面不强制空行
+                    pass
+
+                # 当前图片行
+                result.append(stripped)
+
+                # 吸收后续的所有空白行，最后只保留一个空行
+                j = i + 1
+                while j < len(lines) and lines[j].strip() == "":
+                    j += 1
+                result.append("")
+                i = j
+                continue
+            else:
+                result.append(line)
+                i += 1
+        return "\n".join(result)
+
+    content = _normalize_image_spacing(content)
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(content)
 
@@ -520,6 +630,160 @@ def main():
     doc.close()
 
     print(f"[OK] 导出完成: {base_out}")
+
+
+def _style_titles_if_present_old(md_text: str, candidates: List[Tuple[str, float, str]]) -> str:
+    # candidates: list of (text, font_size_pt, color_hex) in visual order before date
+    lines = md_text.splitlines()
+    if not lines or not candidates:
+        return md_text
+    
+    # 处理前四个候选（栏目名、子栏目名、主标题、副标题）
+    out_lines: List[str] = []
+    current_title_parts = []
+    current_candidate = None
+    first_line_processed = False
+    
+    for line in lines:
+        t = line.strip()
+        if not t:
+            # 空行，输出当前标题并重置
+            if current_title_parts and current_candidate:
+                full_title = " ".join(current_title_parts)
+                text, size_pt, color_hex = current_candidate
+                # 判断是否为副标题（灰色且不是最大字号）
+                is_subtitle = color_hex == "#808080" and size_pt < 20.0
+                if is_subtitle:
+                    styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold; font-style:italic;">{full_title}</span>'
+                else:
+                    styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold;">{full_title}</span>'
+                out_lines.append(styled)
+                current_title_parts = []
+                current_candidate = None
+            out_lines.append(line)
+            continue
+        
+        # 检查当前行是否匹配某个候选标题的开头
+        matched_candidate = None
+        for text, size_pt, color_hex in candidates[:4]:
+            # 更灵活的匹配：检查当前行是否是候选文本的一部分
+            if (text.startswith(t) or t in text or 
+                t.startswith(text.split()[0]) if text.split() else False):
+                matched_candidate = (text, size_pt, color_hex)
+                break
+        
+        if matched_candidate:
+            if current_candidate == matched_candidate:
+                # 继续当前标题
+                current_title_parts.append(t)
+            else:
+                # 开始新标题，先输出之前的标题
+                if current_title_parts and current_candidate:
+                    full_title = " ".join(current_title_parts)
+                    text, size_pt, color_hex = current_candidate
+                    # 判断是否为副标题（灰色且不是最大字号）
+                    is_subtitle = color_hex == "#808080" and size_pt < 20.0
+                    if is_subtitle:
+                        styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold; font-style:italic;">{full_title}</span>'
+                    else:
+                        styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold;">{full_title}</span>'
+                    out_lines.append(styled)
+                # 开始新标题
+                current_title_parts = [t]
+                current_candidate = matched_candidate
+        else:
+            # 不匹配任何候选，先输出当前标题
+            if current_title_parts and current_candidate:
+                full_title = " ".join(current_title_parts)
+                text, size_pt, color_hex = current_candidate
+                # 判断是否为副标题（灰色且不是最大字号）
+                is_subtitle = color_hex == "#808080" and size_pt < 20.0
+                if is_subtitle:
+                    styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold; font-style:italic;">{full_title}</span>'
+                else:
+                    styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold;">{full_title}</span>'
+                out_lines.append(styled)
+                current_title_parts = []
+                current_candidate = None
+            # 输出普通行
+            out_lines.append(line)
+    
+    # 处理最后一个标题
+    if current_title_parts and current_candidate:
+        full_title = " ".join(current_title_parts)
+        text, size_pt, color_hex = current_candidate
+        # 判断是否为副标题（灰色且不是最大字号）
+        is_subtitle = color_hex == "#808080" and size_pt < 20.0
+        if is_subtitle:
+            styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold; font-style:italic;">{full_title}</span>'
+        else:
+            styled = f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold;">{full_title}</span>'
+        out_lines.append(styled)
+    
+    return "\n".join(out_lines)
+
+
+def _style_titles_if_present(md_text: str, candidates: List[Tuple[str, float, str]]) -> str:
+    # candidates: list of (text, font_size_pt, color_hex) in visual order before date
+    # 目标：完全基于 candidates 渲染日期前的抬头区域，避免主标题被拆成多行
+    lines = md_text.splitlines()
+    if not lines or not candidates:
+        return md_text
+
+    # 1) 先构造样式化的抬头（最多前四项：栏目/子栏目/主标题/副标题）
+    styled_header: List[str] = []
+    prepared: List[Tuple[str, float, str]] = candidates[:4]
+
+    def style_span(txt: str, size_pt: float, color_hex: str, italic_if_subtitle: bool = True) -> str:
+        is_subtitle = color_hex == "#808080" and size_pt < 20.0
+        if italic_if_subtitle and is_subtitle:
+            return f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold; font-style:italic;">{txt}</span>'
+        return f'<span style="color:{color_hex}; font-size:{size_pt:.1f}pt; font-weight:bold;">{txt}</span>'
+
+    # 合并第一行：若前两项为同一字号（通常14-16pt）且都在日期之前，使用同一行输出两个 span
+    if len(prepared) >= 2:
+        text0, size0, color0 = prepared[0]
+        text1, size1, color1 = prepared[1]
+        if abs(size0 - size1) < 0.6:  # 允许些许浮动，合并为同一行
+            first_line = f"{style_span(text0, size0, color0, italic_if_subtitle=False)} {style_span(text1, size1, color1, italic_if_subtitle=False)}"
+            styled_header.append(first_line)
+            # 其余（从第3项开始）逐项各占一行
+            for (txt, sz, col) in prepared[2:]:
+                styled_header.append(style_span(txt, sz, col))
+        else:
+            # 若字号不同，不强行合并，逐项各占一行
+            for (txt, sz, col) in prepared:
+                styled_header.append(style_span(txt, sz, col))
+    else:
+        # 少于2项时，逐项各占一行
+        for (txt, sz, col) in prepared:
+            styled_header.append(style_span(txt, sz, col))
+
+    # 2) 跳过原文中日期之前的所有行（这些原始行中包含了被错误换行的标题）
+    #    从首个日期行开始，保留剩余内容
+    out_lines: List[str] = []
+    emitted_header = False
+    for line in lines:
+        s = line.strip()
+        if not emitted_header:
+            # 尚未输出抬头，检测到日期时，先输出抬头，再输出此行（日期行）
+            if DATE_PAT.match(s):
+                # 输出抬头
+                out_lines.extend(styled_header)
+                out_lines.append(line)  # 日期行原样保留（后续函数会再次样式化为灰色小字）
+                emitted_header = True
+            else:
+                # 仍在日期前，丢弃原始的标题相关行（避免重复与换行问题）
+                continue
+        else:
+            # 日期之后，原样输出
+            out_lines.append(line)
+
+    # 若未检测到日期（极少数情况），则在文首插入抬头并返回全部原文
+    if not emitted_header:
+        return "\n".join(styled_header + [""] + lines)
+
+    return "\n".join(out_lines)
 
 
 if __name__ == "__main__":

@@ -1,3 +1,9 @@
+<style>
+p { font-size: 10.0pt; }
+li { font-size: 10.0pt; }
+blockquote { font-size: 10.0pt; }
+</style>
+
 <span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Leaders</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| All-American silicon</span>
 领导人专栏｜纯美式硅谷梦
 
@@ -62,7 +68,7 @@ More than ever, semiconductors hold the key to the 21st century. They are increa
 > <span style="color:#808080; font-size:10.0pt;">- <strong>背景延伸</strong>：AI与军工的"算力—制造—供应链"被视作国家安全新支点。对TSMC/台湾的依赖牵涉地缘政治，文本以"reliance"呈现结构性脆弱点。</span>
 > <span style="color:#808080; font-size:10.0pt;">- <strong>写作技巧</strong>：作者将技术复杂性(marvel of specialisation...)与政策失败倾向(prone to fail)对置，暗示行政干预与产业内在逻辑的张力。</span>
 
-To see how much can go wrong, consider its woes. Hubris caused the firm to miss both the smartphone and the ai waves, losing out to firms such as Arm, Nvidia and tsmc. Joe Biden’s CHIPS Act, which aimed to spur domestic chipmaking, promised Intel $8bn in grants and up to $12bn in loans. But the company is floundering. A fab in Ohio meant to open this year is now expected to begin operations in the early 2030s. Intel is heavily indebted and generates barely enough cash to keep itself afloat.
+To see how much can go wrong, consider its woes. Hubris caused the firm to miss both the smartphone and the ai waves, losing out to firms such as Arm, Nvidia and tsmc. Joe Biden’s CHIPS Act, which aimed to spur domestic chipmaking, promised Intel \$8bn in grants and up to \$12bn in loans. But the company is floundering. A fab in Ohio meant to open this year is now expected to begin operations in the early 2030s. Intel is heavily indebted and generates barely enough cash to keep itself afloat.
 
 要理解事情可能走偏到何等地步，不妨看看英特尔的困局。自负使其错过了智能手机与AI两拨浪潮，输给了Arm、英伟达和台积电等公司。拜登的《芯片与科学法案》（CHIPS Act）旨在刺激本土造芯，向英特尔承诺了80亿美元的补助与最高120亿美元的贷款，但公司仍在泥潭中挣扎。俄亥俄州一座原定今年投产的晶圆厂，如今预计要到2030年代初才能开工。英特尔债务高企，现金流勉强维持生存。
 

@@ -46,14 +46,12 @@ How low mighty Intel has fallen. Half a century ago the American chipmaker was a
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 拉丁 domus（家、主权）同源；在商业文本里强调"议价权/生态控制力"。</span></li>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>market capitalisation</strong>：财务术语"市值"；文中与"世界第二"并置，强调当年高光时刻。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · capital 源于"头/本金"；在叙事中是"市场信心"的缩影，映照"由盛转衰"的情绪弧线。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>背景小史</strong>：英特尔在"奔腾(Pentium)"时代奠定PC芯片霸主地位，后因移动端与EUV转型迟缓被台积电/英伟达赶超。作者用"byword/cutting edge"对比其兴衰，制造戏剧张力。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>语体选择</strong>：用"was a byword for the cutting edge"而非"was very advanced"，更具文采与评述感，体现《经济学人》写作风格。</span></li>
 </ul>
 </div>
 
 More than ever, semiconductors hold the key to the 21st century. They are increasingly critical for defence; in the ai race between America and China, they could spell the difference between victory and defeat. Even free-traders acknowledge their strategic importance, and worry about the world’s reliance for cutting-edge chips on tsmc and its home of Taiwan, which faces the threat of Chinese invasion. Yet chips also pose a fiendish test for proponents of industrial policy. Their manufacture is a marvel of specialisation, complexity and globalisation. Under those conditions, intervening in markets is prone to fail—as Intel so vividly illustrates.
 
-比以往任何时候都更清楚的是：半导体掌握着21世纪的钥匙。它们对国防的重要性与日俱增；在中美AI竞赛中，芯片可能成为胜负手。即便是自由贸易的支持者，也不得不承认芯片的战略地位，并担忧世界对台积电（TSMC）及其母土台湾的依赖——而台湾正面临中国入侵的威胁。与此同时，芯片也给产业政策的拥护者出了极其刁钻的一道难题。它的制造是分工、复杂性与全球化的奇迹。在这种条件下，市场干预往往以失败告终——英特尔就是活生生的注脚。
+比以往任何时候都更清楚的是：半导体掌握着21世纪的钥匙。它们对国防的重要性与日俱增；在中美AI竞赛中，芯片可能成为胜负手。即便是自由贸易的支持者，也不得不承认芯片的战略地位，并担忧世界对台积电（TSMC）及台湾的依赖——而中国可能会收复台湾。与此同时，芯片也给产业政策的拥护者出了极其刁钻的一道难题。它的制造是分工、复杂性与全球化的奇迹。在这种条件下，市场干预往往以失败告终——英特尔就是活生生的注脚。
 
 <div class="note">
 <p><span style="color:#808080; font-size:10.0pt;">备注：</span></p>
@@ -78,8 +76,6 @@ More than ever, semiconductors hold the key to the 21st century. They are increa
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · intervene 偏中性（干预/介入），interfere 偏负面（妨碍）。本文选择前者更克制。</span></li>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>be prone to fail</strong>：倾向于失败；表达统计/结构性失败概率而非个案偶然。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 指政策与产业复杂性错配导致的"系统误差"。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>背景延伸</strong>：AI与军工的"算力—制造—供应链"被视作国家安全新支点。对TSMC/台湾的依赖牵涉地缘政治，文本以"reliance"呈现结构性脆弱点。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>写作技巧</strong>：作者将技术复杂性(marvel of specialisation...)与政策失败倾向(prone to fail)对置，暗示行政干预与产业内在逻辑的张力。</span></li>
 </ul>
 </div>
 
@@ -102,8 +98,6 @@ To see how much can go wrong, consider its woes. Hubris caused the firm to miss 
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>begin operations</strong>：书面表达"投产/开工"，比"start"更正式。</span></li>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>heavily indebted / afloat</strong>：债务沉重/勉力维持生存；金融语体，强调现金流紧绷。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 从资本开支到良率爬坡，现金流吃紧是先进制程追赶者的常态风险。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>文化典故</strong>：hubris常见于希腊悲剧，如《俄狄浦斯王》，象征"自负招致覆灭"。套用至科技企业，暗示路径依赖与惯性思维的风险。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>产业节奏</strong>：错过手机与AI"双浪"，对应制程、架构与生态三重错失，非单点失误。</span></li>
 </ul>
 </div>
 
@@ -113,7 +107,6 @@ The sums needed to rescue it keep growing. By one estimate Intel will need to in
 
 ![](../images/004_Donald_Trumps_fantasy_of_home-grown_chipmaking/p0019_img01.jpeg)
 
-（图片）
 
 struggling with its latest manufacturing process. Its sales are falling and its plight risks becoming even more desperate.
 
@@ -124,7 +117,6 @@ struggling with its latest manufacturing process. Its sales are falling and its 
 <ul>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>plight</strong>：/[plaɪt]/ "困境、险境"，语气强烈，凸显恶化的态势。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 比 problem/grave situation 更凝练、书面，传递"危局感"。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>背景补充</strong>：制程推进卡点通常在EUV良率、光掩膜与材料堆叠复杂度，叠加资本开支压力，形成"技术+财务"双重困境。</span></li>
 </ul>
 </div>
 
@@ -139,8 +131,6 @@ The Biden administration failed with Intel, but Mr Trump could make things worse
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · brow（眉）+ beat（击）；形容以"气势"压人。与产业政策搭配，显权力不当介入。</span></li>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>blunt their edge</strong>：用"变钝"形容竞争优势受损，富有形象感。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · edge（刀锋）贯穿全文"切割/锋利"的意象场，呼应 cutting edge。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>政策含义</strong>："用关税逼代工"可能短期保就业，却削弱下游选用最佳工艺的自由，长期损及生态竞争力。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>文风观察</strong>：self-defeating（自我挫败）是《经济学人》常用评价，既简练又含批评力度。</span></li>
 </ul>
 </div>
 
@@ -153,7 +143,6 @@ What should America do? One lesson is not to pin the nation’s hopes on keeping
 <ul>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>throw good money after bad</strong>：惯用语，指"往失败项目里继续砸钱"，点出政策理性边界。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 出自投资/财政语境的常见格言，用来劝阻非理性续投。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>背景连结</strong>：软银投资与潜在资产拆分（设计/制造）对应"轻重分离"的行业趋势，意在缓解资本与技术节奏错配。</span></li>
 </ul>
 </div>
 
@@ -166,7 +155,6 @@ That leads to a second lesson: to look beyond Intel and solve other chipmakers�
 <ul>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>spread its wings</strong>：比喻"展开翅膀、向外拓展"。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 由鸟类展翼而来，强调"能力成熟→地理扩张"。与"本土土地紧缺/劳动力老化"形成动因-行动链。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>地缘现实</strong>：TSMC美国建厂受制于成本、人力与审批；"分布式产能"是地缘冲击下的折中方案。</span></li>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>术语提示</strong>：nm节点（4nm/2nm）不仅是"线宽"，更涉及晶体管架构(N3/N2、GAA)与生态协同。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · GAA（环绕栅）相对 FinFET 是"立体—环绕"的演进，意在继续摩尔定律的等效延伸。</span></li>
 </ul>
@@ -182,7 +170,7 @@ TSMC’s model is based on innovating at home first, before spreading its advanc
 
 To keep America’s chip supply chains resilient, Mr Trump needs a coherent, thought-through strategy—a tall order for a man who governs by impulse. No wonder he is going in the wrong direction. On Taiwan he has been cavalier, confident that China will not invade on his watch, while failing to offer the island consistent support. His tariffs on all manner of inputs will raise the costs of manufacturing in America; promised duties on chip imports will hurt American customers. He thrives on uncertainty, but chipmakers require stability.
 
-要让美国的芯片供应链保持韧性，特朗普需要一套连贯、深思熟虑的战略——对一位凭直觉执政的人而言，这几乎是“强人所难”。他在台湾问题上轻率自信，坚称任内中国不会发动入侵，却又拿不出对台的一致支持。对各类投入品加征关税会抬高美国制造成本；承诺对芯片进口征税将伤害美国的客户群。他以不确定性为生，而芯片产业需要的是稳定。
+要让美国的芯片供应链保持韧性，特朗普需要一套连贯、深思熟虑的战略——对一位凭直觉执政的人而言，这几乎是“强人所难”。他在台湾问题上轻率自信，坚称任内中国不会采取行动，却又拿不出对台的一致支持。对各类投入品加征关税会抬高美国制造成本；承诺对芯片进口征税将伤害美国的客户群。他以不确定性为生，而芯片产业需要的是稳定。
 
 <div class="note">
 <p><span style="color:#808080; font-size:10.0pt;">备注：</span></p>
@@ -191,8 +179,6 @@ To keep America’s chip supply chains resilient, Mr Trump needs a coherent, tho
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · 与 cavalry（骑兵）同源。由高位自信到轻佻，语义转变体现阶层姿态的反噬。</span></li>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>a tall order</strong>：难以完成的要求，强调可行性不足。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · tall 非"身高"而是"过分的"，表达任务难度超组织能力边界。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>修辞观察</strong>：作者将"impulse（凭直觉）"与"coherent/thought-through（连贯/深思熟虑）"对比，形成逻辑落差。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>产业共识</strong>：chipmakers require stability 指出半导体对"确定性"的依赖——长周期资本开支与供应链协同离不开政策连续性。</span></li>
 </ul>
 </div>
 
@@ -213,8 +199,6 @@ The chipmaking industry took decades to evolve. It is built for an age of global
 <ul>
 <li><span style="color:#808080; font-size:10.0pt;">- <strong>autarky</strong>：/[ˈɔːtɑːki]/ 词源自希腊语，意为"经济自给自足"。在全球分工高度精细的产业里，这一理念格外不合时宜。</span></li>
 <li><span style="color:#808080; font-size:8.0pt; font-style:italic;">  · auto（自身）+ arkein（足够）。在半导体语境中常与"去全球化"讨论相关，暗示效率与创新损耗。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>历史脉络</strong>：战间期与二战时期的自给自足政策常伴随效率损失与技术封闭；半导体高度碎片化的全球分工更放大其代价。</span></li>
-<li><span style="color:#808080; font-size:10.0pt;">- <strong>写作收束</strong>：以"■"收尾为本刊常见版式，形成观点的干净落点。</span></li>
 </ul>
 </div>
 

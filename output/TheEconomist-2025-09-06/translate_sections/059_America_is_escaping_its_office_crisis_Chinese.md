@@ -21,7 +21,7 @@
 — 新建少了，拆改多了，全国写字楼总面积二十五年来首次减少。
 流程为何总“卡住”，以及如何疏通
 【二｜谁在出钱】
-— 银行收缩，特别是小银行；CMBS 回暖，私募巨头募资抄底“问题资产”。
+— 银行收缩，特别是小银行；CMBS 回暖，私募巨头募资抄底“问题资产”。https://kswitch.corp.kuaishou.com/#/flag/targeting?project=kuaishou&environment=production&key=iOSDDCPreloadControlConfigV2
 
 ![](../images/059_America_is_escaping_its_office_crisis/p0244_img01.jpeg)
 

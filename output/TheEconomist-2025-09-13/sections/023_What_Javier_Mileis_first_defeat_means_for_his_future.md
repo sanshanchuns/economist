@@ -1,0 +1,30 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">The Americas</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Argentine politics</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">What Javier Milei’s first defeat means for his future</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">A bigger test looms in October</span>
+<span style="color:#808080; font-size:6.2pt;">September 11th 2025</span>
+
+![](../images/023_What_Javier_Mileis_first_defeat_means_for_his_future/p0100_img01.jpeg)
+
+Contrition is an odd fit for Javier Milei, the aggressive libertarian president of Argentina who swept to power in 2023 labelling his rivals “thieves” and “rats”. Yet after his party lost legislative elections in the province of Buenos Aires on September 7th by 13 percentage points, he gave it a try. “We will correct all our errors,” he intoned gravely. Still, shocked investors dumped Argentine bonds and sold off the peso, causing it to slump by 7% before recovering somewhat. This might seem over-dramatic for a midterm election to a sub-national legislature. Yet many view the results in Buenos Aires province, which covers nearly 40% of Argentina’s electorate, as foretelling what may happen
+
+in national midterms on October 26th. Mr Milei’s party had been widely expected to win those with a strong showing, revitalising his aggressive cost-cutting and liberalising agenda, which has sharply lowered inflation. Now investors and Argentines alike are wondering whether this loss is the beginning of the end for Mr Milei and his reforms, or whether he can bounce back.
+
+Probably the biggest reason for the poor showing was alleged corruption. Mr Milei won in 2023 by attacking la casta, the political elite, as corrupt. Yet days before the provincial election audio messages were leaked which seem to capture the head of Argentina’s disability agency discussing kickbacks from a pharmaceutical company. Karina Milei, the president’s sister and his chief of staff, is named as the recipient of 3% of a sum spent to buy medicines. The president denied there was any wrongdoing, but his government failed to tackle the allegations directly, instead blaming a Peronist plot.
+
+Campaign errors compounded matters. Overconfident, Mr Milei openly suggested that the midterm provincial poll in a Peronist stronghold be seen as a referendum on his government. Worse, Ms Milei, who sold cakes prior to her brother’s rise, led the government’s campaign strategy and showed little interest in building a broad coalition. (She secured an agreement with a centre-right PRO party, then sidelined them.) Turnout was low. Swathes of centrist voters who backed Mr Milei in his presidential win stayed home.
+
+Most worrying for Mr Milei’s project is the possibility that he lost because voters are tiring of austerity. They may feel that his success at lowering inflation, down from 12% per month before he took office to about 2% now, no longer makes up for the hardship caused by cuts and a turbulent economy in which growth is faltering. This bodes ill because fiscal rectitude is at the core of Mr Milei’s plan and underpins investors’ faith in him as a leader.
+
+Mr Milei can take some comfort: results from Buenos Aires province have actually been poor predictors of national elections. In the past four electoral cycles the winners of this provincial vote have not won the presidential election two years later. Even for the midterms in October, those predictions are uncertain. The province is an opposition stronghold, where Mr Milei lost to the Peronist candidate in the 2023 presidential run-off, even as he swept
+
+to victory nationally. He is stronger in the rest of the country, which also gets to vote in late October. The corruption scandal may have faded by then. It would do so faster if he demoted his sister, but since he likes to compare her to Moses, that is unlikely. A strategic pivot to widen his coalition is more probable. Turnout will probably be higher, which should help Mr Milei.
+
+The trickiest issue for October is the economy. On that front, the Buenos Aires loss creates new risks. The peso has been partially floating within bands since April. Fearing a depreciation would boost inflation, the government has sought to prop the currency up. It has weakened anyway, without much impact on inflation. As it was overvalued, that was good news.
+
+Dramatic shifts, however, do risk boosting inflation. The post-election depreciation leaves the peso near the top of the band. A nightmare scenario for the government before the October elections would be sustained pressure on the peso to break past the upper band. A prolonged defence of it would drain both the treasury and central bank of precious foreign reserves. Defending it with extremely high interest rates, as the government has been doing, badly hurts the economy. Yet letting the peso break through risks inflation soaring, alarming voters.
+
+Mr Milei seems bent on defending both fiscal rectitude and the upper band. “We will not budge one millimetre,” he says. The bet is that low inflation, this time with a savvier campaign and fewer scandals, will win the election even with a sluggish economy. Moreover, Mr Milei has so few allies in Congress today that even a modest showing will raise his party’s representation and make it easier to govern. That could prompt markets to swing behind him again, perhaps even enough to let Argentina borrow dollars abroad to help pay back debts due next year. But after Mr Milei’s first election loss as president, that rosy scenario is a lot less certain. ■
+
+Sign up to El Boletín, our subscriber-only newsletter on Latin America, to understand the forces shaping a fascinating and complex region.
+
+This article was downloaded by zlibrary from https://www.economist.com//the-americas/2025/09/11/what-javier-mileis-first-defeat- means-for-his-future

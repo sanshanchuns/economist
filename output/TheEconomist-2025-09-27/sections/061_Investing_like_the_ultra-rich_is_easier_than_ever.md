@@ -1,0 +1,28 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Finance & economics</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Buttonwood</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">Investing like the ultra-rich is easier than ever</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">And that worries regulators</span>
+<span style="color:#808080; font-size:6.2pt;">September 25th 2025</span>
+
+![](../images/061_Investing_like_the_ultra-rich_is_easier_than_ever/p0260_img01.jpeg)
+
+Fifteen years ago, Ian Ayres and Barry Nalebuff published a book with an intriguing argument. For decades, financial advisers had suggested to retail investors that they take more risk when young, investing heavily in stocks before gradually shifting to safer bonds as they edge towards retirement. The pair of financial economists went one step further: young investors should actually borrow money to buy stocks, an idea they named “lifecycle investing”. After all, they pointed out, the historical record indicated that investors would have been better off taking on such leverage over any lifespan from 1871 to 2009. When Messrs Ayres and Nalebuff were first developing their ideas, such a strategy would have been difficult to implement. Online brokers were far
+
+less widespread; investors faced high trading fees and difficulty borrowing. E*Trade, an early broker, offered margin rates (those it charged to borrowers) of around 9% in 1999, when the Federal Reserve’s benchmark rate was just below 5%. Even as they were writing the book in 2009, the authors noted that margin rates at large brokers such as Fidelity and Vanguard were extortionate. Leveraged investing was mostly the preserve of institutional investors, or very wealthy individuals able to get a better deal on lending. One review of the book was titled “Don’t try this at home”.
+
+Now, trying it at home is a breeze. In their book, Messrs Ayres and Nalebuff briefly mentioned a piddling outfit called Interactive Brokers that offered far lower margin rates than its more prestigious competitors. In 2009 the company was worth $7bn and had 134,000 clients. Today it is worth $110bn and has 4m clients. Owing to its cheap lending, it has become the preferred option for sophisticated, small investors. Other financial developments, including the growth of exchange-traded funds and wider access to international stockmarkets, have also made their lives easier.
+
+Take one young investor as an example. Your columnist spoke to Mr Street (not his real name), who uses such tools to run something like the strategy advocated by Messrs Ayres and Nalebuff. Mr Street is in his early 30s and earns $200,000 or so a year in the tech industry. He is not quite an everyman —to access the portfolio margin features that Mr Street deploys, an investor must have an account value of at least $110,000—but many young professionals could copy his approach.
+
+He borrows from Interactive Brokers (40% in dollars, 40% in Japanese yen and 20% in euros) accepting some exchange-rate risk in return for access to lower interest rates. Investing in large- and small-cap stock indices at home and abroad, Mr Street’s average interest rate runs to around 3.5%. The loan- to-value ratio of his portfolio is between 50% and 65%. In other words, for every $1,000 of his own money, he invests between $2,000 and $2,857. His decision on how much leverage to deploy within that range depends on his assessment of market conditions.
+
+Our investor is not alone in his enthusiasm for borrowing. By August, American brokers had extended $1.1trn of margin debt to their clients, a figure that has climbed by 33% over the past year, reaching a record high.
+
+As a share of GDP, it is only just below the level reached during the meme- stock frenzy of 2021 and well above the peak seen in the dotcom bubble. Borrowing against the stockmarket is a regular source of hand-wringing among regulators, who fear that it raises the risk of a nasty blow-up should prices start to fall.
+
+Mr Street’s worst moment came this year, during the tariff-driven spasm that saw America’s S&P 500 index drop by 19%. Owing to its leverage, his portfolio dropped by 42%, mercifully short of the 67% mark that would have triggered automatic sales of his holdings. Instead of margin-calling its clients—demanding money when the value of their collateral drops too low —Interactive Brokers sells the underlying assets to return the investor to their borrowing limits.
+
+“I have a very high tolerance for volatility and an almost cult-like belief that the long-run return of stocks is greater than the interest rate on short-term borrowing,” says Mr Street. So far, the good times have more than made up for the bad ones. Indeed, the period since the publication of Messrs Ayres’s and Nalebuff’s book has been one of the best in history to borrow for investment. That reflects low interest rates and stonking returns. Will the good run continue in an era of far higher valuations? Regulators, and not just Mr Street, will be hoping that the answer is “yes”. ■
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+This article was downloaded by zlibrary from https://www.economist.com//finance-and-economics/2025/09/24/investing-like-the- ultra-rich-is-easier-than-ever

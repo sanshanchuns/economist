@@ -1,0 +1,28 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Finance & economics</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Buttonwood</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">The eccentric investment strategy that beats the rest</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">Introducing the 25/25/25/25 portfolio</span>
+<span style="color:#808080; font-size:6.2pt;">October 2nd 2025</span>
+
+![](../images/062_The_eccentric_investment_strategy_that_beats_the_rest/p0252_img01.jpeg)
+
+One tendency veteran money-managers often share is a high tolerance for cognitive dissonance. This is because without it their job would be a nightmare. Clients know that outsize returns come from taking risks, and want them to do so, but then balk when they lose money. Research is essential for gaining an edge, but a good chunk of even the best analyst’s ideas will fail to turn a profit. And of course, the most carefully built portfolio—with each position backed by a solid thesis and weights fine- tuned to the basis point—can be trounced by one that might have been slapped together in five minutes.
+
+Meet the 25/25/25/25 portfolio, which has a slapped-together-in-five- minutes feel to it even if it was not. Also called the “permanent portfolio”, it was devised in the 1980s by Harry Browne, an investment adviser who also ran twice to be America’s president as the Libertarian Party candidate. Each 25 represents the allocation to an asset class: a quarter to stocks, bonds, gold and cash. It is, to put things mildly, an eccentric strategy when viewed through the lens of conventional theory. It is also one of this year’s standout performers.
+
+Since the start of 2025, tracking America’s S&P 500 share index would have returned 14%, compared with 10% for the classic 60/40 split between shares and Treasury bonds. A permanent portfolio constructed with American shares and Treasuries, meanwhile, would have delivered a 16% gain, calculate analysts at Bank of America. Moreover, since the start of the 2020s, the permanent and 60/40 portfolios have generated roughly the same returns, of 9% a year. Broaden the scope to global assets, and the permanent portfolio has returned 8% a year, while the 60/40 has returned 6%.
+
+Browne’s investment strategy is unusual because it ignores some basic principles of asset allocation. One is that a portfolio should have big positions only in investments that generate cashflows, and therefore have an identifiable source of expected returns. Shares do (implicitly, from their underlying earnings) and so do bonds (from their coupons). But gold does not, and historically the returns from cash have barely beaten inflation, which is why conventional portfolios tend not to hold much of either for the long run.
+
+Then there are the weights. Orthodox theory suggests these should be determined by balancing the expected returns from each asset class against its volatility, while accounting for its correlations with the others. The 60/40 strategy is a rule of thumb that comes from such considerations. The 25/25/25/25 strategy does not: it just picks four asset classes and lumps equal parts of your portfolio into each.
+
+Instead, the permanent portfolio is designed so that at least one of its parts ought to prosper whatever the weather. Proponents define four archetypal regimes—expansion, deflation, inflation and recession—which in combination can describe any economic backdrop. In an expansion, goes the
+
+reasoning, share prices should rise as earnings beat expectations. Deflation favours bonds, raising the real value of their fixed cashflows while falling interest rates raise their prices. Gold is the time-honoured inflation hedge, and cash is handy in a recession, both because you will need it if you lose your job and because you can use it to snap up assets at bargain prices.
+
+In years gone by, Browne’s hefty allocation to gold put off many. The stereotypical gold bug knew a bit too much about automatic weapons and probably cheered at Browne’s libertarian push to abolish income tax and social security. Today, gold is rather more respectable. Its price is over two- and-a-half times what it was in early 2020, and has risen by nearly 50% this year alone. A stash of precious metal suddenly seems prudent rather than archaic.
+
+What is more, history suggests that the permanent portfolio offers more than just a series of hedges against various economic hardships. A study in 2014 by Hamish Anderson, Ben Marshall and Jia Miao, all of Massey University in New Zealand, calculated 40 years’ worth of monthly returns for 11 permanent portfolios, each using stocks and bonds from a different country. In all cases, they found the losses made by permanent portfolios in the worst 5% of months were less severe than those from 70/30 splits between stocks and bonds. More surprisingly, the 25/25/25/25 strategies’ risk-adjusted returns—measured by the “Sharpe ratio” used by fund managers fine-tuning their portfolios—were always better. Sometimes it really does pay not to think too hard. ■
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+This article was downloaded by zlibrary from https://www.economist.com//finance-and-economics/2025/10/01/the-eccentric- investment-strategy-that-beats-the-rest

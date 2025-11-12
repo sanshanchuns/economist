@@ -1,0 +1,22 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Leaders</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| The meaning of Mamdani</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">Democrats risk drawing the wrong lessons from one good day</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">Moderate governors offer a better model than a charming socialist in New York</span>
+<span style="color:#808080; font-size:6.2pt;">November 6th 2025</span>
+
+![](../images/006_Democrats_risk_drawing_the_wrong_lessons_from_one_good_day/p0026_img01.jpeg)
+
+Voters have spoken, but what did they say? The elections held on November 4th have consequences for how Minneapolis, New Jersey, New York City and Virginia are run; for electricity prices in Georgia and for the Supreme Court of Pennsylvania. They were also the first real test of whether Donald Trump’s second term is everything voters hoped for when they chose last November to send him back to the White House. Overall, Democrats did even better than expected. Yet one good night has not solved the party’s enduring problems.
+
+Begin in New York, where a 34-year-old political novice will be handed a $117bn budget when he takes office next year. Turnout was high, suggesting enthusiasm for Zohran Mamdani and his brand of socialism. This is a big win for the oligarch-bashing left of the party. Democrats who think the answer to Mr Trump is left-wing economic populism now have a new champion. But Mr Mamdani’s victory does not answer the question of how Democrats should oppose Mr Trump, nor how they could win back power nationally. And that is because Democratic presidential candidates win New York City come what may. None has lost there since John Davis was defeated by Calvin Coolidge in 1924.
+
+Virginia and New Jersey, which both held governors’ elections, are better places for Democrats to look for inspiration. Abigail Spanberger won in Virginia. The result was no surprise: the last time a Republican won the governorship with a Republican in the White House was in 1973. But the 15-point margin was larger than expected. The same is true in New Jersey, where polls favoured Mikie Sherrill to beat a good Republican candidate, Jack Ciattarelli, within the margin of error. In the end she won easily. That broke a streak going back to 1961, the last time a candidate won the office after an incumbent from the same party had served two consecutive terms.
+
+Some Democrats will look at all this and conclude that New York’s mayoral election shows that voters are fired up by the policies associated with the party’s far left; that the Democratic Party is in better shape than pundits think; and that next year’s midterm elections are as good as won. They would be making a mistake.
+
+What are the right lessons? The first is to focus on the economy and affordability, as Mr Mamdani, Ms Sherrill and Ms Spanberger all did. The second is to pick candidates who are a good fit for the places where they are running. Ms Spanberger worked for the CIA before she entered politics and Ms Sherrill served as a Navy helicopter pilot. Both are evidence of a patriotism that helps parry Republican attacks about America-hating Democrats. The third is not to run as a defender of the establishment in an era of upheaval. New Yorkers probably do not want socialism and Mr Mamdani will be too constrained by city and state law (as well as the laws of arithmetic) to give it to them. As a year ago, this election was less an endorsement of a programme than another expression of frustration.
+
+Landing a blow on the president after a year of introspection will give Democrats relief as they look towards the midterms next year. But when that fades, they will still face the same problems. Their party is associated with policies on immigration, climate change and race that are far from the views of the voters they need to win power nationwide. By choosing a democratic socialist as one of their standard-bearers, Democrats have just aggravated that problem. Mr Mamdani’s joyful campaign made New Yorkers feel good, but his victory could make Republican strategists feel even better. ■
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+This article was downloaded by zlibrary from https://www.economist.com//leaders/2025/11/05/democrats-risk-drawing-the-wrong- lessons-from-one-good-day

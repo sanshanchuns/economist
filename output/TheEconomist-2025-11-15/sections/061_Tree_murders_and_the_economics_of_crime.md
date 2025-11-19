@@ -1,0 +1,36 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Finance & economics</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Free exchange</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">Tree murders and the economics of crime</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">Rich people can’t stop cutting down each other’s woodland</span>
+<span style="color:#808080; font-size:6.2pt;">November 13th 2025</span>
+
+![](../images/061_Tree_murders_and_the_economics_of_crime/p0259_img01.jpeg)
+
+IT IS the sort of tale Agatha Christie might have spun. The setting is Camden, a picture-postcard coastal town in Maine filled with antique shops and cafés selling lobster rolls. Amelia Bond, an out-of-towner, is tip-toeing through the flower beds, her pockets stuffed with poison. She is making her way to a neighbouring property owned by Lisa Gorman, heiress to L.L. Bean, an outdoorsy retailer. Ms Bond stops at the property line: her target is not Ms Gorman herself, but a clutch of 70-foot oak trees that rise up between her windows and the sweeping vista of Camden bay; her poison not arsenic or cyanide, but tebuthiuron, a herbicide used mostly along motorways and near airports for long-term “control” of “woody plants”. Months later, when the oak’s foliage has withered, Ms Bond remarks to Ms Gorman that her trees do not “look good” and offers to split the cost of
+
+removal. Ms Gorman, smelling a rat, declines and has the tree tissue sent for testing. Next come lawyers, glossy magazine exposés and public spectacle.
+
+This is not the only case of timber trespass, as the crime of killing trees on someone else’s property is known, that has roiled east-coast elites in recent years. In July on Nantucket, an island in Massachusetts, Jonathan Jacoby, a resident, was sued by his neighbour after he chopped down 16 of her trees and promptly listed his property for $10m, boasting of its (new and improved) “sweeping views of the Atlantic Ocean”. Nor is it the only case of tree felling that has obsessed the public. There is an entire forum (r/treelaw) on Reddit, a social-media site, dedicated to mourning massacred trees and seeking retribution against those who have wielded the axe. Ask locals and these crimes are heinous: people in Camden have described the act of tree poisoning as “abhorrent” and called Ms Bond and her husband “definitely evil”.
+
+Ask an economist, however, and they may have a different word for illegal tree-felling: rational. The theory of rational crime was developed by Gary Becker of the University of Chicago. He started thinking about the topic when, running late to examine a phd student at Columbia University, he weighed the odds of getting caught if he parked illegally, and the fine he would incur, against the inconvenience of driving farther in search of a space. As he walked to the exam, he thought about how the city must have made a similar calculation: the level of the fine would have been calibrated to deter infractions (or perhaps maximise revenues). It was the 1960s, and most discussion of crime at the time fixated on the depravity of criminals. Becker did not buy it. Some people became criminals “not because their basic motivation differs from that of other persons”, he wrote, but because the benefits to them exceeded the potential costs. (He felt it was rational for him to have parked illegally. He did not end up getting a ticket.)
+
+Timber trespassing by the uber-rich fits neatly into Becker’s theory. Whereas crimes of passion might be perpetrated by people who have momentarily taken leave of their senses, the felling of an oak tree is necessarily premeditated. Moreover, the economic benefits are often clear. An unobstructed ocean view can add a huge premium to a house price. After Ms Gorman’s trees came down the Bond property was reassessed. Where once it
+
+had a “good” ocean view it now had a “very good” view; a change that added $500,000 in value to a plot previously worth $1.2m.
+
+The system for prosecuting timber crime is also the kind that Becker preferred. He laid out the interaction between the benefits of crime to the perpetrators, the costs of enforcement (police work) and punishment (prisons and the judicial system)—deducing that the most rational approach, for society as a whole, is to optimise for deterrence. Ideally, the marginal loss to a victim from a crime should be equal to the marginal cost of enforcement. Such reasoning favours a decent effort to enforce laws and meaty fines for wrongdoers over jail time, because the costs are lower.
+
+Fines for timber trespass have been in place for centuries. American tree law begins in Massachusetts, where the first documented statute dates to 1698, establishing a precedent that persists today: triple damages for wilful tree- cutting. In most cases today, says Marty Shaw, an arborist who estimates the value of trees, such an assessment is based on what it would cost to return the woodland to its former state. For small trees this task is simple because they are stocked by nurseries. But you cannot easily go out and buy a 70- foot oak tree—not to mention transporting, planting and guaranteeing the health of such a specimen. A large tree “could easily be $100,000, $150,000 a piece”, says Mr Shaw. Ms Bond ended up settling with Ms Gorman privately for $1.6m.
+
+There are some cases, though, when even triple-damage fines might not do the job. Although Ms Bond ended up paying fines that exceeded the gain in her property value, she clearly thought she would get away with the crime. If she assessed her odds of doing so at, say, 25%, her actions would still have made sense. Police on Nantucket decided to go even further, filing criminal charges against Mr Jacoby for vandalising property, which could have carried a jail sentence of three years, before later dropping them.
+
+Another consideration is that tree crime seems to perturb even those who do not suffer a direct loss. “I have interviewed thousands of people, and I always ask them: ‘Well, what did you like about the tree?’” says Mr Shaw. “In nearly every case, people have a very difficult time. They know they like the tree, and they know that they appreciate the tree and it is valuable to them, but articulating exactly what that value is is very challenging.” When
+
+a tree falls, what is the social loss? Although Becker may have been correct to argue that jail sentences make little sense in economic terms, such loss appears high enough to seek, at the very least, tough enforcement of existing rules. ■
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+This article was downloaded by zlibrary from https://www.economist.com//finance-and-economics/2025/11/13/tree-murders-and-the- economics-of-crime
+
+Science & technology
+
+Millions are turning to AI for therapy A new project aims to predict how quickly AI will progress Sperm whales communicate with vowels Can peptides give you superpowers?

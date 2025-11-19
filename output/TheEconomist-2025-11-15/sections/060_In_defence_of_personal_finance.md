@@ -1,0 +1,28 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Finance & economics</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Buttonwood</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">In defence of personal finance</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">It may widen inequality. But it has many advantages</span>
+<span style="color:#808080; font-size:6.2pt;">November 13th 2025</span>
+
+![](../images/060_In_defence_of_personal_finance/p0256_img01.jpeg)
+
+Like many people, your columnist spends a lot of time looking forward to the Saturday following his payday. How could he not? It is the most exciting one of the whole month: time to update the household accounts. Separate spreadsheets monitor cash accounts, pension pots, portfolio allocations and expected returns. An especially thrilling sheet keeps tabs on a mortgage and all the puzzles it raises, such as when to overpay or refinance. Each monthly update takes an hour or so. But you can have fun with the graphs for far longer. This is obviously not normal. Most people are not fascinated by the complexities of personal finance and do not relish time spent with them. It involves maths, risk and forecasting the future—three arenas in which
+
+human intuition often fails. Those with unmanageable debts, or volatile incomes that barely cover their spending, find finance particularly unpleasant, and firms exploit this. So argue John Campbell and Tarun Ramadorai, two professors of economics at Harvard University and Imperial College London, respectively, in “Fixed”, a new book. The result, they say, is a personal-finance system that needs fixing, since it produces bad outcomes for many, and especially for poor people.
+
+The authors argue that finance widens wealth inequality, since rich people earn higher returns on their assets and pay less interest on their debts. A study in Sweden between 2000 and 2007, for instance, found that those in the poorest decile by wealth earned only the risk-free interest rate on their assets. Those in the richest decile earned between five and eight percentage points a year more. They also paid only one to two percentage points above the risk-free rate in interest on their debts, while those in the poorest decile paid a spread of four (and those in the second-poorest paid seven).
+
+Rich people also save more of their incomes than poor ones. But the Swedish study found the difference in their returns and interest bills accounted for almost all the increase in inequality over the same period. Another, published in 2017, estimated that differences between Americans’ investment returns accounted for 30-40% of retirement-wealth inequality.
+
+Personal finance encourages such disparities in many ways. Richer people can afford better advice and also glean knowledge from social networks. Fixed costs penalise the proportional returns of smaller accounts, perhaps deterring the asset-poor from investing altogether. They must in any case set aside more of their savings for emergencies, so may shun risky or illiquid investments. Regulation can bar them from markets in which others make big profits, such as private equity. And since they are more likely to default on loans and have less collateral to secure them against, they are bound to face higher interest costs.
+
+The book’s most compelling parts outline products that ought to be widespread, but are not. Economists, for example, talk of “the annuity puzzle”. Purchasing annuities allows the retired to efficiently pool the risk that they live longer than expected, guaranteeing an income that is higher than the amount they could spend if relying on individual savings. Yet
+
+annuities account for only a small fraction of Americans’ retirement assets. A plausible explanation is that annuities’ benefits are not intuitively obvious, lowering demand for them.
+
+One response to all this would be to teach people, especially the less well- off, to make wiser decisions. Financial districts, after all, are packed with those who have learned to do so and are now better off. Reading “Fixed” would help. Deflatingly, however, the authors reject such education as insufficient. In their telling, “people’s emotions, temptations and cognitive limitations” are too hard to overcome. That some become savvier is a bad thing, since they then work the system more effectively and so profit from the mistakes of others.
+
+The book therefore ends with a flawed manifesto for saving people from themselves. It suggests imposing price caps, banning “excessive gamification” of trading and ensuring financial products “should not require complex follow-on decisions” (such as when to refinance a mortgage). Yet price caps—on late debt-repayment fees, say—distort the incentive to pay on time, raising the cost of credit for others. Many people love gamified trading. Society benefits from incentivising individuals to make complex decisions about the future, and learning to do so helps poor people become rich. A nice, fun monthly spreadsheet is a good place to start.
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+This article was downloaded by zlibrary from https://www.economist.com//finance-and-economics/2025/11/12/in-defence-of-personal- finance

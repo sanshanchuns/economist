@@ -1,0 +1,36 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Leaders</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Trade and exchange rates</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">The hidden risks in Taiwan’s boom</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">A weak-currency policy is punishing consumers and storing up financial risk</span>
+<span style="color:#808080; font-size:6.2pt;">November 13th 2025</span>
+
+![](../images/006_The_hidden_risks_in_Taiwans_boom/p0024_img01.jpeg)
+
+Taiwan is ENVIED for its exporting prowess: it is home to all of the world’s cutting-edge chipmaking. Just as extraordinary, but much less appreciated, is its towering current-account surplus, the result not just of a trade boom but of a long-undervalued currency. This aided Taiwan’s export-led rise, but it has long outlived its purpose. While manufacturers have been coddled, ordinary Taiwanese consumers have been deprived of the fruits of growth, and financial risks are building up. It is time for Taiwan to loosen its grip on its currency. Taiwan’s vast surpluses have been years in the making. For decades its central bank, known as the cbc, has kept the currency undervalued, giving manufacturing exporters a competitive boost. According to the GDP-
+
+adjusted Big Mac index, our measure of how far exchange rates depart from their underlying values, the Taiwan dollar is 55% undervalued against the American dollar—the most in the world.
+
+As a consequence, in this century Taiwan has run the world’s biggest current-account surplus as a share of output, once entrepots and petrostates are excluded. And lately, thanks to the artificial-intelligence boom, Taiwan’s imbalances have gone into overdrive. In October its goods-trade surplus hit a record high of 31% of GDP in annualised terms—a quadrupling since the pandemic. According to the latest data for this year, Taiwan’s current- account surplus has reached 16% of gdp. By comparison, China, the archetypal surplus economy, is running a current-account surplus of just 3%.
+
+The problem with all this is that the cheap currency has become a costly and dangerous anachronism. For a start, it no longer delivers the benefits it once did. Taiwan is no longer an industrialising economy; its annual GDP per person now exceeds that of Japan. Its stock of foreign reserves, at $600bn, is large enough to cushion the impact of a Chinese blockade or a financial crisis. And the best of Taiwan’s chip- and computer-makers, which are responsible for three-quarters of total exports and nearly half of nominal GDP, can shrug off a stronger currency. A 20% appreciation in the Taiwan dollar would knock perhaps eight percentage points off the operating margins of TSMC, the world’s leading chipmaker—still leaving them plumper than Alphabet’s or Apple’s.
+
+At the same time, the costs and distortions of having an undervalued currency are mounting. First, it is a tax on consumers. In an economy that depends on imports for food, fuel and goods, the cheap currency has shifted purchasing power from ordinary households to exporters. The result has been that even by export-economy standards, Taiwan saves too much and consumes too little. Since 1998 private consumption as a share of output has tumbled by 20 percentage points. A policy that was meant to help Taiwan get rich is now depriving ordinary Taiwanese.
+
+Another distortion is that the cheap currency is inflating property prices. Printing currency to buy foreign exchange has flooded Taiwan’s financial system with liquidity and pushed down interest rates. That combination lies behind a quadrupling of house prices since 1998. And the weak-currency
+
+policy has seeded risk deep in the heart of Taiwan’s financial system—a third distortion. To recycle the proceeds of its surpluses Taiwan has leant on its life-insurance industry, which has poured nearly $1trn of households’ savings largely into American Treasuries. But that has created a giant currency mismatch, because Taiwan-dollar liabilities are being funded with American-dollar assets. An abrupt move in either currency could wipe out the insurers, threatening a financial crisis.
+
+Why, then, has the policy persisted? One reason is the export lobby. Taiwan’s chipmakers could withstand a stronger currency, but existing policy has propped up a cohort of manufacturers that subsist on thin margins and would be severely hurt by an appreciation. Such firms make up perhaps 70% of manufacturing employment. Another reason is the CBC’s unusual power. Printing Taiwan dollars to hoover up foreign-currency assets has minted handsome profits, which are remitted to the government and have become a big source of revenue. Central-bank transfers make up 6% of total government receipts, compared with a rich-world average of 0.4%. This bolsters the CBC’s political authority, allowing its powerful governor to cow critics into submission (something the CBC denies).
+
+The situation is becoming increasingly precarious. One risk is that further depreciation in the American dollar destabilises Taiwan’s life insurers, which have become too big to fail. A second danger is that American trade- surplus hawks take flight again, using tariffs and their security leverage to force Taiwan to revalue. That could happen at any time: unlike South Korea, Japan or China, Taiwan has yet to clinch a trade deal with Donald Trump. Fears of such a clash after “Liberation Day” were enough to spark an abrupt 9% appreciation of the currency against the greenback in May.
+
+That is why Taiwan must unpick its outdated economic model—and build a better one. The CBC should gradually loosen its grip on the currency. Inevitably, the transition will be fraught with political and financial risks. Manufacturers kept on life-support by Taiwan’s export subsidy will have to scale back or shut down. Too rapid an appreciation could blow up the life- insurance industry. But these risks can be managed.
+
+Taiwan’s government, with gross debt of just 23% of GDP, has room to help retrain laid-off workers. Insurers will suffer losses, but can manage the
+
+transition if they are given time. The CBC also has a crucial advantage: gently strengthening a currency is easier than doing the opposite, as Javier Milei is discovering in Argentina. The cbc can always print Taiwan dollars to fend off speculators pre-empting a stronger currency.
+
+The key is for the cbc to establish a long-term path for the currency, as Singapore does. China, too, has managed a modest yuan appreciation in recent decades. And in return, ordinary Taiwanese will at last be able to enjoy more of the fruits of their country’s extraordinary export miracle. ■
+
+For subscribers only: to see how we design each week’s cover, sign up to our weekly Cover Story newsletter.
+
+<span style="color:#808080; font-size:6.2pt;">This article was downloaded by zlibrary from [https://www.economist.com//leaders/2025/11/13/the-hidden-risks-in-taiwans-boom](https://www.economist.com//leaders/2025/11/13/the-hidden-risks-in-taiwans-boom)</span>

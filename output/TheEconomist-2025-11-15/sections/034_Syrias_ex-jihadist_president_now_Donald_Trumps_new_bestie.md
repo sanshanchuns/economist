@@ -1,0 +1,30 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Middle East & Africa</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Stars and stripes v black flags</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">Syria’s ex-jihadist president, now Donald Trump’s new bestie</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">But some in Ahmed al-Sharaa’s ranks still sympathise with the jihadists</span>
+<span style="color:#808080; font-size:6.2pt;">November 13th 2025</span>
+
+![](../images/034_Syrias_ex-jihadist_president_now_Donald_Trumps_new_bestie/p0141_img01.jpeg)
+
+AS GOVERNMENT FIGHTERS recently launched a wave of dawn raids across Syria, it was tempting to wonder to whom they were sending a message. In Homs, a city in the west, convoys of pickup trucks carrying masked gunmen tore through the Christian quarter, detaining more than 70 suspected members of Islamic State (IS), the largest such sweep since Ahmed al-Sharaa and his supporters took power last December. But this was as much about impressing America as it was about rooting out the remnants of the jihadist group. Just 48 hours later, Mr Sharaa became the first Syrian leader to walk into the White House, where he met Donald Trump. “He comes from an extremely
+
+difficult place,” the American president later told a press conference. “I liked him, and I agree with him. We will do everything we can to make Syria successful.”
+
+After the two leaders spoke, Mr Trump said he would renew a six-month suspension of the Caesar Act, a gamut of sanctions that have strangled reconstruction in Syria. That was a priority for Syria’s interim president. But another announcement dominated reactions to the meeting: Mr Sharaa’s government would join the anti-IS coalition, American officials said.
+
+Since 2014 a multi-country military coalition has obliterated IS targets across the region from the air, helping Iraqi and Kurdish forces reclaim thousands of square miles once held by the jihadists. Until Mr Sharaa seized control, it had done so without the consent or help of the Syrian state. Bashar al-Assad, Syria’s longtime dictator, engaged in a war of annihilation with his own people, rather than fight fundamentalists. In contrast, the new president spent years fighting IS, says Aaron Zelin of the Washington Institute for Near East Policy, a think-tank. “He’s been trying to shut them down, more or less.”
+
+The full picture, however, is murkier. Mr Sharaa’s own path to power began as a fighter for al-Qaeda in Iraq, IS’s predecessor. Many of his associates in Damascus share that lineage. Syrian security units sometimes wear patches with IS insignia. Hours after his White House meeting, Mr Sharaa appeared on Fox News and declared that his al-Qaeda associations were “a matter of the past” and that Syria was ready to co-operate with America on counter- terrorism. But some in his ranks still prefer black flags to the stars and stripes.
+
+Despite years of pressure from the American-led coalition, IS continues to have a presence in Syria. The group may no longer control a caliphate, but it is capable of destabilising the newish government in Damascus. IS has exploited faultlines between Mr Sharaa’s administration and Kurdish forces in the north-east. It has mounted several attempts on his life. In June a suicide-bomber killed 25 worshippers in a Damascus church. Such attacks are getting only more common.
+
+In response, Mr Sharaa’s forces, often with American support, have launched a series of raids against IS cells. An announcement on November 10th formalised what had already become a working counter-terrorism relationship. But for a former jihadist commander, joining a coalition led by America is no easy move. His aides had hoped to unveil the deal during Mr Sharaa’s visit to the UN General Assembly in September. But he needed time to secure the backing of influential clerics. “He insisted that joining the coalition was for the good of the Syrian state,” says Jérôme Drevon, an analyst at the International Crisis Group, an NGO, who has written about Hayat Tahrir al-Sham, Mr Sharaa’s rebel group. With clerical assent still needed for key decisions, “the movement is still constrained by its past,” he continues.
+
+For now, the clerics seem to be coming onside. Twenty of them gave their blessing to Syria joining the coalition during a session of a special religious council. Abdullah al-Muhaysini, a Saudi cleric prominent in Syria’s jihadist milieu, took to social media this week to describe the coalition deal as a “political understanding, not a military alliance”; it was designed to prevent Syria’s “division”. Syria still seems unlikely to accept America’s proposal for a military base in Damascus, as has been suggested. But a security office based in the American embassy there may be possible, says a source familiar with Mr Sharaa’s thinking.
+
+Syria’s Kurds, by contrast, have reason to worry. The Syrian Democratic Forces (SDF), a militia in the north-east led by Kurds, have long been America’s preferred partner against IS. Mr Sharaa’s rapprochement with the White House may change that calculation. America may feel a sense of loyalty to the SDF for their battles over the years against IS. But the group knows that in Damascus its federal, decentralising ambitions are seen as the biggest threat to Mr Sharaa’s project.
+
+The meeting in the White House cements a pragmatic partnership between former enemies and adds to Mr Sharaa’s international stature. Better yet, it gives him a powerful stick with which to warn off rivals on his jihadist flank at home: those who refuse to fall into line may now face the wrath not only of the Syrian state but of America and its many allies.■
+
+Sign up to the Middle East Dispatch, a weekly newsletter that keeps you in the loop on a fascinating, complex and consequential part of the world.
+
+This article was downloaded by zlibrary from https://www.economist.com//middle-east-and-africa/2025/11/11/syrias-ex-jihadist- president-now-donald-trumps-new-bestie

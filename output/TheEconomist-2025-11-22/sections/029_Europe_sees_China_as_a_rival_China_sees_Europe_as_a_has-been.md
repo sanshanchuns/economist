@@ -1,0 +1,36 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">China</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Chaguan</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">Europe sees China as a rival. China sees Europe as a has-been</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">Yet China may be underestimating Europe’s willingness to push back</span>
+<span style="color:#808080; font-size:6.2pt;">November 20th 2025</span>
+
+![](../images/029_Europe_sees_China_as_a_rival_China_sees_Europe_as_a_has-been/p0126_img01.jpeg)
+
+Editor’s note (November 19th): The Dutch government has suspended controls it placed on Nexperia after talks with China’s government. But a separate court order suspending the chipmaker’s Chinese chief executive still stands. EUROPEAN LEADERS reserve some of their fiercest criticism for themselves. They are admirably blunt in diagnosing their political and economic problems, if sadly not as adept at fixing them. Yet if they are feeling especially masochistic, they should consider travelling to China. There they will find much of their own self-criticism amplified—but in harsher tones.
+
+Europeans endlessly debate how to avoid becoming trapped between America and China. For many in China that seems needless. “Europe is incapable of truly breaking free from America to become independent,” opined a scholar from Fudan University in a recent article. As for challenges to European unity, Eurocrats love to navel-gaze. In China critics go a step further. “Whether the European Union can even survive until 2035 is a question,” Zhang Weiwei, a nationalist academic, said on television in September.
+
+And these are just the public comments. In private, as Chaguan recently heard from a range of Chinese scholars, the opinions are often more scathing. Europe is a bit like an ageing concubine who cannot accept that she has been ditched by her American emperor, says one consultant. “Europe hates innovation,” says another. This disdain can sometimes seep into official affairs. A European business representative reports that on a recent visit to the Chinese foreign ministry he was greeted with a wolf- warrior-like berating—mainly, he surmised, for the sport of it.
+
+The analysis that Europe is weak and divided is not entirely wrong. But the Chinese view tends towards a caricature of Europe’s challenges, and this leads to two blind spots in China’s approach to Europe. The first is to assume that Europe largely follows America’s lead. Over the past few years many, though not all, Chinese analysts have applied this lens to the war in Ukraine. At its core they see the conflict as pitting America against Russia. From this perspective, Europe craves peace and stability, but it is brutish America that wants to prolong the war at little cost to itself in order to weaken Russia. Few reflect on why most European leaders see the war in Ukraine as a direct threat.
+
+Another example came in September when the Dutch government decided to seize control at Nexperia, a Chinese-owned, Netherlands-headquartered chipmaker—a move partially reversed in recent days after a stand-off. The Dutch could scream until blue in the face that they acted of their own volition to counter risks to their economic security, but Chinese observers would not believe it. Surely, a small country behaving so boldly must be doing America’s bidding.
+
+The other blind spot is to believe that China somehow offers Europe a way out of its problems. Chinese scholars reason that Europe, like any rational middle power, wants to find a balance between China and America. In recent weeks China’s commerce ministry has talked about restarting trade negotiations. It apparently has not given up on an investment pact that stalled in 2021 amid a row over China’s actions in Xinjiang, a region situated in the country’s north-west.
+
+Yet such pining for deals betrays insufficient recognition of the extent to which China’s economic model has become a major concern for Europe in its own right. In the past few years alone, Germany’s trade relations with China have shifted from being basically in balance to running a gargantuan deficit on track to exceed $100bn this year. European companies that long profited from the Chinese market now see it as their fiercest competitor. And although it was a response to Donald Trump’s trade war, China’s export- control regime for rare earths was as disruptive to European companies as to American ones. It was a lesson for Europe in the dangers of dependence on China.
+
+Things are getting tetchier on the diplomatic front. In June the EU scuttled an economic dialogue with China because of a lack of progress on trade disputes. In October Germany’s foreign minister, Johann Wadephul, postponed a visit to Beijing when he was not offered the usual array of high- level meetings. The Chinese, for their part, were upset that Mr Wadephul had used a speech in Japan to criticise China’s “increasingly aggressive” behaviour in Asian waters. And European officials in Beijing report that Chinese ministries have taken the unusual step of refusing démarches, or requests for formal diplomatic meetings. One European representative says that China is simply bored with Europe’s hectoring and feels able to ignore it.
+
+Indeed, China sees little reason to worry about a souring of its relations with Europe. Policy officials in Beijing seem confident that they have already outmanoeuvred Mr Trump in the trade war, and think that dispatching Europe will be even easier. What is more, China has much experience in cultivating warmer ties with individual European countries to neuter their cohesion as a bloc. These days, it has identified Hungary and, increasingly, Spain as two countries that are especially receptive to Chinese investment.
+
+Moreover, even when Europe acts, as with tariffs on Chinese electric vehicles, it remains constrained by its deep commitment to rules. Bureaucrats in Brussels do not strike fear into the hearts of the hard men in Beijing.
+
+Is China at risk of miscalculating? So long as the Ukraine war continues with China backing Russia’s pariah, Vladimir Putin, Europe’s relationship with China is unlikely to improve. Meanwhile, on trade, Europe’s views are fast evolving. A continued surge in Chinese exports could provoke Europe to take more measures—some possibly aggressive—to head off the threat. If that happens, it would be a demonstration of Europe’s stiffening backbone. But Beijing, convinced that America calls the shots, might still miss what matters: Europe’s new anger is its own. ■
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+This article was downloaded by zlibrary from https://www.economist.com//china/2025/11/17/europe-sees-china-as-a-rival-china- sees-europe-as-a-has-been
+
+Middle East & Africa
+
+Muhammad bin Salman takes a victory lap in Washington Israel may not be popular, but its weapons are For Israel a psychological reckoning is the cost of bloody victory Africa’s other debt crisis A fuel blockade shows the frightening power of Mali’s jihadists

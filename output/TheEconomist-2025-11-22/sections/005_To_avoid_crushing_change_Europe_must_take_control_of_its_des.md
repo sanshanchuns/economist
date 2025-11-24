@@ -1,0 +1,36 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Leaders</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Geopolitics</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">To avoid crushing change, Europe must take control of its destiny</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">If it does not, China will exploit the continent’s weaknesses</span>
+<span style="color:#808080; font-size:6.2pt;">November 20th 2025</span>
+
+![](../images/005_To_avoid_crushing_change_Europe_must_take_control_of_its_des/p0022_img01.jpeg)
+
+FOR DECADES the European Union took quiet comfort from the belief that it held the key to the future. True, China dominated manufacturing and America had the biggest armies, but in the realm of law and regulation the world’s superpower was in Brussels. During an era of globalisation, only the EU understood the alchemy of transmuting nation states into blocs that are greater than the sum of their parts. Today, no such comfort is to be had. China is not just dumping exports and subsidising its companies, it is also out-competing and out-innovating big European industries, including carmaking. Last year Germany’s trade deficit with China stood at €66bn ($76bn); this year it could widen to over €85bn, around 2% of GDP. Alarmingly, China is exploiting Europe’s dependence,
+
+weaponising embargoes or the threat of them in chips and rare earths. This comes as President Donald Trump has cast doubt on America’s commitment to guarantee the security of NATO. As if that were not bad enough, Mr Trump has also exploited Europe’s lingering military dependence, to impose a trade deal that Europeans hate.
+
+The EU was designed to flourish in a predictable world of rules and procedures. Today, it is caught between two snarling silverbacks asserting the law of the jungle. In talks between America and China that have big consequences for Europe’s own economy, it is being treated with contempt. If Europe is not to drift into irrelevance, it urgently needs to find a new, tough-minded way of using power.
+
+So far, this ambition is provoking two very different reactions—and unfortunately, both could backfire. In Brussels and some capitals the talk is of using trade protection and industrial policy to shore up strategic manufacturing. Some industries are indeed strategic, but the justification of national security risks everything from grain to timber being protected, which would only accelerate Europe’s decline. Even when tariffs are justified, they are a tax on Europe’s already overtaxed consumers and, as duties on electric vehicles have shown, they may not succeed on their own terms.
+
+For their part, Europe’s populist-right parties are riding a wave of dissatisfaction with the continent’s elites. Brussels, the populist leaders say, is robbing European economies of dynamism, as well as sovereignty. They believe the remedies for Europe’s lethargy lie in national capitals. Yet even if no country follows Britain out of the EU, a breakdown of co-operation in Brussels would create a toxic brew of stagnation, recrimination and fragmentation. That would lead the EU down a perilous path: in a lawless world there is strength in numbers.
+
+What, then, should Europe do? For a start, it can still gain from being the defender of rules. Even if might is right for America and China as they flout global norms, many smaller countries understand that they will benefit from a less uncertain world. The EU, by virtue of its huge market and its expertise, has convening power, especially in trade. It should set itself up as the champion of like-minded countries that want to forge ahead without
+
+America, which accounts for only 16% of global trade. Talks with India and the five members of Mercosur have until recently been agonisingly slow. Early talks with the CPTPP, whose members are natural EU allies, deserve a greater sense of urgency. Exporters in the German Mittelstand are already finding that growing markets like India and Brazil are compensating for the decline in Chinese demand.
+
+Europe can still be tough. Under trade rules it can act against Chinese dumping and subsidies. It was foolish for Europe’s carmakers to depend on a single supplier of chips—especially after seeing the harm of Germany’s reliance on Russian gas. Ursula von der Leyen, president of the commission, has promised to act after China’s rare-earth restrictions, though that will take time and money. China may retaliate against firms that stockpile components with rare earths: all the more reason to diversify suppliers fast. If need be, the EU should use its “anti-coercion instrument”, which allows countermeasures, including curbs on exports vital to China.
+
+A second task is for European countries to make better use of the power they have, by integrating their economies. The centrist parties still in office are scared that this will play into the hands of the populist right. However, inaction is a policy too, and leaders’ bickering and timidity only vindicate the complaint that the ruling elites are out of ideas and that they lack the competence that is supposed to be their selling-point.
+
+By failing to integrate, the EU is leaving a vast sum of money on the table. A single market that was designed for goods is failing to help economies dominated by services. Europe talks about deregulation with great gusto, but the urge to regulate is usually stronger. Governments have dithered over blueprints for boosting Europe’s competitiveness, notably the report produced last year by Mario Draghi, an Italian grandee, fearful that such moves will cost them influence or upset this or that interest group. And with much work to do on integrating financial services and energy markets, politicians should resist the voguish fetish for manufacturing. Deindustrialisation is not an idle concern, but factory jobs would be falling even without Chinese competition.
+
+To be most effective, these measures will require reform at home. Welfare is too expensive and bureaucracies too inefficient. Growth and competitiveness
+
+are hampered by regulation. Planning is often too vulnerable to challenge. The cost of energy is a tax on manufacturers.
+
+To many people in Brussels, all this will sound like an impossibly tall order. It is easy to say what needs doing, but hard to overcome the barriers to 27 independent countries acting in concert. That leads to Europe’s last and perhaps the greatest task. Awake to the threat, its leaders need to persuade their voters that change is coming one way or another. Either Europe grabs hold of its own destiny or China and America will force crushing change upon it. The choice is Europe’s. ■
+
+For subscribers only: to see how we design each week’s cover, sign up to our weekly Cover Story newsletter.
+
+This article was downloaded by zlibrary from https://www.economist.com//leaders/2025/11/20/to-avoid-crushing-change-europe-must- take-control-of-its-destiny

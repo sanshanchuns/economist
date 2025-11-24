@@ -1,0 +1,28 @@
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Business</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| Bartleby</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">When companies lose their way</span>
+<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">Refounding is the process of rediscovering a firm’s essential character</span>
+<span style="color:#808080; font-size:6.2pt;">November 20th 2025</span>
+
+![](../images/055_When_companies_lose_their_way/p0228_img01.jpeg)
+
+On Elliott Hill’s first day on the job as chief executive of Nike, in October 2024, he gave a presentation to his staff. His opening slide had two things written on it. One was that Nike was a sports company. Mr Hill, who began his career as an intern at the firm, reckons that it had lost its obsession with sport. Nike had its origins on the running tracks of Oregon in the 1960s; refocusing on athletes, the secret to its prior success, is at the heart of the CEO’s turnaround strategy. At around the same time as Mr Hill was starting his job, another new chief executive, Brian Niccol of Starbucks, was also resetting the direction of a big, struggling brand. In an open letter published during his first week, Mr Niccol announced his plans to get “Back to Starbucks”. “There’s a shared
+
+sense that we have drifted from our core,” he wrote. His goal is to make the coffee chain less transactional, a place where people want to gather and linger as well as watch queue-jumpers grab mobile orders.
+
+This back-to-the-future strategy—returning a company that has lost its way to the values and strategy that had made it successful—is very common. So common, in fact, that Jon Iwata of the Yale School of Management has given it a name: “refounding”. Mr Iwata says that individual decisions to move into a new market or launch a new product can be completely rational: Starbucks’ mobile-ordering system was a boon during the pandemic, for example. But the cumulative effect of such decisions can be to pull a company badly off course.
+
+Sometimes, the refounder is an actual founder. When Steve Jobs made his return to Apple in 1997, his diagnosis was that the firm had stopped doing the basics well; among other things, he slashed the product range. Before Mr Niccol’s elevation, Howard Schultz, the man who built Starbucks, had made more comebacks than a stand-up comedian.
+
+But often, as in the case of Messrs Hill and Niccol, it is a fresh face who is appealing to old values. Kelly Ortberg, the newish CEO of Boeing, is trying to restore the aerospace company’s badly dented reputation for engineering excellence; one of his first moves was a literal one, to Seattle, where the firm’s commercial airlines are made. In the early 2000s, Lego moved its product line away from the brick, the very thing that made it Lego, and paid a heavy price; a non-family-member CEO was the one to return it to its core.
+
+Firms cannot stand still, of course: hence the second statement on Mr Hill’s opening slide last year, that Nike is also a growth company. Bosses don’t survive for long with an attitude of everything is just dandy. Executives with their eye on the top job have to say what they would change as well as what they would keep. Mark Thompson, a coach and co-author of a new book called “CEO Ready”, recommends that during an appointment process, inside candidates for the top job write an activist-style letter in order to get the board focused on a firm’s weak spots. This ceaseless pressure to grow means that over time, it is easy for firms to drift away from their core activities.
+
+The trick, therefore, is to grow in a way that is consistent with what makes a firm special. One way to do this is to articulate a firm’s essential character, against which strategies can be judged. Defining a company by its products risks being too constraining. Netflix shipped 5.2bn DVDs in total from its founding in 1997 to the closure of the business in 2023, but did not fixate on them as the only way to distribute films.
+
+Purpose statements risk going too far the other way: they can often end up being a soufflé of meaningless words about excellence and innovation. Mr Iwata’s own definition of organisational character is meatier: a mixture of an enduring need and a distinctive capability. Disney, for example, found success by satisfying consumers’ enduring need for escapism through a distinctive ability to create immersive worlds.
+
+Refounding moments are not always necessary. Some firms were completely right to escape their roots: Samsung started out selling noodles and probably should not get back into that business. And any definition of what makes a company special is subject to retrospective wisdom: firms that do well must have retained their essence and firms that stumble must have lost sight of theirs. But the frequency with which firms are lost and refounded is still a useful reminder to bosses—that it never hurts to codify what a company is really good at, and to use that as a guidepost for big decisions. ■
+
+Subscribers to The Economist can sign up to our Opinion newsletter, which brings together the best of our leaders, columns, guest essays and reader correspondence.
+
+<span style="color:#808080; font-size:6.2pt;">This article was downloaded by zlibrary from [https://www.economist.com//business/2025/11/20/when-companies-lose-their-way](https://www.economist.com//business/2025/11/20/when-companies-lose-their-way)</span>

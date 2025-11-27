@@ -4,11 +4,14 @@
 标注风格视觉优化脚本
 
 功能：
-1. 给单词解析部分加上统一的头部"标注"
-2. 每个单词加粗（确保格式正确）
-3. 音标弱化，使用更淡的灰色
-4. 每个单词解析末尾统一加上网页换行符<br>
-5. 每个单词在原文段落中加粗、加下划线，字体颜色使用莫兰迪红色（#A24C4A）
+1. 恢复标题样式（参考76风格）
+2. 给单词解析部分加上统一的头部"备注"
+3. 每个单词加粗（确保格式正确）
+4. 音标弱化，使用更淡的灰色
+5. 每个单词解析末尾统一加上网页换行符<br>
+6. 每个单词在原文段落中加粗、加下划线，字体颜色使用莫兰迪红色（#A24C4A）
+7. 合并备注（词汇解析和句子成分解析在一个备注下）
+8. 自动将句子成分解析中的"第一句"、"第二句"等替换为直接引用原英文句子
 """
 
 import re
@@ -227,10 +230,99 @@ def process_vocabulary_entry(line):
     return line
 
 
+def split_paragraph_into_sentences(paragraph):
+    """将段落分割成句子"""
+    # 移除HTML标签
+    clean_para = re.sub(r'<[^>]+>', '', paragraph)
+    # 按句号、问号、感叹号分割句子
+    sentences = re.split(r'([.!?]+)', clean_para)
+    # 合并句子和标点
+    merged = []
+    for i in range(0, len(sentences) - 1, 2):
+        if i + 1 < len(sentences):
+            merged.append((sentences[i] + sentences[i + 1]).strip())
+    return [s for s in merged if s]
+
+
+def restore_title_styles(content):
+    """恢复标题样式（参考76风格）"""
+    lines = content.split('\n')
+    result_lines = []
+    i = 0
+    
+    # 检查前几行是否是标题
+    while i < len(lines) and i < 5:
+        line = lines[i]
+        stripped = line.strip()
+        
+        # 检查是否已经有正确的HTML格式
+        if '<span style="color:#E3120B' in stripped or '<span style="color:#000000; font-size:21.0pt' in stripped:
+            # 已经有格式，保持原样
+            result_lines.append(line)
+            i += 1
+            continue
+        
+        # 检测标题行（第一行）
+        if i == 0:
+            # 移除已有的HTML标签和<br/>标签
+            clean_line = re.sub(r'<[^>]+>', '', stripped)
+            clean_line = clean_line.replace('<br/>', '').strip()
+            
+            # 检查是否是标题行
+            if 'Leaders' in clean_line and '|' in clean_line:
+                # 第一行是栏目+子栏目
+                parts = clean_line.split('|', 1)
+                if len(parts) == 2:
+                    section = parts[0].strip()
+                    subsection = parts[1].strip()
+                    # 移除subsection中的高亮标签（如果有）
+                    subsection = re.sub(r'<[^>]+>', '', subsection).strip()
+                    result_lines.append(f'<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">{section}</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| {subsection}</span>')
+                    i += 1
+                    # 继续读取下一行（主标题）
+                    if i < len(lines):
+                        next_line = lines[i].strip()
+                        clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
+                        if 'The rise of' in clean_next or clean_next[0].isupper():
+                            result_lines.append(f'<span style="color:#000000; font-size:21.0pt; font-weight:bold;">{clean_next}</span>')
+                            i += 1
+                            # 继续读取副标题和日期
+                            if i < len(lines):
+                                next_line = lines[i].strip()
+                                clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
+                                # 检查是否是副标题（通常比较短，且不是日期）
+                                if clean_next and len(clean_next) < 50 and 'November' not in clean_next and not clean_next[0].isdigit():
+                                    # 可能是副标题
+                                    if 'In good ways' in clean_next or ('In' in clean_next and 'ways' in clean_next) or (clean_next[0].isupper() and len(clean_next.split()) < 10):
+                                        result_lines.append(f'<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">{clean_next}</span>')
+                                        i += 1
+                                # 如果下一行是日期
+                                if i < len(lines):
+                                    next_line = lines[i].strip()
+                                    clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
+                                    if 'November' in clean_next:
+                                        result_lines.append(f'<span style="color:#808080; font-size:6.2pt;">{clean_next}</span>')
+                                        i += 1
+                            continue
+        
+        result_lines.append(line)
+        i += 1
+    
+    # 添加剩余的行
+    while i < len(lines):
+        result_lines.append(lines[i])
+        i += 1
+    
+    return '\n'.join(result_lines)
+
+
 def process_file(file_path):
     """处理整个文件"""
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
+    
+    # 恢复标题样式
+    content = restore_title_styles(content)
     
     # 先清理已经存在的灰色span标签（在词汇条目中的）
     # 递归清理所有嵌套的灰色span标签
@@ -327,6 +419,208 @@ def process_file(file_path):
     # 处理所有div块
     content = re.sub(div_pattern, process_div, content, flags=re.DOTALL)
     
+    # 处理直接使用Markdown格式的词汇条目（不在div标签内）
+    # 使用逐行处理的方式，合并词汇和句子成分解析到一个备注中
+    lines = content.split('\n')
+    result_lines = []
+    i = 0
+    
+    # 找到前一个英文段落，用于句子成分解析时引用原英文
+    def find_previous_english_paragraph(lines, current_index):
+        """找到当前索引之前的最后一个英文段落"""
+        for j in range(current_index - 1, -1, -1):
+            line = lines[j].strip()
+            # 跳过空行、备注、图片等
+            if not line or \
+               line.startswith('<p style') or \
+               line.startswith('**') or \
+               line.startswith('- ') or \
+               line.startswith('![') or \
+               line.startswith('<span') or \
+               line.startswith('</span>') or \
+               any(tag in line for tag in ['<div', '</div>', '<strong', '<em']):
+                continue
+            # 如果是英文段落（以大写字母开头）
+            if line and line[0].isupper():
+                return line
+        return None
+    
+    while i < len(lines):
+        line = lines[i]
+        stripped = line.strip()
+        
+        # 跳过Markdown格式的备注标题
+        if stripped.startswith('**备注**') or stripped.startswith('**备注**：'):
+            i += 1
+            continue
+        
+        # 检测词汇条目块的开始（- **word**格式，且不在div标签内）
+        if (stripped.startswith('- **') and
+            not any(tag in line for tag in ['<div', '</div>', '<span', '</span>']) and
+            ('/' in stripped or '"' in stripped or '：' in stripped)):
+            # 收集词汇条目
+            vocab_block_lines = []
+            vocab_block_lines.append(line)
+            i += 1
+            
+            # 继续收集词汇条目，直到遇到非词汇条目或句子成分解析
+            while i < len(lines):
+                next_line = lines[i]
+                next_stripped = next_line.strip()
+                
+                # 如果遇到句子成分解析，结束词汇块收集
+                if next_stripped.startswith('**句子成分解析**'):
+                    break
+                # 如果是词汇条目（包含音标标记/或中文引号"），继续收集
+                elif (next_stripped.startswith('- **') and ('/' in next_stripped or '"' in next_stripped or '：' in next_stripped)) or \
+                     (next_stripped.startswith('- ') and ('/' in next_stripped or '"' in next_stripped or '：' in next_stripped)):
+                    vocab_block_lines.append(next_line)
+                    i += 1
+                # 如果遇到空行或非词汇条目，结束词汇块
+                elif not next_stripped or not next_stripped.startswith('- '):
+                    break
+                else:
+                    break
+            
+            # 收集句子成分解析部分
+            sentence_analysis_lines = []
+            if i < len(lines) and lines[i].strip().startswith('**句子成分解析**'):
+                # 跳过句子成分解析标题
+                i += 1
+                # 收集句子成分解析内容，直到遇到新的段落或备注
+                while i < len(lines):
+                    next_line = lines[i]
+                    next_stripped = next_line.strip()
+                    
+                    # 如果遇到新的备注标题或新的段落，结束收集
+                    if (next_stripped.startswith('<p style') and '备注</p>' in next_stripped) or \
+                       (next_stripped.startswith('**句子成分解析**')) or \
+                       (next_stripped and next_stripped[0].isupper() and not next_stripped.startswith('-') and not next_stripped.startswith('**')):
+                        break
+                    # 如果遇到新的词汇条目块，结束收集
+                    if (next_stripped.startswith('- **') and 
+                        ('/' in next_stripped or '"' in next_stripped or '：' in next_stripped)):
+                        break
+                    
+                    sentence_analysis_lines.append(next_line)
+                    i += 1
+            
+            # 处理词汇块和句子成分解析，合并到一个备注中
+            processed_content = []
+            has_header = False
+            
+            # 处理词汇条目
+            for vocab_line in vocab_block_lines:
+                vocab_stripped = vocab_line.strip()
+                if not vocab_stripped:
+                    continue
+                
+                if (vocab_stripped.startswith('- **') or vocab_stripped.startswith('- <strong>') or 
+                    (vocab_stripped.startswith('- ') and ('：' in vocab_stripped or ':' in vocab_stripped or '/' in vocab_stripped or '"' in vocab_stripped))):
+                    if not has_header:
+                        processed_content.append('<p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>')
+                        has_header = True
+                    
+                    processed_line = process_vocabulary_entry(vocab_line)
+                    processed_content.append(processed_line)
+            
+            # 处理句子成分解析，将"第一句"、"第二句"等改为直接引用原英文
+            if sentence_analysis_lines:
+                # 找到前一个英文段落
+                prev_paragraph = find_previous_english_paragraph(lines, i - len(sentence_analysis_lines) - 1)
+                
+                # 将段落分割成句子
+                sentences = []
+                if prev_paragraph:
+                    sentences = split_paragraph_into_sentences(prev_paragraph)
+                
+                # 处理句子成分解析，替换"第一句"、"第二句"等为原英文
+                for sent_line in sentence_analysis_lines:
+                    sent_stripped = sent_line.strip()
+                    if not sent_stripped:
+                        continue
+                    
+                    # 匹配格式：- <strong><em>第二句</em></strong><span style="color:#999999;">：...</span>
+                    def replace_sentence_ref(match):
+                        full_match = match.group(0)
+                        sentence_num = match.group(1)  # "第一句"、"第二句"等
+                        # 获取span标签内的内容（如果有）
+                        if len(match.groups()) > 1:
+                            span_tag = match.group(2) if match.group(2) else ''
+                            # 提取span标签内的文本内容
+                            span_content_match = re.search(r'<span[^>]*>(.*?)</span>', span_tag, re.DOTALL)
+                            if span_content_match:
+                                rest_content = span_content_match.group(1)
+                            else:
+                                rest_content = span_tag
+                        else:
+                            rest_content = ''
+                        
+                        # 从原英文段落中提取对应的句子
+                        if sentences:
+                            # 提取数字（第一句=1，第二句=2，等等）
+                            num_map = {'一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+                                      '十一': 11, '十二': 12, '十三': 13, '十四': 14, '十五': 15}
+                            
+                            # 尝试匹配中文数字
+                            for num_str, num_val in num_map.items():
+                                if num_str in sentence_num:
+                                    idx = num_val - 1
+                                    if 0 <= idx < len(sentences):
+                                        original_sentence = sentences[idx].strip()
+                                        # 移除可能的高亮标签
+                                        original_sentence = re.sub(r'<span[^>]*>', '', original_sentence)
+                                        original_sentence = re.sub(r'</span>', '', original_sentence)
+                                        # 如果句子太长，截取前150个字符
+                                        if len(original_sentence) > 150:
+                                            original_sentence = original_sentence[:150] + '...'
+                                        return f'- <strong><em>{original_sentence}</em></strong><span style="color:#999999;">：{rest_content}</span><br/>'
+                            
+                            # 如果无法解析数字，使用第一个句子
+                            if len(sentences) > 0:
+                                original_sentence = sentences[0].strip()
+                                original_sentence = re.sub(r'<span[^>]*>', '', original_sentence)
+                                original_sentence = re.sub(r'</span>', '', original_sentence)
+                                if len(original_sentence) > 150:
+                                    original_sentence = original_sentence[:150] + '...'
+                                return f'- <strong><em>{original_sentence}</em></strong><span style="color:#999999;">：{rest_content}</span><br/>'
+                        
+                        # 如果找不到原英文，保持原样
+                        return full_match
+                    
+                    # 匹配并替换（处理已处理的HTML格式）
+                    sent_line = re.sub(
+                        r'- <strong><em>([^<]+?句)</em></strong>(<span style="color:#999999;">.*?</span>)(<br/>|$)',
+                        replace_sentence_ref,
+                        sent_line,
+                        flags=re.DOTALL
+                    )
+                    # 匹配Markdown格式（未处理的格式）
+                    sent_line = re.sub(
+                        r'- \*\*([^*]+?句)\*\*(.*?)(<br/>|$)',
+                        replace_sentence_ref,
+                        sent_line,
+                        flags=re.DOTALL
+                    )
+                    
+                    processed_content.append(sent_line)
+            
+            if processed_content:
+                # 用span包裹所有内容（不包括备注标题）
+                if len(processed_content) > 1:
+                    result_lines.append(processed_content[0])  # 备注标题
+                    result_lines.append('<span style="font-size:0.8em;">')
+                    result_lines.extend(processed_content[1:])
+                    result_lines.append('</span>')
+                else:
+                    result_lines.extend(processed_content)
+        else:
+            # 非词汇条目，直接添加
+            result_lines.append(line)
+            i += 1
+    
+    content = '\n'.join(result_lines)
+    
     # 后处理：为备注部分添加字体大小设置
     # 匹配备注标题和后续的词汇条目，用span包裹并设置字体大小
     def add_font_size_to_notes(match):
@@ -392,6 +686,37 @@ def process_file(file_path):
     
     # 后处理：将所有<br>标签替换为<br/>
     content = re.sub(r'<br>', r'<br/>', content)
+    
+    # 后处理：确保图片引用的上一行和当前行末尾都有<br/>标签
+    def fix_image_br_tags(text):
+        """确保图片引用的上一行和当前行末尾都有<br/>标签"""
+        lines = text.split('\n')
+        result_lines = []
+        
+        for i, line in enumerate(lines):
+            # 检查是否是图片引用行（markdown格式或HTML格式）
+            is_image_line = bool(re.search(r'!\[[^\]]*\]\([^\)]+\)', line) or re.search(r'<img[^>]*>', line))
+            
+            if is_image_line:
+                # 检查上一行是否有<br/>标签
+                if i > 0:
+                    prev_line = result_lines[-1] if result_lines else ''
+                    # 如果上一行存在且不以<br/>结尾，则添加
+                    if prev_line and not prev_line.rstrip().endswith('<br/>'):
+                        # 移除上一行末尾的换行符（如果有），然后添加<br/>
+                        result_lines[-1] = prev_line.rstrip() + '<br/>'
+                
+                # 检查当前行末尾是否有<br/>标签
+                if not line.rstrip().endswith('<br/>'):
+                    # 移除行尾空白，添加<br/>
+                    line = line.rstrip() + '<br/>'
+            
+            result_lines.append(line)
+        
+        return '\n'.join(result_lines)
+    
+    # 应用图片<br/>标签修复
+    content = fix_image_br_tags(content)
     
     # 后处理：在markdown格式的图片后的<br/>标签后添加<p>标签（缩小空行间距）
     # 先清理可能已经存在的<p>标签（在图片和<br/>之间的，或在<br/>之后的，包括多个<p>标签）
@@ -463,49 +788,117 @@ def process_file(file_path):
     )
     
     # 在原文段落中高亮所有词汇
-    # 先提取所有词汇
+    # 先提取所有词汇（从所有词汇条目中，不仅仅是div中的）
     all_words = []
-    div_matches = re.finditer(div_pattern, content, flags=re.DOTALL)
-    for match in div_matches:
-        div_content = match.group(2)
-        words = extract_vocabulary_words(div_content)
-        all_words.extend(words)
+    
+    # 从已处理的内容中提取词汇（匹配格式：- <strong><em>word</em></strong> 或 - **word**）
+    vocab_pattern1 = r'- <strong><em>([^<]+)</em></strong>'
+    vocab_pattern2 = r'- \*\*([^*]+)\*\*'
+    vocab_pattern3 = r'- <strong>([^<]+)</strong>'
+    
+    matches1 = re.findall(vocab_pattern1, content)
+    matches2 = re.findall(vocab_pattern2, content)
+    matches3 = re.findall(vocab_pattern3, content)
+    all_words = matches1 + matches2 + matches3
+    
+    # 过滤掉句子成分解析中引用的原英文句子（这些是长句子，不是单词）
+    # 真正的词汇通常不超过50个字符，且不包含句号、问号、感叹号
+    filtered_words = []
+    for word in all_words:
+        # 移除HTML标签和空格
+        clean_word = re.sub(r'<[^>]+>', '', word).strip()
+        # 如果包含句号、问号、感叹号，说明是句子引用，跳过
+        if '.' in clean_word or '?' in clean_word or '!' in clean_word:
+            continue
+        # 如果长度超过50个字符，可能是句子引用，跳过
+        if len(clean_word) > 50:
+            continue
+        # 如果包含"句"字，说明是句子引用标记，跳过
+        if '句' in clean_word:
+            continue
+        filtered_words.append(word)
+    
+    all_words = filtered_words
     
     # 去重并排序（长的先匹配，避免部分匹配问题）
     all_words = sorted(set(all_words), key=len, reverse=True)
     
-    # 在原文段落中高亮词汇（排除div内的内容和HTML标签内的内容）
+    # 在原文段落中高亮词汇（排除备注部分和HTML标签内的内容）
     def highlight_in_paragraphs(text):
-        # 分割文本，分别处理div内和div外的内容
-        parts = []
-        last_pos = 0
+        """在所有英文段落中高亮词汇，排除备注部分"""
+        # 先找到所有需要高亮的区域（英文段落）
+        # 排除备注部分、图片、HTML标签等
         
-        # 找到所有div的位置
-        div_matches = list(re.finditer(div_pattern, text, flags=re.DOTALL))
+        # 使用更智能的方法：识别英文段落（即使被HTML标签包裹）
+        # 匹配英文段落：以大写字母开头，包含英文单词和标点，可能被HTML标签包裹
         
-        for i, match in enumerate(div_matches):
-            # 处理div之前的内容
-            before = text[last_pos:match.start()]
+        # 先处理整个文本，找到所有英文段落
+        # 英文段落特征：
+        # 1. 包含英文单词（至少3个字母）
+        # 2. 以大写字母开头（在HTML标签之后）
+        # 3. 不是备注部分、不是图片、不是列表项
+        
+        lines = text.split('\n')
+        result_lines = []
+        i = 0
+        
+        while i < len(lines):
+            line = lines[i]
+            stripped = line.strip()
             
-            # 只处理不在HTML标签内的文本
-            # 使用更智能的方法：先标记所有HTML标签，然后只替换标签外的文本
-            for word in all_words:
-                before = highlight_word_in_text(before, word)
+            # 跳过备注部分（包括备注标题和词汇条目）
+            if (stripped.startswith('<p style="') and '备注</p>' in stripped) or \
+               (stripped.startswith('**句子成分解析**')) or \
+               (stripped.startswith('- <strong><em>') or stripped.startswith('- <strong>') or 
+                (stripped.startswith('- ') and ('：' in stripped or ':' in stripped or '/' in stripped or '"' in stripped))) or \
+               (stripped.startswith('<span style="font-size:0.8em;">')) or \
+               (stripped.startswith('</span>') and i > 0 and '备注' in lines[i-1]) or \
+               stripped.startswith('![') or \
+               stripped.startswith('<img'):
+                result_lines.append(line)
+                i += 1
+                continue
             
-            parts.append(before)
+            # 跳过句子成分解析中引用的原英文句子（这些是长句子，不是单词）
+            # 检查是否是句子成分解析中的原英文引用（以- <strong><em>开头，且包含句号、问号或感叹号）
+            if stripped.startswith('- <strong><em>') and ('.' in stripped or '?' in stripped or '!' in stripped):
+                # 这是句子成分解析中的原英文引用，不应该被高亮
+                result_lines.append(line)
+                i += 1
+                continue
             
-            # 保留div内容不变
-            parts.append(match.group(0))
-            last_pos = match.end()
+            # 检查是否是英文段落
+            # 移除HTML标签后检查
+            clean_line = re.sub(r'<[^>]+>', '', line)
+            clean_stripped = clean_line.strip()
+            
+            # 检查是否是英文段落：
+            # 1. 以大写字母开头
+            # 2. 包含至少一个英文单词（3个或更多字母）
+            # 3. 不是空行
+            # 4. 不是列表项（不以-开头）
+            is_english_paragraph = False
+            if clean_stripped and \
+               clean_stripped[0].isupper() and \
+               not clean_stripped.startswith('-') and \
+               re.search(r'\b[A-Za-z]{3,}\b', clean_stripped) and \
+               not any(tag in stripped for tag in ['<p style="', '<span style="font-size:0.8em']):
+                is_english_paragraph = True
+            
+            if is_english_paragraph:
+                # 这是英文段落，需要高亮其中的词汇
+                # 但需要避免在已有的高亮标签内再次高亮
+                highlighted_line = line
+                for word in all_words:
+                    highlighted_line = highlight_word_in_text(highlighted_line, word)
+                result_lines.append(highlighted_line)
+            else:
+                # 其他行直接添加
+                result_lines.append(line)
+            
+            i += 1
         
-        # 处理最后一部分
-        if last_pos < len(text):
-            after = text[last_pos:]
-            for word in all_words:
-                after = highlight_word_in_text(after, word)
-            parts.append(after)
-        
-        return ''.join(parts)
+        return '\n'.join(result_lines)
     
     content = highlight_in_paragraphs(content)
     

@@ -4,7 +4,7 @@
 <span style="color:#808080; font-size:6.2pt;">November 20th 2025</span><br/>
 ![](../images/058_Economists_get_cold_feet_about_high_minimum_wages/p0240_img01.jpeg)<br/>
 <p style="margin:0; padding:0; line-height:0;"></p>
-
+<br/>
 IN THE BARRIO of Iztapalapa, on Mexico City's eastern flank, the pavements stay busy even in the punishing afternoon sun. Street vendors hawk snacks from metal carts; waiters from corner taquerías weave between tables and traffic; cashiers in the ubiquitous convenience stores ring up a steady stream of small purchases. Young adults in knock-off sportswear mingle with stooped, gap-toothed old folk. Outside a private-security firm, a sun-bleached façade is plastered with notices advertising for security guards at the legal minimum rate of 278.8 pesos ($15.20) per day. Life in Iztapalapa can be hard. But for many workers it might have been worse without the striking recent increases in the minimum wage. Between<br/>
 2014 and 2024 it doubled relative to median pay, from 37% of the middle income to 74%. It is the most extreme example of a worldwide trend, encompassing places far richer than Mexico. Over the same period Britain has increased its minimum wage from 47% to 61% of median earnings. South Korea's ratio has followed a similar trajectory. Germany introduced its first minimum wage in 2015; it is now worth 51% of median pay. New Zealand's pay floor is almost at Mexican levels, relative to its much higher incomes.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
@@ -36,10 +36,10 @@ America's federal minimum wage, of $7.25 an hour, was last changed in 2009. Yet 
 - <strong><em>effective</em></strong><span style="color:#999999;">：/[ɪˈfektɪv]/ "有效的、实际的"；文中用来表达实际最低工资，强调覆盖平均工人的工资底限；指有效的或实际的。</span><br/>
 - <strong><em>mayor-elect</em></strong><span style="color:#999999;">：/[meə ɪˈlekt]/ "当选市长"；文中用来表达当选市长，强调Mamdani的身份；mayor指市长，elect指当选的。</span><br/>
 - <strong><em>pledge</em></strong><span style="color:#999999;">：/[pledʒ]/ "承诺、誓言"；文中用来表达承诺，强调Mamdani的计划；指承诺或誓言。</span><br/>
-</span>
+</span><br/>
 ![](../images/058_Economists_get_cold_feet_about_high_minimum_wages/p0241_img01.jpeg)<br/>
 <p style="margin:0; padding:0; line-height:0;"></p>
-
+<br/>
 Governments' embrace of high minimum wages is not a fad. It reflects the favourable attitude of many economists towards the policy since the turn of the century. Unfortunately, just as minimum wages are reaching new heights, the scholarly tide is turning again. The latest research suggests minimum wages may have nasty side-effects after all.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
 <span style="font-size:0.8em;">- <strong><em>embrace</em></strong><span style="color:#999999;">：/[ɪmˈbreɪs]/ "拥抱、接受"；文中用来表达接受高最低工资，强调政府的政策；指拥抱或接受。</span><br/>
@@ -63,10 +63,10 @@ That "little" got smaller and smaller over time—as a database of research main
 - <strong><em>think-tank</em></strong><span style="color:#999999;">：/[θɪŋk tæŋk]/ "智库"；文中用来表达智库，强调经济政策研究所的性质；固定短语，指智库或智囊团。</span><br/>
 - <strong><em>literature</em></strong><span style="color:#999999;">：/[ˈlɪtərɪtʃə]/ "文献"；文中用来表达文献，强调研究文献的发现；指文献或文学作品。</span><br/>
 - <strong><em>decline</em></strong><span style="color:#999999;">：/[dɪˈklaɪn]/ "下降"；文中用来表达就业下降，强调最低工资的影响；指下降或衰退。</span><br/>
-</span>
+</span><br/>
 ![](../images/058_Economists_get_cold_feet_about_high_minimum_wages/p0242_img01.jpeg)<br/>
 <p style="margin:0; padding:0; line-height:0;"></p>
-
+<br/>
 Sceptics disputed the "new" literature, claiming it was statistically flawed. "There is no consensus on the employment effects of the minimum wage," summarised Alan Manning of the London School of Economics in 2021, even if the effect is "elusive". (One earlier study found that support for minimum wages rose with physical distance from Chicago, the home of free-market economics.) But the pro-minimum-wage group had the ear of policymakers, who jumped at the chance to fight inequality without spending money. A review for the British government, written in 2019 by Mr Dube, concluded that "research from...developed countries points to a very muted effect of minimum wages on employment". Sure enough, the higher minimum wages of the 2010s coincided with a jobs boom in which the employment rates of prime-age workers in the rich world hit all-time highs (see chart 2).<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
 <span style="font-size:0.8em;">- <strong><em>Sceptics</em></strong><span style="color:#999999;">：/[ˈskeptɪks]/ "怀疑者"；文中用来表达怀疑者，强调对"新"文献的质疑；由sceptic（怀疑者）加-s构成。</span><br/>

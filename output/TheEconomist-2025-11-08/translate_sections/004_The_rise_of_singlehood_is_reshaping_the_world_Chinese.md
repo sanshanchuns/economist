@@ -1,97 +1,218 @@
-<span style="color:#E3120B; 14.9pt; font-weight:bold">Leaders</span> <span style="color:#000000; 14.9pt; font-weight:bold">| The great relationship recession</span>
-<span style="color:#000000; 21.0pt; font-weight:bold">The rise of singlehood is reshaping the world</span>
-<span style="color:#808080; 14.9pt; font-weight:bold; font-style:italic">In good ways and bad</span>
-<span style="color:#808080; 6.2pt">November 6th 2025</span><br/>
+<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">Leaders</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| The great relationship recession</span>
+<span style="color:#000000; font-size:21.0pt; font-weight:bold;">The rise of singlehood is reshaping the world</span>
+<span style="color:#808080; font-size:6.2pt;">November 6th 2025</span><br/>
 ![](../images/004_The_rise_of_singlehood_is_reshaping_the_world/p0018_img01.jpeg)<br/>
 <p style="margin:0; padding:0; line-height:0;"></p>
-For most of human history, <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">coupling up</span> was not merely a norm; it was a necessity. Before reliable <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">contraception</span>, women could not control their <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">fertility</span>, and most were far too poor to raise children alone. Hence the centuries-old convention that, whereas a tragic play or <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">saga</span> ends in death, a happy one ends in marriage. So the speed with which the norm of marriage—indeed, of relationships of any sort—is being abandoned is <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">startling</span>. Throughout the rich world, <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">singlehood</span> is on the rise. Among Americans aged 25-34, the proportion living without a <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">spouse</span> or partner has doubled in five decades, to 50% for men and 41% for women. Since 2010, the share of people living alone has risen in 26 out of 30 rich countries. By The Economist's calculation, the world has at least 100m more single people today than if coupling rates were still as high as in 2017. A great relationship <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">recession</span> is under way.<br/>
+
+For most of human history, <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">coupling up</span> was not merely a norm; it was a necessity. Before reliable <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">contraception</span>, women could not control their <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">fertility</span>, and most were far too poor to raise children alone. Hence the centuries-old convention that, whereas a tragic play or <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">saga</span> ends in death, a happy one ends in marriage. So the speed with which the norm of marriage—indeed, of relationships of any sort—is being abandoned is <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">startling</span>. Throughout the rich world, <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">singlehood</span> is on the rise. Among Americans aged 25-34, the proportion living without a <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">spouse</span> or partner has doubled in five decades, to 50% for men and 41% for women. Since 2010, the share of people living alone has risen in 26 out of 30 rich countries. By The Economist's calculation, the
+world has at least 100m more single people today than if coupling rates were still as high as in 2017. A great relationship recession is under way.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>coupling up</em></strong><span style="color:#999999;">："配对、结合"；文中用来表达建立恋爱或婚姻关系，强调在历史上这不仅是社会规范（norm），更是生存必需（necessity）。</span><br/>
-- <strong><em>contraception</em></strong><span style="color:#999999;">：[ˌkɒntrəˈsepʃən]/ "避孕"；文中用来表达可靠的避孕方法，说明这是女性能够控制生育的前提条件，是历史转折的关键因素；由contra-（反）和conception（受孕）构成。</span><br/>
-- <strong><em>fertility</em></strong><span style="color:#999999;">：[fəˈtɪlɪti]/ "生育能力"；文中用来表达女性无法控制自己是否怀孕的能力，强调历史条件下女性缺乏生育自主权，必须依赖婚姻；形容词形式是fertile（肥沃的、能生育的）。</span><br/>
-- <strong><em>saga</em></strong><span style="color:#999999;">：[ˈsɑːɡə]/ "传奇故事"；文中用来表达传统故事类型，与tragic play（悲剧）形成对比，说明传统叙事中婚姻是幸福结局的标志，体现历史惯例；源自北欧传说，现泛指长篇故事。</span><br/>
-- <strong><em>startling</em></strong><span style="color:#999999;">：[ˈstɑːtlɪŋ]/ "令人震惊的"；文中用来表达婚姻被抛弃的速度之快，强调这一社会变化的突然性和显著性。</span><br/>
-- <strong><em>singlehood</em></strong><span style="color:#999999;">：[ˈsɪŋɡəlhʊd]/ "单身状态"；文中用来表达不处于恋爱或婚姻关系的状态，强调单身作为一种社会现象正在上升；由single（单身）加后缀-hood（状态）构成，类似childhood（童年）。</span><br/>
-- <strong><em>spouse</em></strong><span style="color:#999999;">：[spaʊs]/ "配偶"；文中用来表达丈夫或妻子，正式用语，强调统计中无配偶或伴侣生活的比例。</span><br/>
-- <strong><em>recession</em></strong><span style="color:#999999;">：[rɪˈseʃən]/ "衰退"；文中用来比喻恋爱和婚姻关系的减少，类似经济衰退的概念，强调关系市场的萎缩。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>coupling up</em></strong><span style="color:#999999;">：/[ˈkʌplɪŋ ʌp]/ "配对、结合"；文中用来表达建立恋爱或婚姻关系，强调在历史上这不仅是社会规范，更是生存必需；固定短语，couple指配对，up表示完成。</span><br/>
+- <strong><em>contraception</em></strong><span style="color:#999999;">：/[ˌkɒntrəˈsepʃən]/ "避孕"；文中用来表达可靠的避孕方法，说明这是女性能够控制生育的前提条件，是历史转折的关键因素；由contra-（反）和conception（受孕）构成。</span><br/>
+- <strong><em>fertility</em></strong><span style="color:#999999;">：/[fəˈtɪlɪti]/ "生育能力"；文中用来表达女性无法控制自己是否怀孕的能力，强调历史条件下女性缺乏生育自主权，必须依赖婚姻；形容词形式是fertile（肥沃的、能生育的）。</span><br/>
+- <strong><em>saga</em></strong><span style="color:#999999;">：/[ˈsɑːɡə]/ "传奇故事"；文中用来表达传统故事类型，与tragic play（悲剧）形成对比，说明传统叙事中婚姻是幸福结局的标志，体现历史惯例；源自北欧传说，现泛指长篇故事。</span><br/>
+- <strong><em>startling</em></strong><span style="color:#999999;">：/[ˈstɑːtlɪŋ]/ "令人震惊的"；文中用来表达婚姻被抛弃的速度之快，强调这一社会变化的突然性和显著性；由startle（使震惊）加-ing构成。</span><br/>
+- <strong><em>singlehood</em></strong><span style="color:#999999;">：/[ˈsɪŋɡəlhʊd]/ "单身状态"；文中用来表达不处于恋爱或婚姻关系的状态，强调单身作为一种社会现象正在上升；由single（单身）加后缀-hood（状态）构成，类似childhood（童年）。</span><br/>
+- <strong><em>spouse</em></strong><span style="color:#999999;">：/[spaʊs]/ "配偶"；文中用来表达丈夫或妻子，正式用语，强调统计中无配偶或伴侣生活的比例；指配偶或伴侣。</span><br/>
+- <strong><em>recession</em></strong><span style="color:#999999;">：/[rɪˈseʃən]/ "衰退"；文中用来比喻恋爱和婚姻关系的减少，类似经济衰退的概念，强调关系市场的萎缩；由recess（后退）加-ion构成。</span><br/>
+- <strong><em>Before reliable contraception, women could not control their fertility, and most were far too poor to raise children alone.</em></strong><span style="color:#999999;">：（复合句，包含并列结构）：</span><br/>
+- <strong><em>状语</em></strong><span style="color:#999999;">：Before reliable contraception（在可靠的避孕方法出现之前）</span><br/>
+- <strong><em>主句主语</em></strong><span style="color:#999999;">：women（女性）</span><br/>
+- <strong><em>主句谓语</em></strong><span style="color:#999999;">：could not control（无法控制）</span><br/>
+- <strong><em>主句宾语</em></strong><span style="color:#999999;">：their fertility（她们的生育能力）</span><br/>
+- <strong><em>并列句主语</em></strong><span style="color:#999999;">：most（大多数人）</span><br/>
+- <strong><em>并列句谓语</em></strong><span style="color:#999999;">：were far too poor（太穷）</span><br/>
+- <strong><em>并列句补语</em></strong><span style="color:#999999;">：to raise children alone（独自抚养孩子）</span><br/>
+- <strong><em>Hence the centuries-old convention that, whereas a tragic play or saga ends in death, a happy one ends in marriage.</em></strong><span style="color:#999999;">：（复合句，包含定语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：the centuries-old convention（几个世纪以来的惯例）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：that引导的同位语从句</span><br/>
+- <strong><em>从句状语</em></strong><span style="color:#999999;">：whereas a tragic play or saga ends in death（而悲剧或传奇故事以死亡结尾）</span><br/>
+- <strong><em>从句主语</em></strong><span style="color:#999999;">：a happy one（一个快乐的结局）</span><br/>
+- <strong><em>从句谓语</em></strong><span style="color:#999999;">：ends（以...结尾）</span><br/>
+- <strong><em>从句补语</em></strong><span style="color:#999999;">：in marriage（以婚姻结尾）</span><br/>
+- <strong><em>So the speed with which the norm of marriage—indeed, of relationships of any sort—is being abandoned is startling.</em></strong><span style="color:#999999;">：（复合句，包含定语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：the speed（速度）</span><br/>
+- <strong><em>定语从句</em></strong><span style="color:#999999;">：with which the norm of marriage—indeed, of relationships of any sort—is being abandoned（婚姻规范——实际上，任何关系——被抛弃的速度）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is（是）</span><br/>
+- <strong><em>表语</em></strong><span style="color:#999999;">：startling（令人震惊的）</span><br/>
 </span><br/>
-For some, this is evidence of social and moral <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">decay</span>. As we report, many in the "<span style="color:#A24C4A; font-weight:bold; text-decoration:underline">pro-natalist</span>" movement believe that the failure of the young to settle down and <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">procreate</span> threatens to end Western civilisation. For others, it is evidence of admirable <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">self-reliance</span>. Vogue, a fashion magazine, recently suggested that for cool, ambitious young women, having a boyfriend is not merely unnecessary but "embarrassing".<br/>
+For some, this is evidence of social and moral <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">decay</span>. As we report, many in the "<span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">pro-natalist</span>" movement believe that the failure of the young to settle down and <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">procreate</span> threatens to end Western civilisation. For others, it is evidence of admirable <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">self-reliance</span>. Vogue, a fashion magazine, recently suggested that for cool, ambitious young women, having a boyfriend is not merely unnecessary but "embarrassing".<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>decay</em></strong><span style="color:#999999;">：[dɪˈkeɪ]/ "衰败、腐朽"；文中用来表达道德或社会秩序的恶化，强调一些人认为单身潮是文明退步的证据。</span><br/>
-- <strong><em>pro-natalist</em></strong><span style="color:#999999;">：[prəʊˈneɪtəlɪst]/ "支持生育的"；文中用来表达支持提高生育率的政策或观点，指认为年轻人应该结婚生子的运动；由pro-（支持）和natal（出生的）构成。</span><br/>
-- <strong><em>procreate</em></strong><span style="color:#999999;">：[ˈprəʊkrɪeɪt]/ "生育、繁殖"；文中用来表达生儿育女，正式用语，强调支持生育者认为年轻人应该繁衍后代。</span><br/>
-- <strong><em>self-reliance</em></strong><span style="color:#999999;">：自力更生"；文中用来表达不依赖他人、独立自主的能力，强调另一些人认为单身是值得赞赏的自立表现。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>decay</em></strong><span style="color:#999999;">：/[dɪˈkeɪ]/ "衰败、腐朽"；文中用来表达道德或社会秩序的恶化，强调一些人认为单身潮是文明退步的证据；指衰败或腐朽。</span><br/>
+- <strong><em>pro-natalist</em></strong><span style="color:#999999;">：/[prəʊˈneɪtəlɪst]/ "支持生育的"；文中用来表达支持提高生育率的政策或观点，指认为年轻人应该结婚生子的运动；由pro-（支持）和natal（出生的）加-ist构成。</span><br/>
+- <strong><em>procreate</em></strong><span style="color:#999999;">：/[ˈprəʊkrɪeɪt]/ "生育、繁殖"；文中用来表达生儿育女，正式用语，强调支持生育者认为年轻人应该繁衍后代；由pro-（向前）和create（创造）构成。</span><br/>
+- <strong><em>self-reliance</em></strong><span style="color:#999999;">：/[self rɪˈlaɪəns]/ "自力更生"；文中用来表达不依赖他人、独立自主的能力，强调另一些人认为单身是值得赞赏的自立表现；由self（自己）和reliance（依赖）构成。</span><br/>
+- <strong><em>As we report, many in the "pro-natalist" movement believe that the failure of the young to settle down and procreate threatens to end Western civilisa...</em></strong><span style="color:#999999;">：（复合句，包含宾语从句）：</span><br/>
+- <strong><em>状语</em></strong><span style="color:#999999;">：As we report（正如我们报道的）</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：many in the "pro-natalist" movement（"支持生育"运动中的许多人）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：believe（相信）</span><br/>
+- <strong><em>宾语从句主语</em></strong><span style="color:#999999;">：the failure of the young to settle down and procreate（年轻人未能安定下来并生育）</span><br/>
+- <strong><em>宾语从句谓语</em></strong><span style="color:#999999;">：threatens（威胁）</span><br/>
+- <strong><em>宾语从句宾语</em></strong><span style="color:#999999;">：to end Western civilisation（结束西方文明）</span><br/>
 </span><br/>
-In fact, the rise of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">singlehood</span> is neither <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">straightforwardly</span> good nor bad. Among <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">heterosexuals</span> (about whom there is the most research) it is largely a consequence of something clearly <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">benign</span>: as barriers to women in the workplace have fallen, their choices have expanded. They are far more able than in the past to live alone if they choose, and face less social <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">stigma</span> for doing so. The more they can support themselves financially, the less likely they are to put up with an <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">inadequate</span> or <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">abusive</span> partner. This shift has saved countless women from awful relationships, and forced many men to treat their mates better if they want to stay together.<br/>
+In fact, the rise of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">singlehood</span> is neither <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">straightforwardly</span> good nor bad. Among <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">heterosexuals</span> (about whom there is the most research) it is largely a consequence of something clearly <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">benign</span>: as barriers to women in the workplace have fallen, their choices have expanded. They are far more able than in the past to live alone if they choose, and face less social <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">stigma</span> for doing so. The more they can support themselves financially, the less likely they are to put up with an <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">inadequate</span> or <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">abusive</span> partner. This shift has saved countless women from awful relationships, and forced many men to treat their mates better if they want to stay together.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>straightforwardly</em></strong><span style="color:#999999;">：[streɪtˈfɔːwədli]/ "直接地、坦率地"；文中用来表达不是简单的好坏二分，强调单身潮的复杂性，不能简单判断为好事或坏事。</span><br/>
-- <strong><em>heterosexuals</em></strong><span style="color:#999999;">：[ˌhetərəˈsekʃuəlz]/ "异性恋者"；文中用来表达对异性产生性吸引的人，说明研究主要关注这一群体；由hetero-（不同的）和sexual（性的）构成。</span><br/>
-- <strong><em>benign</em></strong><span style="color:#999999;">：[bɪˈnaɪn]/ "良性的、有益的"；文中用来表达不会造成伤害的变化，强调女性职场障碍减少是积极的发展。</span><br/>
-- <strong><em>stigma</em></strong><span style="color:#999999;">：[ˈstɪɡmə]/ "污名、耻辱"；文中用来表达社会对某些行为或状态的负面看法，强调女性独居面临的社会污名在减少。</span><br/>
-- <strong><em>inadequate</em></strong><span style="color:#999999;">：[ɪnˈædɪkwɪt]/ "不充分的、不合格的"；文中用来表达不够好或不够格的伴侣，强调女性不再需要忍受不合格的伴侣。</span><br/>
-- <strong><em>abusive</em></strong><span style="color:#999999;">：[əˈbjuːsɪv]/ "虐待的、辱骂的"；文中用来表达对他人进行身体或精神伤害的，强调女性可以拒绝虐待性的伴侣。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>straightforwardly</em></strong><span style="color:#999999;">：/[streɪtˈfɔːwədli]/ "直接地、坦率地"；文中用来表达不是简单的好坏二分，强调单身潮的复杂性，不能简单判断为好事或坏事；由straightforward（直接的）加-ly构成。</span><br/>
+- <strong><em>heterosexuals</em></strong><span style="color:#999999;">：/[ˌhetərəˈsekʃuəlz]/ "异性恋者"；文中用来表达对异性产生性吸引的人，说明研究主要关注这一群体；由hetero-（不同的）和sexual（性的）加-s构成。</span><br/>
+- <strong><em>benign</em></strong><span style="color:#999999;">：/[bɪˈnaɪn]/ "良性的、有益的"；文中用来表达不会造成伤害的变化，强调女性职场障碍减少是积极的发展；指良性的或有益的。</span><br/>
+- <strong><em>stigma</em></strong><span style="color:#999999;">：/[ˈstɪɡmə]/ "污名、耻辱"；文中用来表达社会对某些行为或状态的负面看法，强调女性独居面临的社会污名在减少；指污名或耻辱。</span><br/>
+- <strong><em>inadequate</em></strong><span style="color:#999999;">：/[ɪnˈædɪkwɪt]/ "不充分的、不合格的"；文中用来表达不够好或不够格的伴侣，强调女性不再需要忍受不合格的伴侣；由in-（不）和adequate（充分的）构成。</span><br/>
+- <strong><em>abusive</em></strong><span style="color:#999999;">：/[əˈbjuːsɪv]/ "虐待的、辱骂的"；文中用来表达对他人进行身体或精神伤害的，强调女性可以拒绝虐待性的伴侣；由abuse（虐待）加-ive构成。</span><br/>
+- <strong><em>Among heterosexuals (about whom there is the most research) it is largely a consequence of something clearly benign: as barriers to women in the workp...</em></strong><span style="color:#999999;">：（复合句，包含定语从句和原因状语从句）：</span><br/>
+- <strong><em>状语</em></strong><span style="color:#999999;">：Among heterosexuals (about whom there is the most research)（在异性恋者中，关于他们研究最多）</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：it（单身潮的上升）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is（是）</span><br/>
+- <strong><em>表语</em></strong><span style="color:#999999;">：a consequence of something clearly benign（明显良性事物的结果）</span><br/>
+- <strong><em>原因状语从句</em></strong><span style="color:#999999;">：as barriers to women in the workplace have fallen（随着女性在职场中的障碍减少）</span><br/>
+- <strong><em>原因状语从句主语</em></strong><span style="color:#999999;">：their choices（她们的选择）</span><br/>
+- <strong><em>原因状语从句谓语</em></strong><span style="color:#999999;">：have expanded（已经扩大）</span><br/>
+- <strong><em>The more they can support themselves financially, the less likely they are to put up with an inadequate or abusive partner.</em></strong><span style="color:#999999;">：（复合句，包含"the more...the less..."结构）：</span><br/>
+- <strong><em>条件从句</em></strong><span style="color:#999999;">：The more they can support themselves financially（她们在经济上越能自给自足）</span><br/>
+- <strong><em>主句主语</em></strong><span style="color:#999999;">：they（她们）</span><br/>
+- <strong><em>主句谓语</em></strong><span style="color:#999999;">：are（是）</span><br/>
+- <strong><em>主句表语</em></strong><span style="color:#999999;">：less likely to put up with an inadequate or abusive partner（越不可能忍受不合格或虐待性的伴侣）</span><br/>
+- <strong><em>knock-on effects</em></strong><span style="color:#999999;">：/[nɒk ɒn ɪˈfekts]/ "连锁效应、间接影响"；文中用来表达一个事件引发的后续影响，强调单身潮带来的不愉快副作用；固定短语，knock-on指连锁的，effects指影响。</span><br/>
+- <strong><em>singletons</em></strong><span style="color:#999999;">：/[ˈsɪŋɡəltənz]/ "单身者"；文中用来表达单身的人，比single更正式，强调这一群体的存在；由singleton（单身者）加-s构成。</span><br/>
+- <strong><em>despair</em></strong><span style="color:#999999;">：/[dɪˈspeə]/ "绝望"；文中用来表达失去希望的状态，强调许多人因为找不到伴侣而放弃；指绝望或失去希望。</span><br/>
+- <strong><em>rate</em></strong><span style="color:#999999;">：/[reɪt]/ "评价、认为"；文中用来表达对潜在伴侣的评价，强调许多人不看好市场上的潜在伴侣；指评价或认为。</span><br/>
+- <strong><em>However, it has also had unhappy knock-on effects.</em></strong><span style="color:#999999;">：（复合句，包含原因状语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Many（许多人）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：have given up（已经放弃）</span><br/>
+- <strong><em>原因状语1</em></strong><span style="color:#999999;">：either because they despair of finding a mate（要么因为他们对找到伴侣感到绝望）</span><br/>
+- <strong><em>原因状语2</em></strong><span style="color:#999999;">：or because they don't rate the mates on offer（要么因为他们不看好市场上的潜在伴侣）</span><br/>
 </span><br/>
-However, it has also had unhappy <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">knock-on effects</span>. Flying solo can be liberating, but it can also be lonely. Plenty of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">singletons</span> say they are content to remain so, especially women. But surveys in various countries suggest that 60-73% would rather be in a relationship. A poll in America in 2019 found that, although 50% of singles were not actively looking for a partner, only 27% said this was because they enjoyed being single. Many have given up, either because they <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">despair</span> of finding a mate, or because they don't <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">rate</span> the mates on offer.<br/>
+If lots of people want to couple up but don't, something is <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">amiss</span> in the relationship "market". One problem—widespread <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">sex-selective abortion</span> that has led to a shortage of women and a <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">surplus</span> of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">bachelors</span> in parts of Asia— is fortunately diminishing fast. But experts see many other obstacles.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>knock-on effects</em></strong><span style="color:#999999;">：连锁效应、间接影响"；文中用来表达一个事件引发的后续影响，强调单身潮带来的不愉快副作用；类似多米诺骨牌效应。</span><br/>
-- <strong><em>singletons</em></strong><span style="color:#999999;">：[ˈsɪŋɡəltənz]/ "单身者"；文中用来表达单身的人，比single更正式，强调这一群体的存在。</span><br/>
-- <strong><em>despair</em></strong><span style="color:#999999;">：[dɪˈspeə]/ "绝望"；文中用来表达失去希望的状态，强调许多人因为找不到伴侣而放弃。</span><br/>
-- <strong><em>rate</em></strong><span style="color:#999999;">：[reɪt]/ "评价、认为"；文中用来表达对潜在伴侣的评价，强调许多人不看好市场上的潜在伴侣。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>amiss</em></strong><span style="color:#999999;">：/[əˈmɪs]/ "有问题的、不对的"；文中用来表达关系市场出了问题，强调很多人想配对但做不到的情况；指有问题的或不对的。</span><br/>
+- <strong><em>sex-selective abortion</em></strong><span style="color:#999999;">：/[seks sɪˈlektɪv əˈbɔːʃən]/ "性别选择性堕胎"；文中用来表达基于胎儿性别选择终止妊娠的行为，说明这是导致亚洲部分地区男女比例失衡的原因；sex-selective指性别选择的，abortion指堕胎。</span><br/>
+- <strong><em>surplus</em></strong><span style="color:#999999;">：/[ˈsɜːplʌs]/ "过剩、多余"；文中用来表达超过需要的数量，强调亚洲部分地区单身汉过剩的问题；指过剩或多余。</span><br/>
+- <strong><em>bachelors</em></strong><span style="color:#999999;">：/[ˈbætʃələz]/ "单身汉"；文中用来表达未婚男性，强调亚洲部分地区男性过剩的情况；由bachelor（单身汉）加-s构成。</span><br/>
+- <strong><em>One problem—widespread sex-selective abortion that has led to a shortage of women and a surplus of bachelors in parts of Asia— is fortunately diminish...</em></strong><span style="color:#999999;">：（复合句，包含定语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：One problem（一个问题）</span><br/>
+- <strong><em>同位语</em></strong><span style="color:#999999;">：widespread sex-selective abortion that has led to a shortage of women and a surplus of bachelors in parts of Asia（导致亚洲部分地区女性短缺和单身汉过剩的广泛性别选择性堕胎）</span><br/>
+- <strong><em>定语从句</em></strong><span style="color:#999999;">：that has led to a shortage of women and a surplus of bachelors in parts of Asia（导致亚洲部分地区女性短缺和单身汉过剩）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is diminishing（正在减少）</span><br/>
+- <strong><em>状语</em></strong><span style="color:#999999;">：fortunately fast（幸运地快速）</span><br/>
 </span><br/>
-If lots of people want to couple up but don't, something is <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">amiss</span> in the relationship "market". One problem—widespread <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">sex-selective abortion</span> that has led to a shortage of women and a <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">surplus</span> of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">bachelors</span> in parts of Asia— is fortunately diminishing fast. But experts see many other obstacles.<br/>
+Some think social media and dating apps have <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">fostered</span> unrealistic expectations (other people's relationships look <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">fabulous</span> on Instagram) and excessive <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">pickiness</span> (most women on Bumble reportedly insist that a male must be six feet tall, thus filtering out 85% of potential matches). Another
+problem is the growing political gulf between young men and women, with the former leaning right and the latter leaning more to the left. Many singles insist that any partner must tick the same partisan boxes, which makes matching trickier.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>amiss</em></strong><span style="color:#999999;">：[əˈmɪs]/ "有问题的、不对的"；文中用来表达关系市场出了问题，强调很多人想配对但做不到的情况。</span><br/>
-- <strong><em>sex-selective abortion</em></strong><span style="color:#999999;">：性别选择性堕胎"；文中用来表达基于胎儿性别选择终止妊娠的行为，说明这是导致亚洲部分地区男女比例失衡的原因。</span><br/>
-- <strong><em>surplus</em></strong><span style="color:#999999;">：[ˈsɜːplʌs]/ "过剩、多余"；文中用来表达超过需要的数量，强调亚洲部分地区单身汉过剩的问题。</span><br/>
-- <strong><em>bachelors</em></strong><span style="color:#999999;">：[ˈbætʃələz]/ "单身汉"；文中用来表达未婚男性，强调亚洲部分地区男性过剩的情况。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>fostered</em></strong><span style="color:#999999;">：/[ˈfɒstəd]/ "培养、助长"；文中用来表达社交媒体和约会应用助长了不切实际的期望，强调这些平台对择偶观念的影响；动词原形是foster（培养）。</span><br/>
+- <strong><em>fabulous</em></strong><span style="color:#999999;">：/[ˈfæbjʊləs]/ "极好的、绝妙的"；文中用来表达非常好，口语中常用，强调Instagram上别人的关系看起来很棒；指极好的或绝妙的。</span><br/>
+- <strong><em>pickiness</em></strong><span style="color:#999999;">：/[ˈpɪkɪnɪs]/ "挑剔"；文中用来表达过分挑剔、难以满足，强调约会应用上过度的择偶标准；由picky（挑剔的）加名词后缀-ness构成。</span><br/>
+- <strong><em>gulf</em></strong><span style="color:#999999;">：/[ɡʌlf]/ "鸿沟、差距"；文中用来比喻巨大的差异，强调年轻男女之间日益扩大的政治鸿沟；指鸿沟或差距。</span><br/>
+- <strong><em>partisan</em></strong><span style="color:#999999;">：/[ˈpɑːtɪzən]/ "党派的、偏袒的"；文中用来表达支持特定政党或立场的，强调许多单身者要求伴侣政治立场一致；指党派的或偏袒的。</span><br/>
+- <strong><em>tick</em></strong><span style="color:#999999;">：/[tɪk]/ "打勾、符合"；文中用来表达满足条件或要求，强调伴侣必须符合相同的党派立场；指打勾或符合。</span><br/>
+- <strong><em>Some think social media and dating apps have fostered unrealistic expectations (other people's relationships look fabulous on Instagram) and excessive...</em></strong><span style="color:#999999;">：（复合句，包含宾语从句和并列结构）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Some（一些人）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：think（认为）</span><br/>
+- <strong><em>宾语从句主语</em></strong><span style="color:#999999;">：social media and dating apps（社交媒体和约会应用）</span><br/>
+- <strong><em>宾语从句谓语</em></strong><span style="color:#999999;">：have fostered（助长了）</span><br/>
+- <strong><em>宾语从句宾语1</em></strong><span style="color:#999999;">：unrealistic expectations（不切实际的期望）</span><br/>
+- <strong><em>宾语从句宾语2</em></strong><span style="color:#999999;">：excessive pickiness（过度的挑剔）</span><br/>
+- <strong><em>第二句</em></strong><span style="color:#999999;">：（复合句，包含独立主格结构）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Another problem（另一个问题）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is（是）</span><br/>
+- <strong><em>表语</em></strong><span style="color:#999999;">：the growing political gulf between young men and women（年轻男女之间日益扩大的政治鸿沟）</span><br/>
+- <strong><em>独立主格</em></strong><span style="color:#999999;">：with the former leaning right and the latter leaning more to the left（前者倾向右翼，后者更倾向左翼）</span><br/>
+- <strong><em>gawping</em></strong><span style="color:#999999;">：/[ɡɔːpɪŋ]/ "呆看、瞪视"；文中用来表达长时间盯着看，带有贬义，强调人们花太多时间看屏幕导致社交技能下降；动词原形是gape（呆看）。</span><br/>
+- <strong><em>assaulted</em></strong><span style="color:#999999;">：/[əˈsɔːltɪd]/ "袭击、攻击"；文中用来表达受到身体攻击，强调社交媒体传播的恐惧，女性担心外出会被袭击；动词原形是assault（袭击）。</span><br/>
+- <strong><em>shamed</em></strong><span style="color:#999999;">：/[ʃeɪmd]/ "羞辱、使丢脸"；文中用来表达在网络上被公开羞辱，强调男性担心约会失败会在网络上被羞辱；动词原形是shame（羞辱）。</span><br/>
+- <strong><em>Other experts point to a decline in social skills as people spend more of their lives gawping at screens.</em></strong><span style="color:#999999;">：（复合句，包含原因状语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Other experts（其他专家）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：point to（指出）</span><br/>
+- <strong><em>宾语</em></strong><span style="color:#999999;">：a decline in social skills（社交技能的下降）</span><br/>
+- <strong><em>原因状语从句</em></strong><span style="color:#999999;">：as people spend more of their lives gawping at screens（因为人们花更多时间盯着屏幕）</span><br/>
+- <strong><em>Social media spread fears that women will be assaulted if they go out; and that men will be digitally shamed if a date goes badly.</em></strong><span style="color:#999999;">：（复合句，包含并列的宾语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Social media（社交媒体）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：spread（传播）</span><br/>
+- <strong><em>宾语1</em></strong><span style="color:#999999;">：fears that women will be assaulted if they go out（女性外出会被袭击的恐惧）</span><br/>
+- <strong><em>宾语2</em></strong><span style="color:#999999;">：that men will be digitally shamed if a date goes badly（男性约会失败会在网络上被羞辱的恐惧）</span><br/>
+- <strong><em>exacting</em></strong><span style="color:#999999;">：/[ɪɡˈzæktɪŋ]/ "严格的、苛刻的"；文中用来表达要求很高的，强调女性的择偶标准变得更加严格；指严格的或苛刻的。</span><br/>
+- <strong><em>mediocre</em></strong><span style="color:#999999;">：/[ˌmiːdiˈəʊkə(r)]/ "平庸的、普通的"；文中用来表达不够优秀的，强调平庸的伴侣不再比保持单身更好；指平庸的或普通的。</span><br/>
+- <strong><em>bookish</em></strong><span style="color:#999999;">：/[ˈbʊkɪʃ]/ "书呆子气的、爱读书的"；文中用来表达喜欢学习和阅读的，强调不那么爱读书的男性在就业市场上挣扎；由book（书）加-ish构成。</span><br/>
+- <strong><em>flounder</em></strong><span style="color:#999999;">：/[ˈflaʊndə]/ "挣扎、失败"；文中用来表达在困难中努力但效果不佳，强调不爱读书的男性在就业市场上的困境；指挣扎或失败。</span><br/>
+- <strong><em>chores</em></strong><span style="color:#999999;">：/[tʃɔːz]/ "家务、杂务"；文中用来表达日常的家务劳动，强调男性如果不分担家务就更难吸引伴侣；由chore（家务）加-s构成。</span><br/>
+- <strong><em>manosphere</em></strong><span style="color:#999999;">：/[ˈmænəsfɪə]/ "男性圈"；文中用来表达网络上关注男性议题的社区，有时带有负面含义，强调这是厌女情绪的常见来源；由man（男性）和sphere（领域）构成。</span><br/>
+- <strong><em>Perhaps the most important factor is that, as living alone has become easier, women's standards have grown more exacting.</em></strong><span style="color:#999999;">：（复合句，包含表语从句和原因状语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Perhaps the most important factor（也许最重要的因素）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is（是）</span><br/>
+- <strong><em>表语从句</em></strong><span style="color:#999999;">：that women's standards have grown more exacting（女性的标准变得更加严格）</span><br/>
+- <strong><em>原因状语从句</em></strong><span style="color:#999999;">：as living alone has become easier（随着独居变得更容易）</span><br/>
+- <strong><em>More men are failing to clear this moving bar, as they fall behind women educationally and the less bookish ones flounder in the job market.</em></strong><span style="color:#999999;">：（复合句，包含原因状语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：More men（更多男性）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：are failing（正在失败）</span><br/>
+- <strong><em>宾语</em></strong><span style="color:#999999;">：to clear this moving bar（达到这个不断提高的标准）</span><br/>
+- <strong><em>原因状语从句</em></strong><span style="color:#999999;">：as they fall behind women educationally and the less bookish ones flounder in the job market（因为他们在教育上落后于女性，而不那么爱读书的人在就业市场上挣扎）</span><br/>
+- <strong><em>Perhaps the most important factor is that, as living alone has become easier, women's standards have grown more exacting.</em></strong><span style="color:#999999;">：（复合句，包含条件状语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Men with no college degree and low earnings（没有大学学位和低收入的男性）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：struggle（挣扎）</span><br/>
+- <strong><em>宾语</em></strong><span style="color:#999999;">：to attract a partner（吸引伴侣）</span><br/>
+- <strong><em>条件状语1</em></strong><span style="color:#999999;">：if they do not share domestic chores（如果他们不分担家务）</span><br/>
+- <strong><em>条件状语2</em></strong><span style="color:#999999;">：or if after frequent rejection they start to dislike women（或者如果在频繁被拒绝后他们开始厌恶女性）</span><br/>
 </span><br/>
-Some think social media and dating apps have <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">fostered</span> unrealistic expectations (other people's relationships look <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">fabulous</span> on Instagram) and excessive <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">pickiness</span> (most women on Bumble reportedly insist that a male must be six feet tall, thus filtering out 85% of potential matches). Another problem is the growing political <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">gulf</span> between young men and women, with the former leaning right and the latter leaning more to the left. Many singles insist that any partner must <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">tick</span> the same <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">partisan</span> boxes, which makes matching trickier.<br/>
+Some of these problems may be self-correcting. One obvious idea is for men to grow up, do a little more housework, behave more responsibly and so turn themselves into more desirable partners. Cultural norms may <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">impede</span> this shift. But the prospect of avoiding lifelong loneliness and <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">celibacy</span> will surely serve as a powerful <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">incentive</span> for men to change. Many countries have been moving in this direction for years, with cleaning, cooking and child- minding more evenly split between men and women.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>fostered</em></strong><span style="color:#999999;">：[ˈfɒstəd]/ "培养、助长"；文中用来表达社交媒体和约会应用助长了不切实际的期望，强调这些平台对择偶观念的影响。</span><br/>
-- <strong><em>fabulous</em></strong><span style="color:#999999;">：[ˈfæbjʊləs]/ "极好的、绝妙的"；文中用来表达非常好，口语中常用，强调Instagram上别人的关系看起来很棒。</span><br/>
-- <strong><em>pickiness</em></strong><span style="color:#999999;">：[ˈpɪkɪnɪs]/ "挑剔"；文中用来表达过分挑剔、难以满足，强调约会应用上过度的择偶标准；由picky（挑剔的）加名词后缀-ness构成。</span><br/>
-- <strong><em>gulf</em></strong><span style="color:#999999;">：[ɡʌlf]/ "鸿沟、差距"；文中用来比喻巨大的差异，强调年轻男女之间日益扩大的政治鸿沟。</span><br/>
-- <strong><em>partisan</em></strong><span style="color:#999999;">：[ˈpɑːtɪzən]/ "党派的、偏袒的"；文中用来表达支持特定政党或立场的，强调许多单身者要求伴侣政治立场一致。</span><br/>
-- <strong><em>tick</em></strong><span style="color:#999999;">：[tɪk]/ "打勾、符合"；文中用来表达满足条件或要求，强调伴侣必须符合相同的党派立场。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>impede</em></strong><span style="color:#999999;">：/[ɪmˈpiːd]/ "阻碍、妨碍"；文中用来表达文化规范可能会阻碍这种转变，强调改变面临的阻力；指阻碍或妨碍。</span><br/>
+- <strong><em>celibacy</em></strong><span style="color:#999999;">：/[ˈselɪbəsi]/ "独身、禁欲"；文中用来表达不结婚或不发生性关系的生活状态，强调避免终身孤独和独身是男性改变的强大激励；指独身或禁欲。</span><br/>
+- <strong><em>incentive</em></strong><span style="color:#999999;">：/[ɪnˈsentɪv]/ "激励、动机"；文中用来表达促使行动的因素，强调避免孤独的前景会成为男性改变的动机；指激励或动机。</span><br/>
+- <strong><em>One obvious idea is for men to grow up, do a little more housework, behave more responsibly and so turn themselves into more desirable partners.</em></strong><span style="color:#999999;">：（复合句，包含表语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：One obvious idea（一个明显的想法）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is（是）</span><br/>
+- <strong><em>表语</em></strong><span style="color:#999999;">：for men to grow up, do a little more housework, behave more responsibly and so turn themselves into more desirable partners（让男性成长，多做一点家务，更负责任，从而把自己变成更理想的伴侣）</span><br/>
+- <strong><em>But the prospect of avoiding lifelong loneliness and celibacy will surely serve as a powerful incentive for men to change.</em></strong><span style="color:#999999;">：（复合句，包含主语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：the prospect of avoiding lifelong loneliness and celibacy（避免终身孤独和独身的前景）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：will serve（将作为）</span><br/>
+- <strong><em>宾语</em></strong><span style="color:#999999;">：a powerful incentive for men to change（男性改变的强大激励）</span><br/>
 </span><br/>
-Other experts point to a decline in social skills as people spend more of their lives <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">gawping</span> at screens. Americans of all ages socialise less in person than they did two decades ago, but the decline is especially steep among the young. Social media spread fears that women will be <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">assaulted</span> if they go out; and that men will be digitally <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">shamed</span> if a date goes badly.<br/>
+And yet, even in such <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">enlightened</span> spots as the Nordic countries, the trend towards <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">singlehood</span> shows no signs of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">abating</span>. In Finland and Sweden roughly a third of adults live alone. At the very least, the shift is likely to <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">exacerbate</span> the already dramatic fall in global <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">fertility</span>, since single-parenting is hard and cultural <span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">taboos</span> against it remain strong in many regions. Since young, single men commit more violent crimes, a less-coupled world could be more dangerous.<br/>
 <p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>gawping</em></strong><span style="color:#999999;">：[ɡɔːpɪŋ]/ "呆看、瞪视"；文中用来表达长时间盯着看，带有贬义，强调人们花太多时间看屏幕导致社交技能下降。</span><br/>
-- <strong><em>assaulted</em></strong><span style="color:#999999;">：[əˈsɔːltɪd]/ "袭击、攻击"；文中用来表达受到身体攻击，强调社交媒体传播的恐惧，女性担心外出会被袭击。</span><br/>
-- <strong><em>shamed</em></strong><span style="color:#999999;">：[ʃeɪmd]/ "羞辱、使丢脸"；文中用来表达在网络上被公开羞辱，强调男性担心约会失败会在网络上被羞辱。</span><br/>
+<span style="font-size:0.8em;">
+- <strong><em>enlightened</em></strong><span style="color:#999999;">：/[ɪnˈlaɪtənd]/ "开明的、进步的"；文中用来表达思想开放、先进的，强调即使是在北欧这样开明的地方，单身趋势也没有减弱；由enlighten（启发）加-ed构成。</span><br/>
+- <strong><em>abating</em></strong><span style="color:#999999;">：/[əˈbeɪtɪŋ]/ "减弱、减轻"；文中用来表达强度或程度的降低，强调单身趋势没有减弱的迹象；动词原形是abate（减弱）。</span><br/>
+- <strong><em>exacerbate</em></strong><span style="color:#999999;">：/[ɪɡˈzæsəbeɪt]/ "加剧、恶化"；文中用来表达使情况变得更糟，强调单身化会加剧全球生育率已经急剧下降的情况；指加剧或恶化。</span><br/>
+- <strong><em>taboos</em></strong><span style="color:#999999;">：/[təˈbuːz]/ "禁忌"；文中用来表达社会禁止或忌讳的行为或话题，强调反对单亲的文化禁忌仍然很强；由taboo（禁忌）加-s构成。</span><br/>
+- <strong><em>At the very least, the shift is likely to exacerbate the already dramatic fall in global fertility, since single-parenting is hard and cultural taboos...</em></strong><span style="color:#999999;">：（复合句，包含原因状语从句）：</span><br/>
+- <strong><em>状语</em></strong><span style="color:#999999;">：At the very least（至少）</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：the shift（这种转变）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is likely to exacerbate（可能会加剧）</span><br/>
+- <strong><em>宾语</em></strong><span style="color:#999999;">：the already dramatic fall in global fertility（全球生育率已经急剧下降）</span><br/>
+- <strong><em>原因状语从句</em></strong><span style="color:#999999;">：since single-parenting is hard and cultural taboos against it remain strong in many regions（因为单亲抚养很困难，而且反对它的文化禁忌在许多地区仍然很强）</span><br/>
+- <strong><em>robo-romance</em></strong><span style="color:#999999;">：/[ˈrəʊbəʊ rəʊˈmæns]/ "机器人浪漫"；文中用来表达与AI伴侣的恋爱关系，强调年轻单身者可能转向AI伴侣；由robo-（机器人）和romance（浪漫）构成。</span><br/>
+- <strong><em>lovebots</em></strong><span style="color:#999999;">：/[ˈlʌvbɒts]/ "爱情机器人"；文中用来表达设计用于提供情感陪伴的AI程序，强调这些程序会变得更加复杂；由love（爱情）和bot（机器人）加-s构成。</span><br/>
+- <strong><em>sophisticated</em></strong><span style="color:#999999;">：/[səˈfɪstɪkeɪtɪd]/ "复杂的、精密的"；文中用来表达技术先进、功能完善的，强调AI伴侣会变得越来越智能；指复杂的或精密的。</span><br/>
+- <strong><em>It is also possible that the relationship recession will not correct itself.</em></strong><span style="color:#999999;">：（复合句，包含主语从句）：</span><br/>
+- <strong><em>形式主语</em></strong><span style="color:#999999;">：It（它）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is possible（是可能的）</span><br/>
+- <strong><em>主语从句</em></strong><span style="color:#999999;">：that the relationship recession will not correct itself（关系衰退不会自我纠正）</span><br/>
+- <strong><em>A striking 7% of young singles say they would consider a robo-romance with an AI companion, and these lovebots will only get more sophisticated.</em></strong><span style="color:#999999;">：（复合句，包含宾语从句和并列句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：A striking 7% of young singles（惊人的7%的年轻单身者）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：say（说）</span><br/>
+- <strong><em>宾语从句</em></strong><span style="color:#999999;">：they would consider a robo-romance with an AI companion（他们会考虑与AI伴侣的机器人浪漫）</span><br/>
+- <strong><em>并列句主语</em></strong><span style="color:#999999;">：these lovebots（这些爱情机器人）</span><br/>
+- <strong><em>并列句谓语</em></strong><span style="color:#999999;">：will only get（只会变得）</span><br/>
+- <strong><em>并列句表语</em></strong><span style="color:#999999;">：more sophisticated（更复杂）</span><br/>
+- <strong><em>atomised</em></strong><span style="color:#999999;">：/[ˈætəmaɪzd]/ "原子化的、孤立的"；文中用来表达社会关系变得分散、缺乏联系，强调一个伴侣和儿童更少的世界会更加孤立；由atom（原子）加-ised构成。</span><br/>
+- <strong><em>bemoaning</em></strong><span style="color:#999999;">：/[bɪˈməʊnɪŋ]/ "哀叹、抱怨"；文中用来表达对某事表示遗憾或不满，强调哀叹这个前景不会避免它；动词原形是bemoan（哀叹）。</span><br/>
+- <strong><em>avert</em></strong><span style="color:#999999;">：/[əˈvɜːt]/ "避免、防止"；文中用来表达阻止某事发生，强调抱怨无法避免单身未来的到来；指避免或防止。</span><br/>
+- <strong><em>overrule</em></strong><span style="color:#999999;">：/[ˌəʊvəˈruːl]/ "否决、推翻"；文中用来表达权威机构否定或改变决定，强调政府不应该推翻普通人的偏好；指否决或推翻。</span><br/>
+- <strong><em>Many may worry that a world with fewer couples and children will be sadder and more atomised.</em></strong><span style="color:#999999;">：（复合句，包含宾语从句）：</span><br/>
+- <strong><em>主语</em></strong><span style="color:#999999;">：Many（许多人）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：may worry（可能担心）</span><br/>
+- <strong><em>宾语从句主语</em></strong><span style="color:#999999;">：a world with fewer couples and children（一个伴侣和儿童更少的世界）</span><br/>
+- <strong><em>宾语从句谓语</em></strong><span style="color:#999999;">：will be（将是）</span><br/>
+- <strong><em>宾语从句表语</em></strong><span style="color:#999999;">：sadder and more atomised（更悲伤和更孤立）</span><br/>
+- <strong><em>And it is not the place of governments to overrule ordinary people's preferences —though they should certainly try to tackle male underperformance in ...</em></strong><span style="color:#999999;">：（复合句，包含让步状语从句）：</span><br/>
+- <strong><em>形式主语</em></strong><span style="color:#999999;">：it（它）</span><br/>
+- <strong><em>谓语</em></strong><span style="color:#999999;">：is not the place（不是...的地方）</span><br/>
+- <strong><em>主语从句</em></strong><span style="color:#999999;">：of governments to overrule ordinary people's preferences（政府推翻普通人偏好的地方）</span><br/>
+- <strong><em>让步状语从句</em></strong><span style="color:#999999;">：though they should certainly try to tackle male underperformance in school（尽管他们当然应该努力解决男性在学校表现不佳的问题）</span><br/>
 </span><br/>
-Perhaps the most important factor is that, as living alone has become easier, women's standards have grown more <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">exacting</span>. For many, a <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">mediocre</span> partner no longer seems a better bet than remaining single. Women are more likely than men to say that they want their mate to be well educated and financially solid. More men are failing to clear this moving bar, as they fall behind women educationally and the less <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">bookish</span> ones <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">flounder</span> in the job market. Men with no college degree and low earnings struggle to attract a partner; doubly so if they do not share domestic <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">chores</span>, or if after frequent rejection they start to dislike women, a common vice in the online "<span style="color:#A24C4A; font-weight:bold; text-decoration:underline">manosphere</span>".<br/>
-<p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>exacting</em></strong><span style="color:#999999;">：[ɪɡˈzæktɪŋ]/ "严格的、苛刻的"；文中用来表达要求很高的，强调女性的择偶标准变得更加严格。</span><br/>
-- <strong><em>mediocre</em></strong><span style="color:#999999;">：[ˌmiːdiˈəʊkə(r)]/ "平庸的、普通的"；文中用来表达不够优秀的，强调平庸的伴侣不再比保持单身更好。</span><br/>
-- <strong><em>bookish</em></strong><span style="color:#999999;">：[ˈbʊkɪʃ]/ "书呆子气的、爱读书的"；文中用来表达喜欢学习和阅读的，强调不那么爱读书的男性在就业市场上挣扎。</span><br/>
-- <strong><em>flounder</em></strong><span style="color:#999999;">：[ˈflaʊndə]/ "挣扎、失败"；文中用来表达在困难中努力但效果不佳，强调不爱读书的男性在就业市场上的困境。</span><br/>
-- <strong><em>chores</em></strong><span style="color:#999999;">：[tʃɔːz]/ "家务、杂务"；文中用来表达日常的家务劳动，强调男性如果不分担家务就更难吸引伴侣。</span><br/>
-- <strong><em>manosphere</em></strong><span style="color:#999999;">：[ˈmænəsfɪə]/ "男性圈"；文中用来表达网络上关注男性议题的社区，有时带有负面含义，强调这是厌女情绪的常见来源。</span><br/>
-</span><br/>
-Some of these problems may be self-correcting. One obvious idea is for men to grow up, do a little more housework, behave more responsibly and so turn themselves into more desirable partners. Cultural norms may <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">impede</span> this shift. But the prospect of avoiding lifelong loneliness and <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">celibacy</span> will surely serve as a powerful <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">incentive</span> for men to change. Many countries have been moving in this direction for years, with cleaning, cooking and child- minding more evenly split between men and women.<br/>
-<p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>impede</em></strong><span style="color:#999999;">：[ɪmˈpiːd]/ "阻碍、妨碍"；文中用来表达文化规范可能会阻碍这种转变，强调改变面临的阻力。</span><br/>
-- <strong><em>celibacy</em></strong><span style="color:#999999;">：[ˈselɪbəsi]/ "独身、禁欲"；文中用来表达不结婚或不发生性关系的生活状态，强调避免终身孤独和独身是男性改变的强大激励。</span><br/>
-- <strong><em>incentive</em></strong><span style="color:#999999;">：[ɪnˈsentɪv]/ "激励、动机"；文中用来表达促使行动的因素，强调避免孤独的前景会成为男性改变的动机。</span><br/>
-</span><br/>
-And yet, even in such <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">enlightened</span> spots as the Nordic countries, the trend towards <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">singlehood</span> shows no signs of <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">abating</span>. In Finland and Sweden roughly a third of adults live alone. At the very least, the shift is likely to <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">exacerbate</span> the already dramatic fall in global <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">fertility</span>, since single-parenting is hard and cultural <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">taboos</span> against it remain strong in many regions. Since young, single men commit more violent crimes, a less-coupled world could be more dangerous.<br/>
-<p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>enlightened</em></strong><span style="color:#999999;">：[ɪnˈlaɪtənd]/ "开明的、进步的"；文中用来表达思想开放、先进的，强调即使是在北欧这样开明的地方，单身趋势也没有减弱。</span><br/>
-- <strong><em>abating</em></strong><span style="color:#999999;">：[əˈbeɪtɪŋ]/ "减弱、减轻"；文中用来表达强度或程度的降低，强调单身趋势没有减弱的迹象。</span><br/>
-- <strong><em>exacerbate</em></strong><span style="color:#999999;">：[ɪɡˈzæsəbeɪt]/ "加剧、恶化"；文中用来表达使情况变得更糟，强调单身化会加剧全球生育率已经急剧下降的情况。</span><br/>
-- <strong><em>taboos</em></strong><span style="color:#999999;">：[təˈbuːz]/ "禁忌"；文中用来表达社会禁止或忌讳的行为或话题，强调反对单亲的文化禁忌仍然很强。</span><br/>
-</span><br/>
-It is also possible that the relationship <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">recession</span> will not correct itself. A striking 7% of young singles say they would consider a <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">robo-romance</span> with an AI companion, and these <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">lovebots</span> will only get more <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">sophisticated</span>. AI, after all, is patient; AI is kind; it does not ask you to clean the bathroom or get a better job.<br/>
-<p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>robo-romance</em></strong><span style="color:#999999;">：机器人浪漫"；文中用来表达与AI伴侣的恋爱关系，强调年轻单身者可能转向AI伴侣。</span><br/>
-- <strong><em>lovebots</em></strong><span style="color:#999999;">：爱情机器人"；文中用来表达设计用于提供情感陪伴的AI程序，强调这些程序会变得更加复杂。</span><br/>
-- <strong><em>sophisticated</em></strong><span style="color:#999999;">：[səˈfɪstɪkeɪtɪd]/ "复杂的、精密的"；文中用来表达技术先进、功能完善的，强调AI伴侣会变得越来越智能。</span><br/>
-</span><br/>
-Many may worry that a world with fewer couples and children will be sadder and more <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">atomised</span>. Yet <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">bemoaning</span> the prospect will not <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">avert</span> it. And it is not the place of governments to <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">overrule</span> ordinary people's preferences —though they should certainly try to tackle male underperformance in school. A future with far more <span style="color:#A24C4A; font-weight:bold; text-decoration:underline">singletons</span> is coming. Everyone, from construction firms to the taxman, had better prepare. ■<br/>
-<p style="font-weight:bold; margin-bottom:8px; color:#666; font-size:0.8em;">备注</p>
-<span style="font-size:0.8em;">- <strong><em>atomised</em></strong><span style="color:#999999;">：[ˈætəmaɪzd]/ "原子化的、孤立的"；文中用来表达社会关系变得分散、缺乏联系，强调一个伴侣和儿童更少的世界会更加孤立。</span><br/>
-- <strong><em>bemoaning</em></strong><span style="color:#999999;">：[bɪˈməʊnɪŋ]/ "哀叹、抱怨"；文中用来表达对某事表示遗憾或不满，强调哀叹这个前景不会避免它。</span><br/>
-- <strong><em>avert</em></strong><span style="color:#999999;">：[əˈvɜːt]/ "避免、防止"；文中用来表达阻止某事发生，强调抱怨无法避免单身未来的到来。</span><br/>
-- <strong><em>overrule</em></strong><span style="color:#999999;">：[ˌəʊvəˈruːl]/ "否决、推翻"；文中用来表达权威机构否定或改变决定，强调政府不应该推翻普通人的偏好。</span><br/>
-</span>
+For subscribers only: to see how we design each week's cover, sign up to our weekly Cover Story newsletter.
+This article was downloaded by zlibrary from https://www.economist.com//leaders/2025/11/06/the-rise-of-<span style="color:#A24C4A; font-weight:bold; text-decoration:underline;">singlehood</span>-is-reshaping- the-world

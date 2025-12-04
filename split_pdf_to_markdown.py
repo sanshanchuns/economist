@@ -76,6 +76,174 @@ def get_toc_level1(doc) -> List[Tuple[str, int]]:
     return toc
 
 
+def get_all_toc_entries(doc, min_level: int = 1, max_level: int = 5) -> List[Tuple[str, int]]:
+    """
+    获取所有级别的 TOC 条目（用于兼容 EPUB 转换的 PDF）
+    返回: List[Tuple[title, page]]
+    """
+    toc = []
+    try:
+        raw = doc.get_toc(simple=True)
+    except Exception:
+        raw = []
+    
+    # 统计各级别的条目数
+    level_counts = {}
+    for level, title, page in raw:
+        if min_level <= level <= max_level:
+            level_counts[level] = level_counts.get(level, 0) + 1
+    
+    # 找出条目最多的级别（可能是实际的文章级别）
+    if level_counts:
+        most_common_level = max(level_counts.items(), key=lambda x: x[1])[0]
+        print(f"[DEBUG] TOC 级别统计: {level_counts}, 最多条目级别: {most_common_level}", file=sys.stderr)
+    
+    # 收集所有符合条件的条目
+    for level, title, page in raw:
+        if min_level <= level <= max_level:
+            title_str = title.strip() or "Untitled"
+            # 过滤掉明显不是文章标题的条目（如 "Contents", "Index" 等）
+            exclude_keywords = ["contents", "index", "table of contents", "cover", "title page"]
+            if not any(keyword in title_str.lower() for keyword in exclude_keywords):
+                toc.append((title_str, max(1, int(page)), level))
+    
+    # 按页面排序
+    toc.sort(key=lambda x: x[1])
+    
+    # 去重：如果同一页有多个条目，优先保留较低级别的（更可能是文章标题）
+    seen_pages = {}
+    for title, page, level in toc:
+        if page not in seen_pages:
+            seen_pages[page] = (title, level)
+        else:
+            # 如果当前条目级别更低，替换
+            existing_title, existing_level = seen_pages[page]
+            if level < existing_level:
+                seen_pages[page] = (title, level)
+    
+    # 返回去重后的结果
+    deduplicated = [(title, page) for page, (title, _) in sorted(seen_pages.items(), key=lambda x: x[0])]
+    return deduplicated
+
+
+def detect_article_titles_from_content(doc, min_articles: int = 50) -> List[Tuple[str, int]]:
+    """
+    通过页面内容分析检测文章标题
+    适用于 TOC 不完整的情况（如 EPUB 转换的 PDF）
+    
+    策略：
+    1. 扫描每页，查找大字号、加粗的文本行（可能是文章标题）
+    2. 排除已知的栏目名、日期等
+    3. 基于页面位置和格式特征识别文章标题
+    """
+    articles = []
+    date_pattern = re.compile(r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|nd|rd|th)\s+\d{4}$")
+    
+    # 常见栏目名（排除这些）
+    section_names = {
+        "leaders", "briefing", "united states", "the americas", "asia", "china", 
+        "middle east & africa", "europe", "britain", "international", "business",
+        "finance & economics", "science & technology", "books & arts", "obituary",
+        "economic & financial indicators", "letters"
+    }
+    
+    for page_num in range(1, doc.page_count + 1):
+        try:
+            page = doc.load_page(page_num - 1)
+            td = page.get_text("dict")
+            
+            # 查找大字号、加粗的文本（可能是文章标题）
+            for block in td.get("blocks", []):
+                if block.get("type", 0) != 0:
+                    continue
+                for line in block.get("lines", []):
+                    spans = line.get("spans", [])
+                    if not spans:
+                        continue
+                    
+                    # 计算平均字号和检查是否加粗
+                    sizes = [float(s.get("size", 0)) for s in spans]
+                    avg_size = sum(sizes) / len(sizes) if sizes else 0
+                    
+                    # 检查是否有加粗
+                    is_bold = any(s.get("flags", 0) & 16 for s in spans)  # flag 16 = bold
+                    
+                    # 提取文本
+                    text = "".join(s.get("text", "") for s in spans).strip()
+                    
+                    # 跳过空文本、日期、太短的文本
+                    if not text or len(text) < 5:
+                        continue
+                    if date_pattern.match(text):
+                        continue
+                    
+                    # 检查是否是栏目名
+                    text_lower = text.lower()
+                    if any(section in text_lower for section in section_names):
+                        continue
+                    
+                    # 标题特征：字号较大（通常 > 12pt）且加粗，或者字号很大（> 16pt）
+                    # 并且位置通常在页面上方（前 1/3）
+                    bbox = line.get("bbox", [0, 0, 0, 0])
+                    page_height = page.rect.height
+                    y_position = bbox[1] if len(bbox) >= 2 else 0
+                    
+                    # 判断是否可能是文章标题
+                    is_title_candidate = False
+                    if avg_size > 16.0:  # 很大的字号
+                        is_title_candidate = True
+                    elif avg_size > 12.0 and is_bold and y_position < page_height * 0.4:  # 中等字号+加粗+页面上方
+                        is_title_candidate = True
+                    
+                    if is_title_candidate:
+                        # 避免重复（同一页只取第一个符合条件的）
+                        if not articles or articles[-1][1] != page_num:
+                            articles.append((text, page_num))
+                            break  # 每页只取一个标题
+        except Exception:
+            continue
+    
+    # 过滤：如果检测到的文章数太少，可能检测不准确
+    if len(articles) < min_articles:
+        return []
+    
+    return articles
+
+
+def get_sections_with_fallback(doc) -> List[Tuple[str, int]]:
+    """
+    获取章节列表，使用多种策略：
+    1. 首先尝试一级 TOC
+    2. 如果一级 TOC 太少（< 30），尝试所有级别的 TOC
+    3. 如果仍然不够，尝试通过内容分析检测文章标题
+    """
+    # 策略1: 一级 TOC
+    sections = get_toc_level1(doc)
+    print(f"[INFO] 一级 TOC 条目数: {len(sections)}", file=sys.stderr)
+    
+    # 如果一级 TOC 太少，尝试所有级别的 TOC
+    if len(sections) < 30:
+        print(f"[WARN] 一级 TOC 只有 {len(sections)} 个条目，尝试获取所有级别的 TOC...", file=sys.stderr)
+        all_toc = get_all_toc_entries(doc, min_level=1, max_level=5)
+        if len(all_toc) > len(sections) * 1.5:  # 只有当明显更多时才使用
+            print(f"[INFO] 找到 {len(all_toc)} 个 TOC 条目（所有级别），使用这些条目", file=sys.stderr)
+            sections = all_toc
+        elif len(all_toc) > len(sections):
+            print(f"[INFO] 找到 {len(all_toc)} 个 TOC 条目（所有级别），但差异不大，继续使用一级 TOC", file=sys.stderr)
+    
+    # 如果仍然太少，尝试内容分析
+    if len(sections) < 30:
+        print(f"[WARN] TOC 条目仍然较少（{len(sections)}），尝试通过页面内容分析检测文章标题...", file=sys.stderr)
+        content_articles = detect_article_titles_from_content(doc, min_articles=20)  # 降低阈值
+        if len(content_articles) > len(sections) * 1.5:  # 只有当明显更多时才使用
+            print(f"[INFO] 通过内容分析找到 {len(content_articles)} 个可能的文章标题，使用这些标题", file=sys.stderr)
+            sections = content_articles
+        elif len(content_articles) > len(sections):
+            print(f"[INFO] 通过内容分析找到 {len(content_articles)} 个可能的文章标题，但差异不大", file=sys.stderr)
+    
+    return sections
+
+
 def ensure_dirs(base_out: Path, sections: List[Tuple[str, int]]) -> Dict[int, Dict[str, Path]]:
     paths: Dict[int, Dict[str, Path]] = {}
     (base_out / "sections").mkdir(parents=True, exist_ok=True)
@@ -597,10 +765,15 @@ def main():
 
     doc = fitz.open(pdf)
     issue_name = get_issue_name(pdf)
-    sections = get_toc_level1(doc)
+    
+    # 使用带备用方案的章节检测
+    sections = get_sections_with_fallback(doc)
+    
     if not sections:
-        print("[ERROR] 未检测到 TOC 一级目录，无法拆分。", file=sys.stderr)
+        print("[ERROR] 未检测到任何章节，无法拆分。", file=sys.stderr)
         sys.exit(2)
+    
+    print(f"[INFO] 检测到 {len(sections)} 个章节", file=sys.stderr)
 
     # derive page ranges [start, end]
     starts = [p for _, p in sections]

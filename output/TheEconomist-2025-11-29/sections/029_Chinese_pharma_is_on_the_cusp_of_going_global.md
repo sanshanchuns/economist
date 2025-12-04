@@ -1,0 +1,50 @@
+<span style="color:#E3120B; font-size:14.5pt; font-weight:bold;">China</span> <span style="color:#000000; font-size:14.5pt; font-weight:bold;">| Drug dependency</span>
+<span style="color:#000000; font-size:29.1pt; font-weight:bold;">Chinese pharma is on the cusp of going global</span>
+<span style="color:#808080; font-size:14.5pt; font-weight:bold; font-style:italic;">Its fast-moving, cut-price drugmakers stand to make more money abroad than at home</span>
+<span style="color:#808080; font-size:10.9pt;">November 27th 2025</span>
+
+![](../images/029_Chinese_pharma_is_on_the_cusp_of_going_global/p0121_img01.jpeg)
+
+AFTER AMERICA, China is the world’s largest developer of new medicines. Its companies ran nearly a third of the planet’s clinical trials last year. That is up from just 5% a decade before (see chart 1). It is also rising to the top in several critical areas of research, including those related to cancer. Investors have taken note. Shares in Chinese biotech companies have surged by 110% this year, which is more than three times as much as their American peers.
+
+![](../images/029_Chinese_pharma_is_on_the_cusp_of_going_global/p0122_img01.png)
+
+For much of the past century drug discovery was dominated by large European and American firms, which collectively are often called “big pharma”. No longer. These companies face some of the steepest “patent cliffs” in their history, as drugs expected to generate more than $300bn in total revenue over the next six years will lose their patent protection by 2030. To plug the gap, American and European firms are scouring the globe for promising molecules, and increasingly, they are finding them in China.
+
+The timing is rather awkward. America wants to reduce its reliance on Chinese supply chains, since it remains in a trade war that is only temporarily on hold. American officials fret already about China’s chokehold on active drug ingredients, for example. And rumours fly around that the White House plans to crack down on Chinese pharma, though nothing has happened in this regard so far. Yet when it comes to creating the next generation of medicines, America’s drugmakers, and its patients, are likely to become more, not less, dependent on Chinese innovation.
+
+The evidence for this is mounting. In May Pfizer, America’s biggest drugmaker, agreed to pay $1.25bn in fees to 3SBio, a Chinese biotech firm, for the rights to manufacture and sell an experimental cancer drug outside China, if approved. The following month GlaxoSmithKline, a British rival, struck a $500m deal with Hengrui, another Chinese company, for a lung- disease treatment and the options to buy 11 more drugs, together valued at as much as $12bn, depending on whether Hengrui manages to meet particular milestones in their development. Such deals are no longer exceptions. In the first half of this year nearly a third of all global licensing agreements signed by big pharma were with Chinese firms—four times the share in 2021 (see chart 2).
+
+Until recently, China’s drug industry was best known for making generic drugs, supplying ingredients and running trials for Western firms. Over the past decade it has reinvented itself. Approval processes have been streamlined, priority reviews conducted for drugs tackling critical conditions, and regulations brought closer to international standards. The workforce at China’s drug regulator quadrupled between 2015 and 2018, and a backlog of 20,000 new drug applications was cleared in just two years. The time taken to secure approval for human trials shrank from 501 days to 87. And the output of new
+
+medicines soared. In 2015 China approved only 11 treatments, mostly Western imports. By 2024 the figure had risen to 93, with 42% developed domestically.
+
+These reforms have been matched by efforts to lure back students and professionals who had studied or worked abroad. Many of China’s “sea turtles”, as such returnees are jokingly known, came back with experience of building biotech firms and dealing with investors and regulators. Their entrepreneurial zeal was bolstered by rules making it easier to raise funds and to list on the Hong Kong stock exchange.
+
+![](../images/029_Chinese_pharma_is_on_the_cusp_of_going_global/p0124_img01.png)
+
+Early signs of success abound. In November 2019 BeOne Medicines, a Chinese biotech firm formerly known as BeiGene, became the first local outfit to win approval from the Food and Drug Administration (FDA), America’s drug regulator, for a cancer drug. More approvals followed. But the sector’s big moment arrived last September, when a lung-cancer drug developed by Akeso Bio, a small Chinese biotech company, outperformed Keytruda, Merck’s blockbuster therapy, in clinical trials.
+
+What explains the rapid rise of China’s drugmakers? The first answer concerns how quickly they innovated in order to produce “fast followers”, which improve on existing drugs’ safety or delivery. From there they were able to move on to “first-in-class” medicines with new targets (such as a protein or a gene linked to disease) or mechanisms (which might block or boost a target’s function).
+
+Fast-follower and first-in-class treatments now make up more than 40% of the industry’s pipeline, according to interesting research published last year in Nature Reviews Drug Discovery, a scientific publication, by Zimeng Chen of Tsinghua University in Beijing and team. Wang Xingli of Fosun Pharma, a Chinese drugmaker, explains that working on fast-follower drugs gave China’s industry the “courage to do the first-in-class”.
+
+The second answer concerns the speed, scale and low cost of other processes. China’s firms can take a drug from discovery to the start of human trials in about half the global industry’s average time. Human trials themselves, usually the slowest stage in the development of a new drug, also move faster. A vast patient pool makes enrolment easier, and a large network of trial centres also speeds things along. This model has proved especially helpful for developing antibody-drug conjugates, a novel class of treatment that seems particularly potent at tackling cancer. One big-pharma executive says that China’s appeal lies in the sheer number of firms experimenting: “You can pick the winners and improve the odds of approval.”
+
+Cancer remains a central focus for Chinese firms, but they are also branching out. Weight-loss drugs are a hot target. Patents on semaglutide—the active ingredient in Wegovy and Ozempic, the wildly popular weight-loss treatments made by Novo Nordisk, a Danish pharma giant—are due to expire in China next year. That has sparked a rush to prepare generics. Yet local firms are not just copying. Bloomberg Intelligence, a research firm, reckons there are 160
+
+new obesity drugs in development around the world; about a third of them are from China.
+
+Although the country is the world’s second-largest drug market after America, it remains a tough place to make a profit. McKinsey, a consultancy, puts its prescription-drug sales at about $125bn in 2023, a sixth of America’s. Most sales are still of generics. New medicines account for only a fifth of the market, a share that may rise to a third by 2028. Even then, the market will remain highly price-sensitive. State insurance covers most purchases, pooling demand from hospitals and forcing firms into bidding wars. To win coverage, drugmakers must often slash prices by half or more to reach a wide patient pool, or accept a far smaller private market.
+
+That all explains why America and other foreign markets are such big prizes. The most common route to them is through licensing agreements with Western firms. Some Chinese firms now want a bigger slice of the pie. A growing model is the “NewCo”, under which a biotech company sets up a legally distinct company in America, often backed by foreign investors, and spins off promising assets into it. Chinese pharma looks temptingly cheap to Westerners. The market value of listed Chinese biotech firms is less than 15% that of their American peers. Upfront licensing payments are typically two- thirds lower than, and total deal sizes about half of, comparable global transactions.
+
+Another advantage of the NewCo model is that it can help mitigate some of the political concerns around Chinese pharma abroad. Others still abound, however, particularly around data privacy. Sharing patient data from clinical trials is complicated by privacy rules and related review processes. And the FDA has taken a strict approach to approving drugs based on trials that have been conducted only in China. In June it halted any new clinical trials that exported Americans’ genetic data to China. A report published in April 2025 by a congressional committee that included Eric Schmidt, Google’s former boss, warns that China’s strength in drug discovery, combined with its advances in artificial intelligence, could soon allow its firms to eclipse America’s. He and others fret about the security risks at the junction of pharmaceuticals and biotechnology.
+
+There are also reasons for cautious optimism, however. More competition leads to more treatments appearing with smaller price tags. For patients long
+
+denied access to cutting-edge drugs, China’s rise could help close the gap. That would particularly matter for those in need in poor countries. For Chinese drugmakers there are three critical challenges ahead: inventing novel therapies that work, breaking into new markets with them and passing the associated regulatory hurdles. Mr Wang notes that most Western giants took a century or so to reach today’s scale. By that measure, he believes, China’s industry is still “at a very early stage”. ■
+
+Subscribers can sign up to Drum Tower, our new weekly newsletter, to understand what the world makes of China—and what China makes of the world.
+
+This article was downloaded by zlibrary from https://www.economist.com//china/2025/11/23/chinese-pharma-is-on-the-cusp-of-going- global

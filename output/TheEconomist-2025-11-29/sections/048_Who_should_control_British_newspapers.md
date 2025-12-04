@@ -1,0 +1,22 @@
+<span style="color:#E3120B; font-size:14.5pt; font-weight:bold;">Britain</span> <span style="color:#000000; font-size:14.5pt; font-weight:bold;">| The Mail and the Telegraph</span>
+<span style="color:#000000; font-size:29.1pt; font-weight:bold;">Who should control British newspapers?</span>
+<span style="color:#808080; font-size:14.5pt; font-weight:bold; font-style:italic;">What a £500m merger says about Britain’s media</span>
+<span style="color:#808080; font-size:10.9pt;">November 27th 2025</span>
+
+![](../images/048_Who_should_control_British_newspapers/p0196_img01.jpeg)
+
+LORD ROTHErMERE, owner of the Daily Mail and other titles, is already a viscount. Yet on November 22nd, with his announcement of a £500m ($660m) deal to add the troubled Telegraph newspaper to his media empire, he cast himself as a white knight. If approved, the takeover will end an extraordinary period of limbo for the 170-year-old paper, which has lacked a permanent owner since its parent company fell into receivership in 2023. It also raises a bigger question: who should own Britain’s press, if the choice is between foreign states and domestic moguls?
+
+The Telegraph has framed its own fate as a matter of national sovereignty. The newsroom revolted when RedBird IMI—a joint venture between an American private-equity firm and International Media Investments, which has ties to the UAE’s main ruling family—took temporary ownership. One headline thundered that it would be “unforgivable to allow Abu Dhabi to nationalise” the paper. The next year the Conservative government passed a law barring foreign governments from owning British newspapers, in effect forcing RedBird IMI to sell its stake.
+
+A sale to the Daily Mail and General Trust (DMGT), Lord Rothermere’s publisher, would probably resolve such concerns (while letting the Emiratis, still big investors in British high streets and football clubs, save face). But it also creates a different worry. Around three-quarters of national-newspaper circulation in Britain is already controlled by the DMGT or Rupert Murdoch’s News UK. Allies of the Labour government fret openly about right-wing dominance and how Lord Rothermere, who also owns the i newspaper and the Metro, would wield even greater sway over Britain’s press. Some are now asking Lisa Nandy, the culture secretary, to intervene. She has the power to ask two regulators, the Competition and Markets Authority (CMA) and Ofcom, to scrutinise the deal for its effects on, respectively, economic concentration and media plurality.
+
+Yet the media landscape has already shifted. “The newspaper sector is a shadow of what it used to be,” says Becket McGrath, a competition lawyer at Euclid Law. According to Ofcom, 71% of Britons now get their news online, compared with only 22% in print. In the digital world, a combined Daily Mail and Telegraph would have less than a quarter of the BBC’s reach, based on minutes spent online. All news sources are dwarfed by social-media platforms. In recent years the coverage of the Telegraph (nickname: the “Torygraph”) has converged with the Daily Mail’s. The acquisition of the i, a politically neutral title, by DMGT has shown that it can preserve editorial independence. How regulators interpret all this remains to be seen.
+
+Ultimately the government will have the final say. It faces a dilemma, notes one industry executive. It will not want to bolster two right-leaning papers by allowing them to merge, nor enrage them by blocking the deal. Ms Nandy hopes to allow a “timely sale” and has given DMGT three weeks to submit its case. A full regulatory investigation of some kind is probable.
+
+The Telegraph’s coverage of its own drama has at times seemed parochial. “I should declare an interest here,” wrote one contributor. “My wife’s family bought the Telegraph in the 19th century.” Yet if Lord Rothermere prevails, it will change. DMGT says it intends to accelerate the group’s “international expansion”, which probably means more culture-war fare and royal gossip designed to harvest American clicks, the Daily Mail’s secret sauce. ■
+
+For more expert analysis of the biggest stories in Britain, sign up to Blighty, our weekly subscriber-only newsletter.
+
+<span style="color:#808080; font-size:6.2pt;">This article was downloaded by zlibrary from [https://www.economist.com//britain/2025/11/27/who-should-control-british-newspapers](https://www.economist.com//britain/2025/11/27/who-should-control-british-newspapers)</span>

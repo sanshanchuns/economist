@@ -1,0 +1,32 @@
+<span style="color:#E3120B; font-size:14.5pt; font-weight:bold;">China</span> <span style="color:#000000; font-size:14.5pt; font-weight:bold;">| Medical innovation</span>
+<span style="color:#000000; font-size:29.1pt; font-weight:bold;">Dr Chatbot is popping up all over China</span>
+<span style="color:#808080; font-size:14.5pt; font-weight:bold; font-style:italic;">What the country learns as a result could change treatments everywhere</span>
+<span style="color:#808080; font-size:10.9pt;">November 27th 2025</span>
+
+![](../images/030_Dr_Chatbot_is_popping_up_all_over_China/p0128_img01.jpeg)
+
+China’s public-health system is both world-class and woeful. The best hospitals in Beijing and Shanghai have top-notch doctors, the latest drugs and gleaming equipment. But such places make up only around 10% of China’s medical institutions. In the country’s 33,000-odd township-level health centres, only half of general practitioners (GPs) even have university degrees. In total China spends around 7% of its GDP on health (for comparison Britain shells out around 11%).
+
+When ill, Chinese tend to flock to specialists in big cities. That leads to massive queues, perilously overworked doctors and experts wasting their time on common diseases. Vast investment in basic services offered near where people live might help solve the problem, and local governments want to train and hire more doctors. But they are heavily indebted. And recruitment is tricky because the profession is neither particularly prestigious nor, outside the best hospitals, especially well compensated. One doctor in a hospital in Nantong, in eastern China, complains that overtime is constant and “all essentially unpaid”. Past promises of pay rises have never materialised, he says.
+
+Increasingly China is looking for high-tech solutions to its medical problems. In recent years both private companies and government officials have started promoting telemedicine and artificial intelligence (AI). There are still bottlenecks. But China has pressing reasons to make digital health care work: its rapidly ageing population will bring with it a wave of chronic diseases that the current system is ill-equipped to handle. By 2050, 487m people will be over the age of 60, about 35% of China’s population, up from 21% today.
+
+Despite earlier government initiatives, telemedicine only took off during the covid-19 pandemic. Chinese seized on apps launched by China’s tech companies that allowed them to consult doctors either by text or video. One such app, called JD Health and launched by JD.com, an e-commerce firm, claimed to have 200m active users in the 12 months to June, with an average of over 500,000 online consultations a day. In June Ant Group, an affiliate of Alibaba, a tech giant, launched another app called AQ. As of September it had served 140m patients and nearly 1m doctors had offered their services on the platform, according to Ant.
+
+In theory all this should help bolster local health-care offerings and give rural folk better access to faraway experts. “I don’t think there’s any country in the world that has embraced direct-to-consumer telemedicine quite like China,” reckons Terence Cheng, of Monash University in Australia. Users are attracted by the “shopping experience” that China’s apps offer. Patients can rate doctors and read reviews about their skilfulness.
+
+Bottlenecks remain, however. The typical users of telemedicine apps are younger urban residents—in other words, people who already have the best access to China’s public-health services. And the doctors who offer their
+
+advice on the apps usually use them to earn more money outside their regular hours. So it is hardly helping with overwork. One solution would be for hospitals to get doctors to allocate 5-10% of their daytime hours to telemedicine, argues Tang Shenglan of Duke University in America. That in turn would require tweaks to China’s state-backed health insurance to make it easier for doctors to be paid for online work, he says.
+
+Accepting AI health advice is the next step. Some in China already get help via chatbots such as those made by DeepSeek, a whizzy startup. China’s government wants to push things further. Officials believe AI can significantly improve the capacity and efficiency of primary health-care services. In November it released a plan calling for “full coverage” of AI-powered diagnosis and treatment tools at grassroots health centres by 2030.
+
+If local doctors could use AI models to access the latest advice, it could help build patients’ trust in the tech, reckons Tien Yin Wong, who builds such models at Tsinghua University in Beijing. In turn that would result in more local treatment; only complex cases would go to big hospitals. And it could all happen without vast sums being spent on training new doctors. Mr Wong says officials from several towns and cities have approached his team about its models. For now they are tested only at a hospital affiliated with the university.
+
+China still remains far from AI-supercharged health care. And thanks to a long history of scandals, Chinese tend to be suspicious of the medical profession. A bad AI-powered diagnosis could cause them to lose trust in the new technology too, fears Mr Wong. Another challenge will be getting enough data to feed into AI models. At the moment China’s patient data is often poor quality and fragmented between different hospitals and clinics.
+
+On the other hand, China has a history of rapid technological adoption. For instance, when Chinese people stopped using cash, they did not switch to plastic but jumped straight to mobile payments, thanks to a combination of nimble tech firms, encouraging officials, a digitally literate population and the lack of established alternatives. The same cocktail of factors may drive technological change in health care. In other countries trying to build primary health-care systems on a budget, the absence of these ingredients may also make China hard to imitate. ■
+
+Subscribers can sign up to Drum Tower, our new weekly newsletter, to understand what the world makes of China—and what China makes of the world.
+
+<span style="color:#808080; font-size:6.2pt;">This article was downloaded by zlibrary from [https://www.economist.com//china/2025/11/27/dr-chatbot-is-popping-up-all-over-china](https://www.economist.com//china/2025/11/27/dr-chatbot-is-popping-up-all-over-china)</span>

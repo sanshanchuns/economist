@@ -250,60 +250,110 @@ def restore_title_styles(content):
     result_lines = []
     i = 0
     
-    # 检查前几行是否是标题
-    while i < len(lines) and i < 5:
+    # 检查前几行是否已经有完整的标题（最多检查10行）
+    has_complete_title = False
+    title_count = 0
+    for j in range(min(10, len(lines))):
+        line = lines[j].strip()
+        if '<span style="color:#E3120B' in line or '<span style="color:#000000; font-size:29.1pt' in line or '<span style="color:#000000; font-size:21.0pt' in line:
+            title_count += 1
+        if title_count >= 4:  # 如果有4行标题格式，说明标题已经完整
+            has_complete_title = True
+            break
+    
+    # 如果已经有完整的标题，直接返回原内容（只确保格式正确）
+    if has_complete_title:
+        return content
+    
+    # 检查前几行是否是标题（最多检查10行，因为可能有空行）
+    while i < len(lines) and i < 10:
         line = lines[i]
         stripped = line.strip()
         
         # 检查是否已经有正确的HTML格式
-        if '<span style="color:#E3120B' in stripped or '<span style="color:#000000; font-size:21.0pt' in stripped:
+        if '<span style="color:#E3120B' in stripped or '<span style="color:#000000; font-size:21.0pt' in stripped or '<span style="color:#000000; font-size:29.1pt' in stripped:
             # 已经有格式，保持原样
             result_lines.append(line)
             i += 1
             continue
         
-        # 检测标题行（第一行）
-        if i == 0:
-            # 移除已有的HTML标签和<br/>标签
-            clean_line = re.sub(r'<[^>]+>', '', stripped)
-            clean_line = clean_line.replace('<br/>', '').strip()
-            
-            # 检查是否是标题行
-            if 'Leaders' in clean_line and '|' in clean_line:
-                # 第一行是栏目+子栏目
-                parts = clean_line.split('|', 1)
-                if len(parts) == 2:
-                    section = parts[0].strip()
-                    subsection = parts[1].strip()
-                    # 移除subsection中的高亮标签（如果有）
-                    subsection = re.sub(r'<[^>]+>', '', subsection).strip()
-                    result_lines.append(f'<span style="color:#E3120B; font-size:14.9pt; font-weight:bold;">{section}</span> <span style="color:#000000; font-size:14.9pt; font-weight:bold;">| {subsection}</span>')
+        # 跳过空行
+        if not stripped:
+            result_lines.append(line)
+            i += 1
+            continue
+        
+        # 跳过图片行
+        if stripped.startswith('![') or stripped.startswith('<img'):
+            result_lines.append(line)
+            i += 1
+            continue
+        
+        # 检测标题行（第一行非空非图片行）
+        # 移除已有的HTML标签和<br/>标签
+        clean_line = re.sub(r'<[^>]+>', '', stripped)
+        clean_line = clean_line.replace('<br/>', '').strip()
+        
+        # 检查是否是栏目+子栏目格式（包含|）
+        if '|' in clean_line and len(clean_line.split('|')) == 2:
+            parts = clean_line.split('|', 1)
+            section = parts[0].strip()
+            subsection = parts[1].strip()
+            # 移除subsection中的高亮标签（如果有）
+            subsection = re.sub(r'<[^>]+>', '', subsection).strip()
+            result_lines.append(f'<span style="color:#E3120B; font-size:14.5pt; font-weight:bold;">{section}</span> <span style="color:#000000; font-size:14.5pt; font-weight:bold;">| {subsection}</span>')
+            i += 1
+            # 继续读取下一行（主标题）
+            if i < len(lines):
+                next_line = lines[i].strip()
+                clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
+                # 跳过空行和图片
+                while i < len(lines) and (not clean_next or clean_next.startswith('![') or clean_next.startswith('<img')):
+                    if not clean_next:
+                        result_lines.append(lines[i])
+                    else:
+                        result_lines.append(lines[i])
                     i += 1
-                    # 继续读取下一行（主标题）
                     if i < len(lines):
                         next_line = lines[i].strip()
                         clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
-                        if 'The rise of' in clean_next or clean_next[0].isupper():
-                            result_lines.append(f'<span style="color:#000000; font-size:21.0pt; font-weight:bold;">{clean_next}</span>')
+                
+                if i < len(lines) and clean_next and clean_next[0].isupper():
+                    result_lines.append(f'<span style="color:#000000; font-size:29.1pt; font-weight:bold;">{clean_next}</span>')
+                    i += 1
+                    # 继续读取副标题和日期
+                    if i < len(lines):
+                        next_line = lines[i].strip()
+                        clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
+                        # 跳过空行和图片
+                        while i < len(lines) and (not clean_next or clean_next.startswith('![') or clean_next.startswith('<img')):
+                            if not clean_next:
+                                result_lines.append(lines[i])
+                            else:
+                                result_lines.append(lines[i])
                             i += 1
-                            # 继续读取副标题和日期
                             if i < len(lines):
                                 next_line = lines[i].strip()
                                 clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
-                                # 检查是否是副标题（通常比较短，且不是日期）
-                                if clean_next and len(clean_next) < 50 and 'November' not in clean_next and not clean_next[0].isdigit():
-                                    # 可能是副标题
-                                    if 'In good ways' in clean_next or ('In' in clean_next and 'ways' in clean_next) or (clean_next[0].isupper() and len(clean_next.split()) < 10):
-                                        result_lines.append(f'<span style="color:#808080; font-size:14.9pt; font-weight:bold; font-style:italic;">{clean_next}</span>')
-                                        i += 1
-                                # 如果下一行是日期
+                        
+                        # 检查是否是副标题（通常比较短，且不是日期）
+                        if clean_next and len(clean_next) < 100 and not re.match(r'^\d+', clean_next) and ('December' in clean_next or 'November' in clean_next or 'October' in clean_next or clean_next[0].isupper()):
+                            # 如果是日期
+                            if any(month in clean_next for month in ['December', 'November', 'October', 'September', 'August', 'July', 'June', 'May', 'April', 'March', 'February', 'January']):
+                                result_lines.append(f'<span style="color:#808080; font-size:10.9pt;">{clean_next}</span>')
+                                i += 1
+                            # 如果是副标题
+                            elif clean_next[0].isupper() and len(clean_next.split()) < 15:
+                                result_lines.append(f'<span style="color:#808080; font-size:14.5pt; font-weight:bold; font-style:italic;">{clean_next}</span>')
+                                i += 1
+                                # 再读取日期
                                 if i < len(lines):
                                     next_line = lines[i].strip()
                                     clean_next = re.sub(r'<[^>]+>', '', next_line).replace('<br/>', '').strip()
-                                    if 'November' in clean_next:
-                                        result_lines.append(f'<span style="color:#808080; font-size:6.2pt;">{clean_next}</span>')
+                                    if any(month in clean_next for month in ['December', 'November', 'October', 'September', 'August', 'July', 'June', 'May', 'April', 'March', 'February', 'January']):
+                                        result_lines.append(f'<span style="color:#808080; font-size:10.9pt;">{clean_next}</span>')
                                         i += 1
-                            continue
+            continue
         
         result_lines.append(line)
         i += 1
@@ -318,8 +368,59 @@ def restore_title_styles(content):
 
 def process_file(file_path):
     """处理整个文件"""
+    import os
+    
+    # 转换为绝对路径
+    if not os.path.isabs(file_path):
+        file_path = os.path.abspath(file_path)
+    
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
+    
+    # 如果文件开头是图片，尝试从sections文件中读取标题
+    lines = content.split('\n')
+    first_non_empty = None
+    for line in lines[:5]:
+        if line.strip() and not line.strip().startswith('<p'):
+            first_non_empty = line.strip()
+            break
+    
+    # 检查文件开头是否有标题（检查前10行是否有HTML格式的标题）
+    has_title = False
+    for line in lines[:10]:
+        if '<span style="color:#E3120B' in line or '<span style="color:#000000; font-size:29.1pt' in line or '<span style="color:#000000; font-size:21.0pt' in line:
+            has_title = True
+            break
+    
+    if not has_title and first_non_empty and (first_non_empty.startswith('![') or first_non_empty.startswith('<img')):
+        # 尝试从sections文件中读取标题
+        dir_path = os.path.dirname(file_path)
+        sections_dir = os.path.join(os.path.dirname(dir_path), 'sections')
+        filename = os.path.basename(file_path)
+        # 移除_Chinese后缀
+        if filename.endswith('_Chinese.md'):
+            base_name = filename[:-11] + '.md'
+        else:
+            base_name = filename
+        sections_file = os.path.join(sections_dir, base_name)
+        
+        if os.path.exists(sections_file):
+            with open(sections_file, 'r', encoding='utf-8') as sf:
+                sections_content = sf.read()
+                sections_lines = sections_content.split('\n')
+                # 提取前4行作为标题
+                title_lines = []
+                for i in range(min(4, len(sections_lines))):
+                    line = sections_lines[i].strip()
+                    if line and not line.startswith('!['):
+                        title_lines.append(line)
+                    elif line.startswith('!['):
+                        break
+                
+                # 如果有标题，添加到内容开头
+                if title_lines:
+                    title_content = '\n'.join(title_lines) + '\n<br/>\n'
+                    content = title_content + content
     
     # 恢复标题样式
     content = restore_title_styles(content)
@@ -719,35 +820,71 @@ def process_file(file_path):
     content = fix_image_br_tags(content)
     
     # 后处理：在markdown格式的图片后的<br/>标签后添加<p>标签（缩小空行间距）
-    # 先清理可能已经存在的<p>标签（在图片和<br/>之间的，或在<br/>之后的，包括多个<p>标签）
+    # 使用逐行处理的方式，确保所有图片都能被正确处理
+    def fix_all_images(text):
+        """处理所有markdown格式的图片，确保每个图片后都有正确的<p>标签
+        
+        规则：
+        1. 如果图片前一行是</span>或</span><br/>，在图片前添加空行，帮助Markdown转换器正确识别图片
+        2. 确保每个图片后都有<p style="margin:0; padding:0; line-height:0;"></p>标签
+        """
+        lines = text.split('\n')
+        result_lines = []
+        i = 0
+        
+        while i < len(lines):
+            line = lines[i]
+            
+            # 检查是否是markdown格式的图片行
+            img_match = re.match(r'^(!\[[^\]]*\]\([^\)]+\))(<br/>)?$', line.strip())
+            
+            if img_match:
+                img_markdown = img_match.group(1)
+                br_tag = img_match.group(2) if img_match.group(2) else '<br/>'
+                
+                # 规则：如果上一行是</span>或包含</span>，在图片前添加空行，帮助转换器识别图片
+                # 这样可以确保第二、第三及后续图片都能被正确转换
+                # 注意：由于空行处理在fix_all_images之前，我们需要添加真正的空行（\n），
+                # 这样在后续处理中会被转换为<br/>，形成</span><br/>\n<br/>的格式，帮助转换器识别
+                if result_lines:
+                    prev_line = result_lines[-1].strip()
+                    # 检查上一行是否是</span>或</span><br/>（可能有空格）
+                    if prev_line == '</span>' or re.match(r'^</span>(<br/>)?\s*$', prev_line):
+                        # 如果上一行不是空行，且上一行不是已经有两个<br/>，才添加空行
+                        if prev_line and not prev_line.endswith('<br/><br/>'):
+                            result_lines.append('')
+                
+                # 检查下一行是否已经有<p>标签
+                has_p_tag = False
+                if i + 1 < len(lines):
+                    next_line = lines[i + 1].strip()
+                    if re.match(r'^<p[^>]*style="margin:0[^"]*"></p>$', next_line):
+                        has_p_tag = True
+                
+                # 添加图片行
+                result_lines.append(img_markdown + br_tag)
+                
+                # 如果没有<p>标签，添加一个
+                if not has_p_tag:
+                    result_lines.append('<p style="margin:0; padding:0; line-height:0;"></p>')
+                
+                i += 1
+            else:
+                # 非图片行，直接添加
+                result_lines.append(line)
+                i += 1
+        
+        return '\n'.join(result_lines)
+    
+    # 先清理可能已经存在的错误格式的<p>标签
     content = re.sub(
         r'(!\[[^\]]*\]\([^\)]+\))<p[^>]*></p>(<br/>)',
         r'\1\2',
         content
     )
-    # 清理<br/>后面可能已经存在的<p>标签（包括多个连续的<p>标签和换行）
-    content = re.sub(
-        r'(!\[[^\]]*\]\([^\)]+\))(<br/>)\n?(<p[^>]*></p>\n?)+',
-        r'\1\2',
-        content
-    )
     
-    # 匹配：markdown格式的图片 ![](路径)<br/>
-    def fix_markdown_img(match):
-        img_markdown = match.group(1)  # markdown图片格式
-        br_tag = match.group(2)  # <br/>标签
-        # 在<br/>标签后先换行，再添加带样式的<p>标签，缩小空行间距
-        # 使用margin:0; padding:0; line-height:0; 来缩小空行
-        # <p>标签后也要换行，然后才开始正文
-        return img_markdown + br_tag + '\n<p style="margin:0; padding:0; line-height:0;"></p>\n'
-    
-    # 匹配markdown格式的图片：![](路径)<br/>
-    # 先检查是否已经有<p>标签，避免重复添加
-    content = re.sub(
-        r'(!\[[^\]]*\]\([^\)]+\))(<br/>)(?!\n<p[^>]*></p>)',
-        fix_markdown_img,
-        content
-    )
+    # 处理所有图片
+    content = fix_all_images(content)
     
     # 后处理：在HTML的<img>标签后添加<p>标签，确保第一个段落的空格正常显示
     # 匹配：<img>标签（包括data:image格式）后紧跟段落内容

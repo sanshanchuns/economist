@@ -1,0 +1,26 @@
+<span style="color:#E3120B; font-size:14.5pt; font-weight:bold;">Finance & economics</span> <span style="color:#000000; font-size:14.5pt; font-weight:bold;">| Buttonwood</span>
+<span style="color:#000000; font-size:29.1pt; font-weight:bold;">Asia’s inexpensive AI stocks should worry American investors</span>
+<span style="color:#808080; font-size:14.5pt; font-weight:bold; font-style:italic;">Tech mania looks very different in Japan, South Korea and Taiwan</span>
+<span style="color:#808080; font-size:10.9pt;">December 10th 2025</span>
+
+![](../images/063_Asias_inexpensive_AI_stocks_should_worry_American_investors/p0291_img01.jpeg)
+
+In America, as markets surge despite fears of an artificial-intelligence bubble, one fact looms large: stocks are very expensive. That is true not just for AI darlings such as Nvidia and Microsoft but for the broader market. Consider a popular long-term valuation measure, the cyclically adjusted price-earnings (CAPE) ratio, which benchmarks companies’ stock prices against the long- term trend in their profits. On that measure the S&P 500 index of large American firms has only ever been so expensive at the peak of the dotcom mania.
+
+Then, for an illuminating contrast, turn to north-east Asia. The AI frenzy has also taken hold in the stockmarkets of Japan, South Korea and Taiwan. All three have hit record highs this year, with the likes of South Korea’s Samsung and Taiwan’s TSMC being joined by lesser-known companies. Indeed, one of the fastest-growing firms in Japan’s Nikkei 225 is Advantest, a maker of semiconductor-testing equipment, which has seen its share price rise by almost 800% since the release of ChatGPT in late 2022. As in America, AI enthusiasm has been driven in part by improving business fundamentals. Earnings growth over the past 12 months has been stronger in all three Asian countries than it has for the average listed company across the world.
+
+But there is one big difference: north-east Asian stocks remain relatively affordable. When compared on the basis of expected profits over the year ahead, Japanese, South Korean and Taiwanese stocks are less expensive than their peers across the world, and considerably cheaper than those in America. Moreover, looked at through other valuation lenses, such as the ratio of share prices to the book value of companies’ assets, these markets appear cheaper still. The average firm in each trades at less than three times its book value, against more than five times in America. For investors who want a cheap way to buy AI firms, north-east Asia is the place to go.
+
+Markets are most enticing in South Korea, where prices suffer from a long- standing “Korea discount”, reflecting investors’ concerns about poor corporate governance and unwieldy conglomerates. South Korean stocks trade at a pitiful 1.4 times book value. That leads to curious juxtapositions. Shares of SK Hynix, a memory chipmaker, have risen by more than 220% this year amid an AI-fuelled memory shortage, an increase which is in line with that enjoyed by the company’s Idaho-based rival, Micron. The American firm, however, is much less profitable. Its multiple, at 13 times expected earnings, is well above SK Hynix’s, which is eight times expected earnings. On December 10th SK Hynix announced it was considering listing in America, presumably to take advantage of higher valuations.
+
+Therefore the main risk confronting north-east Asian stockmarkets is not overvaluation but concentration. Blistering performance by a small group of tech stocks, in the context of otherwise so-so conditions, has linked the fate of broader markets to that of a single story. The five biggest stocks in the Nikkei —four of which have some link to AI—now account for 36% of the index’s price-weighted total valuation, up from 24% in 2019. In Taiwan’s TAIEX
+
+index the five biggest companies account for 53% of total market capitalisation, up from 30% in 2019. As a consequence, Taiwanese and South Korean markets are now more top-heavy than the American stockmarket, which is itself extremely top-heavy by historical standards.
+
+Investors are starting to pay attention, as can be seen by how frequently they are changing their minds about the region. Normally north-east Asian markets swing a touch more than those in America, influenced by movements among heavyweights such as Samsung and SoftBank. This year they have been much more tumultuous. Indeed, average 30-day realised volatility has been 29% higher across Japan, South Korea and Taiwan than in America, compared with a difference of just 6% in 2020-24.
+
+If there is an AI bust, Asian stocks will not avoid the thumping. Yet their relative cheapness might provide some comfort to investors. In the case of a reversion to more normal valuations, Japan, South Korea and Taiwan would have a shorter distance to fall—something that is true of both the region’s AI stocks and its markets as a whole.
+
+All the more unsettling, then, that American stocks are so much more expensive. It does not take bubble-level valuations for investors to register their optimism regarding the AI revolution. They can simply look east instead. ■
+
+This article was downloaded by zlibrary from https://www.economist.com//finance-and- economics/2025/12/10/asias-inexpensive-ai-stocks-should-worry-american-investors
